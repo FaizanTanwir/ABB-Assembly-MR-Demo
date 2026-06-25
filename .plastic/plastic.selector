@@ -1,0 +1,4 @@
+repository "ABB-Assembly-MR-Demo/ABB-Assembly-MR-Demo@5773950641118@cloud"
+  path "/"
+    br "/main"
+    co "/main"
