@@ -109,6 +109,6 @@ public class AssemblySnapZone : MonoBehaviour
         if (_zoneRenderer == null) return;
         _zoneRenderer.GetPropertyBlock(_propBlock);
         _propBlock.SetColor("_BaseColor", color);
-        _renderer.SetPropertyBlock(_propBlock);
+        _zoneRenderer.SetPropertyBlock(_propBlock);
     }
 }

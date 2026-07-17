@@ -73,4 +73,16 @@ public class AssemblyManager : MonoBehaviour
         // For now, just log
         Debug.Log("OT200E03 Assembly Complete! All components secured.");
     }
+
+        // ADDING THIS MISSING METHOD (IT IS BEING CALLED FROM SwitchSpawner.cs):
+    public void ResetAllZones()
+    {
+        foreach (var zone in allZones)
+        {
+            zone.isSatisfied = false;
+            // Re-evaluate to make sure start zones stay open and locked ones stay closed
+            EvaluateZone(zone); 
+        }
+        Debug.Log("-> AssemblyManager: All snap zones have been reset.");
+    }
 }
