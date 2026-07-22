@@ -41,7 +41,7 @@ public class AssemblyManager : MonoBehaviour
         CheckAssemblyComplete();
     }
     
-    private void EvaluateZone(AssemblySnapZone zone)
+    public void EvaluateZone(AssemblySnapZone zone)
     {
         if (zone.isSatisfied) return;
         
