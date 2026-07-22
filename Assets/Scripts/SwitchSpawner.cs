@@ -16,7 +16,7 @@ public class SwitchSpawner : MonoBehaviour
     
     void Start()
     {
-        _raycastManager = FindObjectOfType<ARRaycastManager>();
+        _raycastManager = FindFirstObjectByType<ARRaycastManager>();
         // Hide snap zones until parts are spawned
         snapZonesRoot.SetActive(false);
     }

@@ -76,12 +76,19 @@ public class AssemblyManager : MonoBehaviour
 
         // ADDING THIS MISSING METHOD (IT IS BEING CALLED FROM SwitchSpawner.cs):
     public void ResetAllZones()
+    // Re-evaluate to make sure start zones stay open and locked ones stay closed
     {
+        // First pass: reset all state
         foreach (var zone in allZones)
         {
             zone.isSatisfied = false;
-            // Re-evaluate to make sure start zones stay open and locked ones stay closed
-            EvaluateZone(zone); 
+            zone.SetZoneActive(false); // Reset visual to inactive before re-evaluating 
+        }
+
+        // Second pass: re-evaluate which zones should now be active
+        foreach (var zone in allZones)
+        {
+            EvaluateZone(zone);
         }
         Debug.Log("-> AssemblyManager: All snap zones have been reset.");
     }
