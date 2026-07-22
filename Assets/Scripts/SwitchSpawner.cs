@@ -57,6 +57,12 @@ public class SwitchSpawner : MonoBehaviour
                                   Quaternion.Euler(entry.localRotation);
             
             GameObject part = Instantiate(entry.partPrefab, spawnPos, spawnRot);
+
+            // KEY CHANGE: override moduleIndex from the layout entry
+            SwitchPart switchPart = part.GetComponent<SwitchPart>();
+            if (switchPart != null)
+                switchPart.moduleIndex = entry.moduleIndex;
+                
             _spawnedParts.Add(part);
         }
         

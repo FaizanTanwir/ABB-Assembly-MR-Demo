@@ -7529,6 +7529,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1806495969721047695, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5351047714049454144, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8571620997031325908, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
       propertyPath: m_Name
       value: ABB_Switch
