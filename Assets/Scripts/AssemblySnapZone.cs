@@ -8,11 +8,18 @@ public class AssemblySnapZone : MonoBehaviour
     public string zoneId;
     public SwitchPartType acceptedPartType;
     public int acceptedModuleIndex;
+    public bool ignoreModuleIndex = false;
     
-    [Header("Prerequisites")]
+    [Header("AND Prerequisites — ALL must be satisfied")]
     public List<string> prerequisiteZoneIds;
-    
-    [Header("State")]
+
+    [Header("OR Prerequisites — ANY ONE must be satisfied (empty = skip check)")]
+    public List<string> orPrerequisiteZoneIds;
+
+    [Header("Options")]
+    public bool isOptional = false; // Optional zones don't block AssemblyComplete
+
+    [Header("State — do not edit in Inspector at runtime")]
     public bool isSatisfied = false;
     public bool isActive = false;
     
@@ -42,6 +49,14 @@ public class AssemblySnapZone : MonoBehaviour
         _socket.selectEntered.AddListener(OnSelectEntered);
     }
     
+    private bool IsCorrectPart(SwitchPart part)
+    {
+        if (part == null) return false;
+        bool typeMatches = part.partType == acceptedPartType;
+        bool moduleMatches = ignoreModuleIndex || (part.moduleIndex == acceptedModuleIndex);
+        return typeMatches && moduleMatches;
+    }
+    
     public void SetZoneActive(bool active)
     {
         isActive = active;
@@ -49,8 +64,8 @@ public class AssemblySnapZone : MonoBehaviour
         
         if (_zoneRenderer != null)
         {
-            SetZoneColor(active ? ReadyColor : InactiveColor);
             _zoneRenderer.enabled = active; // Hide zone visualization when inactive
+            SetZoneColor(active ? ReadyColor : InactiveColor);
         }
     }
     
@@ -62,14 +77,13 @@ public class AssemblySnapZone : MonoBehaviour
         SwitchPart part = args.interactableObject.transform.GetComponent<SwitchPart>();
         if (part == null) return;
         
-        bool isValid = (part.partType == acceptedPartType && 
-                        part.moduleIndex == acceptedModuleIndex);
+        bool valid = IsCorrectPart(part);
         
         // Highlight the part
-        part.SetHighlight(isValid ? HighlightState.Valid : HighlightState.Invalid);
+        part.SetHighlight(valid ? HighlightState.Valid : HighlightState.Invalid);
         
         // Highlight the zone itself
-        SetZoneColor(isValid ? HoverValidColor : HoverInvalidColor);
+        SetZoneColor(valid ? HoverValidColor : HoverInvalidColor);
     }
     
     private void OnHoverExited(HoverExitEventArgs args)
@@ -84,8 +98,7 @@ public class AssemblySnapZone : MonoBehaviour
     {
         // Verify the snapped part is correct type
         SwitchPart part = args.interactableObject.transform.GetComponent<SwitchPart>();
-        if (part == null || part.partType != acceptedPartType || 
-            part.moduleIndex != acceptedModuleIndex)
+        if (part == null || !IsCorrectPart(part))
         {
             // Wrong part forced in — eject it
             _socket.interactionManager.SelectExit(_socket, 
@@ -102,6 +115,14 @@ public class AssemblySnapZone : MonoBehaviour
         
         // Notify the AssemblyManager to check if new zones should unlock
         AssemblyManager.Instance.OnZoneSatisfied(zoneId);
+
+        // Activate child zones parented to this zone in the Hierarchy
+        foreach (Transform child in transform)
+        {
+            AssemblySnapZone childZone = child.GetComponent<AssemblySnapZone>();
+            if (childZone != null)
+                AssemblyManager.Instance.EvaluateZone(childZone);
+        }
     }
     
     private void SetZoneColor(Color color)

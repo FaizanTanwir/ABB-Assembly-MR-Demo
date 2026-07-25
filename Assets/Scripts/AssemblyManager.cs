@@ -17,7 +17,12 @@ public class AssemblyManager : MonoBehaviour
         Instance = this;
         _zoneLookup = new Dictionary<string, AssemblySnapZone>();
         foreach (var zone in allZones)
-            _zoneLookup[zone.zoneId] = zone;
+            {
+                if (!string.IsNullOrEmpty(zone.zoneId))
+                    _zoneLookup[zone.zoneId] = zone;
+                else
+                    Debug.LogWarning($"Zone on {zone.gameObject.name} has no zoneId set.");
+            }
     }
     
     void Start()
@@ -45,23 +50,34 @@ public class AssemblyManager : MonoBehaviour
     {
         if (zone.isSatisfied) return;
         
-        // A zone is active if ALL its prerequisites are satisfied
-        bool prerequisitesMet = zone.prerequisiteZoneIds.All(prereqId =>
+        // AND check: every zone in prerequisiteZoneIds must be satisfied
+        bool andMet = zone.prerequisiteZoneIds.All(id =>
         {
-            if (_zoneLookup.TryGetValue(prereqId, out var prereqZone))
-                return prereqZone.isSatisfied;
-            return true; // Missing prerequisite treated as met (safe fallback)
+            if (_zoneLookup.TryGetValue(id, out var prereq))
+                return prereq.isSatisfied;
+            Debug.LogWarning($"Zone '{zone.zoneId}' references unknown prerequisite '{id}'");
+            return true; // Unknown prereq treated as met to avoid deadlock
         });
-        
-        zone.SetZoneActive(prerequisitesMet);
+
+        // OR check: at least one in orPrerequisiteZoneIds must be satisfied
+        // Empty list means no OR condition — treat as met
+        bool orMet = zone.orPrerequisiteZoneIds.Count == 0 ||
+                     zone.orPrerequisiteZoneIds.Any(id =>
+                         _zoneLookup.TryGetValue(id, out var prereq) && prereq.isSatisfied);
+
+        zone.SetZoneActive(andMet && orMet);
     }
     
     private void CheckAssemblyComplete()
     {
-        bool allComplete = allZones.All(z => z.isSatisfied);
+        // Only non-optional zones count toward completion
+        bool allComplete = allZones
+            .Where(z => !z.isOptional)
+            .All(z => z.isSatisfied);
+
         if (allComplete)
         {
-            Debug.Log("Assembly Complete!");
+            Debug.Log("OT200E03 Assembly Complete!");
             // Trigger completion feedback — add UI/sound later
             OnAssemblyComplete();
         }
@@ -71,7 +87,7 @@ public class AssemblyManager : MonoBehaviour
     {
         // Placeholder — you will add celebration UI here later
         // For now, just log
-        Debug.Log("OT200E03 Assembly Complete! All components secured.");
+        Debug.Log("All components secured.");
     }
 
         // ADDING THIS MISSING METHOD (IT IS BEING CALLED FROM SwitchSpawner.cs):
