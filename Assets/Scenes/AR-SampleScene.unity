@@ -319,6 +319,7 @@ GameObject:
   - component: {fileID: 86800820}
   - component: {fileID: 86800819}
   - component: {fileID: 86800818}
+  - component: {fileID: 86800821}
   m_Layer: 0
   m_Name: RightHousing_2
   m_TagString: Untagged
@@ -356,11 +357,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  zoneId: RightHousing_2
+  acceptedPartType: 12
+  acceptedModuleIndex: 2
+  ignoreModuleIndex: 1
+  prerequisiteZoneIds:
+  - InterlockingDriveRing_2
+  - TerminalLug_2_Right
+  - TerminalLug_2_Left
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -434,6 +438,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &86800821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86800816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 12
+  acceptedModuleIndex: 2
+  ignoreModuleIndex: 1
 --- !u!1 &129653673
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,6 +465,7 @@ GameObject:
   - component: {fileID: 129653676}
   - component: {fileID: 129653675}
   - component: {fileID: 129653677}
+  - component: {fileID: 129653678}
   m_Layer: 0
   m_Name: TerminalLug_2_Right
   m_TagString: Untagged
@@ -549,15 +569,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
+  zoneId: TerminalLug_2_Right
+  acceptedPartType: 17
+  acceptedModuleIndex: 2
+  ignoreModuleIndex: 1
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
   isActive: 0
+--- !u!114 &129653678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129653673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 17
+  acceptedModuleIndex: 2
+  ignoreModuleIndex: 1
 --- !u!1 &145380978
 GameObject:
   m_ObjectHideFlags: 0
@@ -788,6 +823,7 @@ GameObject:
   - component: {fileID: 146113849}
   - component: {fileID: 146113848}
   - component: {fileID: 146113847}
+  - component: {fileID: 146113850}
   m_Layer: 0
   m_Name: RightHousing_1
   m_TagString: Untagged
@@ -825,11 +861,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  zoneId: RightHousing_1
+  acceptedPartType: 12
+  acceptedModuleIndex: 1
+  ignoreModuleIndex: 1
+  prerequisiteZoneIds:
+  - TerminalLug_1_Right
+  - TerminalLug_1_Left
+  - InterlockingDriveRing_1
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -903,6 +942,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &146113850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146113845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 12
+  acceptedModuleIndex: 1
+  ignoreModuleIndex: 1
 --- !u!114 &151853166 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2512387470528047737, guid: 48cb3fb68c91eb94999fd99957eb0cae, type: 3}
@@ -967,6 +1021,7 @@ GameObject:
   - component: {fileID: 211278920}
   - component: {fileID: 211278919}
   - component: {fileID: 211278918}
+  - component: {fileID: 211278921}
   m_Layer: 0
   m_Name: ModularRod_A
   m_TagString: Untagged
@@ -1001,9 +1056,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
+  zoneId: ModularRod_A
+  acceptedPartType: 18
+  acceptedModuleIndex: -1
   ignoreModuleIndex: 0
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
@@ -1079,6 +1134,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &211278921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211278916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 18
+  acceptedModuleIndex: -1
+  ignoreModuleIndex: 0
 --- !u!1 &212114235
 GameObject:
   m_ObjectHideFlags: 0
@@ -1623,6 +1693,7 @@ GameObject:
   - component: {fileID: 307620590}
   - component: {fileID: 307620589}
   - component: {fileID: 307620588}
+  - component: {fileID: 307620591}
   m_Layer: 0
   m_Name: TopHousing_0
   m_TagString: Untagged
@@ -1657,8 +1728,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
+  zoneId: TopHousing_0
+  acceptedPartType: 1
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   prerequisiteZoneIds: []
@@ -1735,6 +1806,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &307620591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307620586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 1
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1 &315480977
 GameObject:
   m_ObjectHideFlags: 0
@@ -1747,6 +1833,7 @@ GameObject:
   - component: {fileID: 315480981}
   - component: {fileID: 315480980}
   - component: {fileID: 315480979}
+  - component: {fileID: 315480982}
   m_Layer: 0
   m_Name: ContactWindow_1
   m_TagString: Untagged
@@ -1781,10 +1868,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
+  zoneId: ContactWindow_1
+  acceptedPartType: 16
+  acceptedModuleIndex: 1
+  ignoreModuleIndex: 1
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
@@ -1859,6 +1946,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.075, y: 0.01, z: 0.055}
   m_Center: {x: 0, y: 0.005, z: 0.001}
+--- !u!114 &315480982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315480977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 16
+  acceptedModuleIndex: 1
+  ignoreModuleIndex: 1
 --- !u!1001 &331264285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2029,6 +2131,7 @@ GameObject:
   - component: {fileID: 345758290}
   - component: {fileID: 345758292}
   - component: {fileID: 345758291}
+  - component: {fileID: 345758293}
   m_Layer: 0
   m_Name: BottomHousing_0
   m_TagString: Untagged
@@ -2117,11 +2220,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
+  zoneId: BottomHousing_0
   acceptedPartType: 0
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - InterlockingNut_0_A
+  - InterlockingNut_0_B
+  - InterlockingNut_0_C
+  - InterlockingNut_0_D
+  - ExternalFastener_0_Left
+  - ExternalFastener_0_Right
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -2147,6 +2256,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.2, y: 0.085, z: 0.075}
   m_Center: {x: 0, y: 0.003, z: 0}
+--- !u!114 &345758293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345758288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 0
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1 &393884826
 GameObject:
   m_ObjectHideFlags: 0
@@ -2159,6 +2283,7 @@ GameObject:
   - component: {fileID: 393884830}
   - component: {fileID: 393884829}
   - component: {fileID: 393884828}
+  - component: {fileID: 393884831}
   m_Layer: 0
   m_Name: ExternalFastener_3_Left
   m_TagString: Untagged
@@ -2194,11 +2319,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  zoneId: ExternalFastener_3_Left
+  acceptedPartType: 8
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
+  prerequisiteZoneIds:
+  - MountingClip_3_Left
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -2272,6 +2398,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &393884831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393884826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 8
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
 --- !u!1 &425410336
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,7 +2566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CameraToFace: {fileID: 0}
   m_ObjectPrefabs:
-  - {fileID: 1874366953}
+  - {fileID: 4654563198445855955}
   m_SpawnVisualizationPrefab: {fileID: 0}
   m_SpawnOptionIndex: 0
   m_OnlySpawnInView: 1
@@ -2554,8 +2695,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b19b8d9950b78c44a82f90241647d77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SwitchSpawner
-  layout: {fileID: 0}
-  snapZonesRoot: {fileID: 0}
+  layout: {fileID: 11400000, guid: b16541622717da945b4920530988f91b, type: 2}
+  snapZonesRoot: {fileID: 1251589626}
 --- !u!1 &451820663
 GameObject:
   m_ObjectHideFlags: 0
@@ -2838,6 +2979,7 @@ GameObject:
   - component: {fileID: 568357777}
   - component: {fileID: 568357776}
   - component: {fileID: 568357775}
+  - component: {fileID: 568357778}
   m_Layer: 0
   m_Name: ContactWindow_2
   m_TagString: Untagged
@@ -2872,10 +3014,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
+  zoneId: ContactWindow_2
+  acceptedPartType: 16
+  acceptedModuleIndex: 2
+  ignoreModuleIndex: 1
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
@@ -2950,6 +3092,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &568357778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568357773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 16
+  acceptedModuleIndex: 2
+  ignoreModuleIndex: 1
 --- !u!1001 &591453628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3128,6 +3285,7 @@ GameObject:
   - component: {fileID: 617468780}
   - component: {fileID: 617468779}
   - component: {fileID: 617468778}
+  - component: {fileID: 617468781}
   m_Layer: 0
   m_Name: ContactCover_2
   m_TagString: Untagged
@@ -3163,11 +3321,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  zoneId: ContactCover_2
+  acceptedPartType: 15
+  acceptedModuleIndex: 2
+  ignoreModuleIndex: 1
+  prerequisiteZoneIds:
+  - ContactWindow_2
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -3241,6 +3400,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &617468781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617468776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 15
+  acceptedModuleIndex: 2
+  ignoreModuleIndex: 1
 --- !u!1 &633190805
 GameObject:
   m_ObjectHideFlags: 0
@@ -3253,6 +3427,7 @@ GameObject:
   - component: {fileID: 633190809}
   - component: {fileID: 633190808}
   - component: {fileID: 633190807}
+  - component: {fileID: 633190810}
   m_Layer: 0
   m_Name: ExternalFastener_3_Right
   m_TagString: Untagged
@@ -3288,11 +3463,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  zoneId: ExternalFastener_3_Right
+  acceptedPartType: 8
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
+  prerequisiteZoneIds:
+  - MountingClip_3_Right
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -3366,6 +3542,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &633190810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633190805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 8
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 0
 --- !u!1 &637151521 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5963138107579739024, guid: 02644bbd28622410a84cf154fc436b8a, type: 3}
@@ -3463,6 +3654,7 @@ GameObject:
   - component: {fileID: 640552019}
   - component: {fileID: 640552018}
   - component: {fileID: 640552017}
+  - component: {fileID: 640552020}
   m_Layer: 0
   m_Name: ExternalFastener_0_Right
   m_TagString: Untagged
@@ -3498,11 +3690,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
+  zoneId: ExternalFastener_0_Right
+  acceptedPartType: 8
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - MountingClip_0_Right
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -3576,6 +3769,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &640552020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640552015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 8
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1 &650627123
 GameObject:
   m_ObjectHideFlags: 0
@@ -3588,6 +3796,7 @@ GameObject:
   - component: {fileID: 650627127}
   - component: {fileID: 650627126}
   - component: {fileID: 650627125}
+  - component: {fileID: 650627128}
   m_Layer: 0
   m_Name: ModularRod_B
   m_TagString: Untagged
@@ -3622,9 +3831,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
+  zoneId: ModularRod_B
+  acceptedPartType: 18
+  acceptedModuleIndex: -1
   ignoreModuleIndex: 0
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
@@ -3700,6 +3909,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &650627128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650627123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 18
+  acceptedModuleIndex: -1
+  ignoreModuleIndex: 0
 --- !u!1 &661785288
 GameObject:
   m_ObjectHideFlags: 0
@@ -3712,6 +3936,7 @@ GameObject:
   - component: {fileID: 661785292}
   - component: {fileID: 661785291}
   - component: {fileID: 661785290}
+  - component: {fileID: 661785293}
   m_Layer: 0
   m_Name: LeftHousing_2
   m_TagString: Untagged
@@ -3746,10 +3971,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
+  zoneId: LeftHousing_2
+  acceptedPartType: 13
+  acceptedModuleIndex: 2
+  ignoreModuleIndex: 1
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
@@ -3824,6 +4049,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &661785293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661785288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 13
+  acceptedModuleIndex: 2
+  ignoreModuleIndex: 1
 --- !u!1 &680598500
 GameObject:
   m_ObjectHideFlags: 0
@@ -4155,6 +4395,7 @@ GameObject:
   - component: {fileID: 732188950}
   - component: {fileID: 732188949}
   - component: {fileID: 732188951}
+  - component: {fileID: 732188952}
   m_Layer: 0
   m_Name: ContactWindow_3
   m_TagString: Untagged
@@ -4258,15 +4499,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
+  zoneId: ContactWindow_3
+  acceptedPartType: 16
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
   isActive: 0
+--- !u!114 &732188952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732188947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 16
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
 --- !u!1 &791333383
 GameObject:
   m_ObjectHideFlags: 0
@@ -5820,6 +6076,7 @@ GameObject:
   - component: {fileID: 1025730646}
   - component: {fileID: 1025730645}
   - component: {fileID: 1025730644}
+  - component: {fileID: 1025730647}
   m_Layer: 0
   m_Name: MountingClip_3_Left
   m_TagString: Untagged
@@ -5854,10 +6111,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
+  zoneId: MountingClip_3_Left
+  acceptedPartType: 9
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
@@ -5932,6 +6189,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1025730647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025730642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 9
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
 --- !u!1 &1025816440
 GameObject:
   m_ObjectHideFlags: 0
@@ -6019,6 +6291,7 @@ GameObject:
   - component: {fileID: 1035824324}
   - component: {fileID: 1035824323}
   - component: {fileID: 1035824322}
+  - component: {fileID: 1035824325}
   m_Layer: 0
   m_Name: TerminalLug_2_Left
   m_TagString: Untagged
@@ -6053,10 +6326,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
+  zoneId: TerminalLug_2_Left
+  acceptedPartType: 17
+  acceptedModuleIndex: 2
+  ignoreModuleIndex: 1
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
@@ -6131,6 +6404,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1035824325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035824320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 17
+  acceptedModuleIndex: 2
+  ignoreModuleIndex: 1
 --- !u!1 &1059051467
 GameObject:
   m_ObjectHideFlags: 0
@@ -6264,6 +6552,7 @@ GameObject:
   - component: {fileID: 1071779849}
   - component: {fileID: 1071779848}
   - component: {fileID: 1071779847}
+  - component: {fileID: 1071779850}
   m_Layer: 0
   m_Name: TopCover_0
   m_TagString: Untagged
@@ -6300,11 +6589,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
+  zoneId: TopCover_0
+  acceptedPartType: 11
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - WhiteStrip_0
+  - RedStrip_0
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -6378,6 +6669,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1071779850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071779845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 11
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1 &1075000274
 GameObject:
   m_ObjectHideFlags: 0
@@ -6624,7 +6930,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 269c1fac43f824143ac08f8b0d789c08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblyManager
-  allZones: []
+  allZones:
+  - {fileID: 1729899148}
+  - {fileID: 633190807}
+  - {fileID: 661785290}
+  - {fileID: 1071779847}
+  - {fileID: 1105949897}
+  - {fileID: 1675701888}
+  - {fileID: 1213299137}
+  - {fileID: 1371545221}
+  - {fileID: 1662856694}
+  - {fileID: 1163570423}
+  - {fileID: 1193070573}
+  - {fileID: 129653677}
+  - {fileID: 2118926757}
+  - {fileID: 1832676891}
+  - {fileID: 1138338748}
+  - {fileID: 1777870083}
+  - {fileID: 315480979}
+  - {fileID: 307620588}
+  - {fileID: 2102077414}
+  - {fileID: 1538340986}
+  - {fileID: 86800818}
+  - {fileID: 1280721964}
+  - {fileID: 2098289233}
+  - {fileID: 617468778}
+  - {fileID: 568357775}
+  - {fileID: 732188951}
+  - {fileID: 345758291}
+  - {fileID: 1035824322}
+  - {fileID: 650627125}
+  - {fileID: 2003413654}
+  - {fileID: 1490080508}
+  - {fileID: 1025730644}
+  - {fileID: 146113847}
+  - {fileID: 2001416229}
+  - {fileID: 1959451971}
+  - {fileID: 1904194381}
+  - {fileID: 393884828}
+  - {fileID: 1960364398}
+  - {fileID: 1613338774}
+  - {fileID: 211278918}
+  - {fileID: 1454162397}
+  - {fileID: 1205437212}
+  - {fileID: 1359674857}
+  - {fileID: 1448748597}
+  - {fileID: 640552017}
 --- !u!1 &1088608625
 GameObject:
   m_ObjectHideFlags: 0
@@ -6992,6 +7343,7 @@ GameObject:
   - component: {fileID: 1105949899}
   - component: {fileID: 1105949898}
   - component: {fileID: 1105949897}
+  - component: {fileID: 1105949900}
   m_Layer: 0
   m_Name: InterlockingNut_0_D
   m_TagString: Untagged
@@ -7026,8 +7378,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
+  zoneId: InterlockingNut_0_D
+  acceptedPartType: 10
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   prerequisiteZoneIds: []
@@ -7104,6 +7456,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1105949900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105949895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 10
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1 &1138338744
 GameObject:
   m_ObjectHideFlags: 0
@@ -7116,6 +7483,7 @@ GameObject:
   - component: {fileID: 1138338747}
   - component: {fileID: 1138338746}
   - component: {fileID: 1138338748}
+  - component: {fileID: 1138338749}
   m_Layer: 0
   m_Name: TerminalLug_1_Right
   m_TagString: Untagged
@@ -7219,15 +7587,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
+  zoneId: TerminalLug_1_Right
+  acceptedPartType: 17
+  acceptedModuleIndex: 1
+  ignoreModuleIndex: 1
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
   isActive: 0
+--- !u!114 &1138338749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138338744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 17
+  acceptedModuleIndex: 1
+  ignoreModuleIndex: 1
 --- !u!1 &1139628614
 GameObject:
   m_ObjectHideFlags: 0
@@ -7446,6 +7829,7 @@ GameObject:
   - component: {fileID: 1163570425}
   - component: {fileID: 1163570424}
   - component: {fileID: 1163570423}
+  - component: {fileID: 1163570426}
   m_Layer: 0
   m_Name: TerminalLug_3_Right
   m_TagString: Untagged
@@ -7480,10 +7864,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
+  zoneId: TerminalLug_3_Right
+  acceptedPartType: 17
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
@@ -7558,6 +7942,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1163570426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163570421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 17
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
 --- !u!1 &1193070569
 GameObject:
   m_ObjectHideFlags: 0
@@ -7570,6 +7969,7 @@ GameObject:
   - component: {fileID: 1193070572}
   - component: {fileID: 1193070571}
   - component: {fileID: 1193070573}
+  - component: {fileID: 1193070574}
   m_Layer: 0
   m_Name: WhiteStrip_0
   m_TagString: Untagged
@@ -7673,8 +8073,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
+  zoneId: WhiteStrip_0
+  acceptedPartType: 7
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   prerequisiteZoneIds: []
@@ -7682,6 +8082,21 @@ MonoBehaviour:
   isOptional: 0
   isSatisfied: 0
   isActive: 0
+--- !u!114 &1193070574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193070569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 7
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1 &1205437210
 GameObject:
   m_ObjectHideFlags: 0
@@ -7694,6 +8109,7 @@ GameObject:
   - component: {fileID: 1205437214}
   - component: {fileID: 1205437213}
   - component: {fileID: 1205437212}
+  - component: {fileID: 1205437215}
   m_Layer: 0
   m_Name: MountingClip_0_Right
   m_TagString: Untagged
@@ -7728,8 +8144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
+  zoneId: MountingClip_0_Right
+  acceptedPartType: 9
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   prerequisiteZoneIds: []
@@ -7806,6 +8222,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1205437215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205437210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 9
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1 &1213299133
 GameObject:
   m_ObjectHideFlags: 0
@@ -7818,6 +8249,7 @@ GameObject:
   - component: {fileID: 1213299136}
   - component: {fileID: 1213299135}
   - component: {fileID: 1213299137}
+  - component: {fileID: 1213299138}
   m_Layer: 0
   m_Name: InterlockingNut_0_B
   m_TagString: Untagged
@@ -7921,8 +8353,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
+  zoneId: InterlockingNut_0_B
+  acceptedPartType: 10
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   prerequisiteZoneIds: []
@@ -7930,6 +8362,21 @@ MonoBehaviour:
   isOptional: 0
   isSatisfied: 0
   isActive: 0
+--- !u!114 &1213299138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213299133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 10
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1 &1222359968
 GameObject:
   m_ObjectHideFlags: 0
@@ -8104,6 +8551,7 @@ GameObject:
   - component: {fileID: 1280721966}
   - component: {fileID: 1280721965}
   - component: {fileID: 1280721964}
+  - component: {fileID: 1280721967}
   m_Layer: 0
   m_Name: ExternalFastener_0_Left
   m_TagString: Untagged
@@ -8139,11 +8587,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
+  zoneId: ExternalFastener_0_Left
+  acceptedPartType: 8
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - MountingClip_0_Left
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -8217,6 +8666,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1280721967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280721962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 8
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1 &1309057132
 GameObject:
   m_ObjectHideFlags: 0
@@ -8488,6 +8952,7 @@ GameObject:
   - component: {fileID: 1359674859}
   - component: {fileID: 1359674858}
   - component: {fileID: 1359674857}
+  - component: {fileID: 1359674860}
   m_Layer: 0
   m_Name: InternalFastener_0_Left
   m_TagString: Untagged
@@ -8522,8 +8987,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
+  zoneId: InternalFastener_0_Left
+  acceptedPartType: 2
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   prerequisiteZoneIds: []
@@ -8600,6 +9065,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1359674860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359674855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 2
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1001 &1362734343
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8825,6 +9305,7 @@ GameObject:
   - component: {fileID: 1371545223}
   - component: {fileID: 1371545222}
   - component: {fileID: 1371545221}
+  - component: {fileID: 1371545224}
   m_Layer: 0
   m_Name: ShaftReceiverCollar_0
   m_TagString: Untagged
@@ -8859,8 +9340,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
+  zoneId: ShaftReceiverCollar_0
+  acceptedPartType: 4
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   prerequisiteZoneIds: []
@@ -8937,6 +9418,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1371545224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371545219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 4
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1 &1374157835
 GameObject:
   m_ObjectHideFlags: 0
@@ -9467,6 +9963,7 @@ GameObject:
   - component: {fileID: 1448748599}
   - component: {fileID: 1448748598}
   - component: {fileID: 1448748597}
+  - component: {fileID: 1448748600}
   m_Layer: 0
   m_Name: InterlockingDriveRing_1
   m_TagString: Untagged
@@ -9501,10 +9998,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
+  zoneId: InterlockingDriveRing_1
+  acceptedPartType: 14
+  acceptedModuleIndex: 1
+  ignoreModuleIndex: 1
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
@@ -9579,6 +10076,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1448748600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448748595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 14
+  acceptedModuleIndex: 1
+  ignoreModuleIndex: 1
 --- !u!1 &1454162395
 GameObject:
   m_ObjectHideFlags: 0
@@ -9591,6 +10103,7 @@ GameObject:
   - component: {fileID: 1454162399}
   - component: {fileID: 1454162398}
   - component: {fileID: 1454162397}
+  - component: {fileID: 1454162400}
   m_Layer: 0
   m_Name: ClampingBolt_0
   m_TagString: Untagged
@@ -9625,8 +10138,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
+  zoneId: ClampingBolt_0
+  acceptedPartType: 5
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   prerequisiteZoneIds: []
@@ -9703,6 +10216,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1454162400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454162395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 5
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1 &1478354563
 GameObject:
   m_ObjectHideFlags: 0
@@ -9790,6 +10318,7 @@ GameObject:
   - component: {fileID: 1490080510}
   - component: {fileID: 1490080509}
   - component: {fileID: 1490080508}
+  - component: {fileID: 1490080511}
   m_Layer: 0
   m_Name: ContactCover_1
   m_TagString: Untagged
@@ -9825,11 +10354,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  zoneId: ContactCover_1
+  acceptedPartType: 15
+  acceptedModuleIndex: 1
+  ignoreModuleIndex: 1
+  prerequisiteZoneIds:
+  - ContactWindow_1
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -9903,6 +10433,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1490080511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490080506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 15
+  acceptedModuleIndex: 1
+  ignoreModuleIndex: 1
 --- !u!1 &1520419809
 GameObject:
   m_ObjectHideFlags: 0
@@ -10048,6 +10593,7 @@ GameObject:
   - component: {fileID: 1538340988}
   - component: {fileID: 1538340987}
   - component: {fileID: 1538340986}
+  - component: {fileID: 1538340989}
   m_Layer: 0
   m_Name: MountingClip_3_Right
   m_TagString: Untagged
@@ -10082,10 +10628,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
+  zoneId: MountingClip_3_Right
+  acceptedPartType: 9
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
@@ -10160,6 +10706,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1538340989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538340984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 9
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
 --- !u!1 &1542672740
 GameObject:
   m_ObjectHideFlags: 0
@@ -10283,6 +10844,7 @@ GameObject:
   - component: {fileID: 1613338776}
   - component: {fileID: 1613338775}
   - component: {fileID: 1613338774}
+  - component: {fileID: 1613338777}
   m_Layer: 0
   m_Name: InterlockingNut_0_C
   m_TagString: Untagged
@@ -10317,8 +10879,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
+  zoneId: InterlockingNut_0_C
+  acceptedPartType: 10
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   prerequisiteZoneIds: []
@@ -10395,6 +10957,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1613338777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613338772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 10
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1 &1662856692
 GameObject:
   m_ObjectHideFlags: 0
@@ -10407,6 +10984,7 @@ GameObject:
   - component: {fileID: 1662856696}
   - component: {fileID: 1662856695}
   - component: {fileID: 1662856694}
+  - component: {fileID: 1662856697}
   m_Layer: 0
   m_Name: TerminalLug_3_Left
   m_TagString: Untagged
@@ -10441,10 +11019,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
+  zoneId: TerminalLug_3_Left
+  acceptedPartType: 17
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
@@ -10519,6 +11097,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1662856697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662856692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 17
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
 --- !u!1 &1675701886
 GameObject:
   m_ObjectHideFlags: 0
@@ -10531,6 +11124,7 @@ GameObject:
   - component: {fileID: 1675701890}
   - component: {fileID: 1675701889}
   - component: {fileID: 1675701888}
+  - component: {fileID: 1675701891}
   m_Layer: 0
   m_Name: OperatingShaft_0
   m_TagString: Untagged
@@ -10565,8 +11159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
+  zoneId: OperatingShaft_0
+  acceptedPartType: 3
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   prerequisiteZoneIds: []
@@ -10643,175 +11237,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
---- !u!1001 &1711171822
-PrefabInstance:
+--- !u!114 &1675701891
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 29613923648833878, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.002
-      objectReference: {fileID: 0}
-    - target: {fileID: 29613923648833878, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.002
-      objectReference: {fileID: 0}
-    - target: {fileID: 29613923648833878, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.002
-      objectReference: {fileID: 0}
-    - target: {fileID: 29613923648833878, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 29613923648833878, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 29613923648833878, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 29613923648833878, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 29613923648833878, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 29613923648833878, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 29613923648833878, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 29613923648833878, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 29613923648833878, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 29613923648833878, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 522894707631663700, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 974754685655117918, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1212484431752595263, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1420466130187558280, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1711465164518052621, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1806495969721047695, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3678674570878402523, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3839307495954149887, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4103437519352805443, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4173569534695700440, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4327746615164028211, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4330588943606228936, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4542821867363687242, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5166464394215720427, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5351047714049454144, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5351838430571074818, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5487075645162400671, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5991784369242366755, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6237236468592665149, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6849373759232642224, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7384836799942762327, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7885440616633171313, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8277976749623666452, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8571620997031325908, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_Name
-      value: ABB_Switch
-      objectReference: {fileID: 0}
-    - target: {fileID: 8680537926669689384, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9127639670911241361, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675701886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 3
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1 &1729899146
 GameObject:
   m_ObjectHideFlags: 0
@@ -10824,6 +11264,7 @@ GameObject:
   - component: {fileID: 1729899150}
   - component: {fileID: 1729899149}
   - component: {fileID: 1729899148}
+  - component: {fileID: 1729899151}
   m_Layer: 0
   m_Name: InterlockingNut_0_A
   m_TagString: Untagged
@@ -10858,8 +11299,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
+  zoneId: InterlockingNut_0_A
+  acceptedPartType: 10
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   prerequisiteZoneIds: []
@@ -10936,6 +11377,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1729899151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729899146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 10
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1 &1756045394
 GameObject:
   m_ObjectHideFlags: 0
@@ -11023,6 +11479,7 @@ GameObject:
   - component: {fileID: 1777870085}
   - component: {fileID: 1777870084}
   - component: {fileID: 1777870083}
+  - component: {fileID: 1777870086}
   m_Layer: 0
   m_Name: RedStrip_0
   m_TagString: Untagged
@@ -11057,8 +11514,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
+  zoneId: RedStrip_0
+  acceptedPartType: 6
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   prerequisiteZoneIds: []
@@ -11135,6 +11592,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1777870086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777870081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 6
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1 &1785409643
 GameObject:
   m_ObjectHideFlags: 0
@@ -11268,6 +11740,7 @@ GameObject:
   - component: {fileID: 1832676893}
   - component: {fileID: 1832676892}
   - component: {fileID: 1832676891}
+  - component: {fileID: 1832676894}
   m_Layer: 0
   m_Name: ContactCover_3
   m_TagString: Untagged
@@ -11303,11 +11776,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  zoneId: ContactCover_3
+  acceptedPartType: 15
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
+  prerequisiteZoneIds:
+  - ContactWindow_3
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -11381,6 +11855,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1832676894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832676889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 15
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
 --- !u!1 &1835809108 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2318766424490069697, guid: dae86721c71ee42018bbec0181a4e52e, type: 3}
@@ -11567,11 +12056,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859417367}
   m_CullTransparentMesh: 1
---- !u!1 &1874366953 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8571620997031325908, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
-  m_PrefabInstance: {fileID: 1711171822}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1888396501
 GameObject:
   m_ObjectHideFlags: 0
@@ -11620,6 +12104,7 @@ GameObject:
   - component: {fileID: 1904194383}
   - component: {fileID: 1904194382}
   - component: {fileID: 1904194381}
+  - component: {fileID: 1904194384}
   m_Layer: 0
   m_Name: InterlockingDriveRing_2
   m_TagString: Untagged
@@ -11654,10 +12139,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
+  zoneId: InterlockingDriveRing_2
+  acceptedPartType: 14
+  acceptedModuleIndex: 2
+  ignoreModuleIndex: 1
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
@@ -11732,6 +12217,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1904194384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904194379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 14
+  acceptedModuleIndex: 2
+  ignoreModuleIndex: 1
 --- !u!1 &1905935980
 GameObject:
   m_ObjectHideFlags: 0
@@ -12094,6 +12594,7 @@ GameObject:
   - component: {fileID: 1959451973}
   - component: {fileID: 1959451972}
   - component: {fileID: 1959451971}
+  - component: {fileID: 1959451974}
   m_Layer: 0
   m_Name: TerminalLug_1_Left
   m_TagString: Untagged
@@ -12128,10 +12629,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
+  zoneId: TerminalLug_1_Left
+  acceptedPartType: 17
+  acceptedModuleIndex: 1
+  ignoreModuleIndex: 1
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
@@ -12206,6 +12707,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1959451974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959451969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 17
+  acceptedModuleIndex: 1
+  ignoreModuleIndex: 1
 --- !u!1 &1960364396
 GameObject:
   m_ObjectHideFlags: 0
@@ -12218,6 +12734,7 @@ GameObject:
   - component: {fileID: 1960364400}
   - component: {fileID: 1960364399}
   - component: {fileID: 1960364398}
+  - component: {fileID: 1960364401}
   m_Layer: 0
   m_Name: LeftHousing_1
   m_TagString: Untagged
@@ -12252,10 +12769,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
+  zoneId: LeftHousing_1
+  acceptedPartType: 13
+  acceptedModuleIndex: 1
+  ignoreModuleIndex: 1
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
@@ -12330,6 +12847,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1960364401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960364396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 13
+  acceptedModuleIndex: 1
+  ignoreModuleIndex: 1
 --- !u!1 &1960406491
 GameObject:
   m_ObjectHideFlags: 0
@@ -12618,6 +13150,7 @@ GameObject:
   - component: {fileID: 2001416231}
   - component: {fileID: 2001416230}
   - component: {fileID: 2001416229}
+  - component: {fileID: 2001416232}
   m_Layer: 0
   m_Name: MountingClip_0_Left
   m_TagString: Untagged
@@ -12652,8 +13185,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
+  zoneId: MountingClip_0_Left
+  acceptedPartType: 9
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   prerequisiteZoneIds: []
@@ -12730,6 +13263,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &2001416232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001416227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 9
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1 &2003413652
 GameObject:
   m_ObjectHideFlags: 0
@@ -12742,6 +13290,7 @@ GameObject:
   - component: {fileID: 2003413656}
   - component: {fileID: 2003413655}
   - component: {fileID: 2003413654}
+  - component: {fileID: 2003413657}
   m_Layer: 0
   m_Name: LeftHousing_3
   m_TagString: Untagged
@@ -12776,10 +13325,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
+  zoneId: LeftHousing_3
+  acceptedPartType: 13
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
@@ -12854,6 +13403,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &2003413657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003413652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 13
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
 --- !u!1 &2021867756
 GameObject:
   m_ObjectHideFlags: 0
@@ -13287,6 +13851,7 @@ GameObject:
   - component: {fileID: 2098289235}
   - component: {fileID: 2098289234}
   - component: {fileID: 2098289233}
+  - component: {fileID: 2098289236}
   m_Layer: 0
   m_Name: InterlockingDriveRing_3
   m_TagString: Untagged
@@ -13321,10 +13886,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
+  zoneId: InterlockingDriveRing_3
+  acceptedPartType: 14
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
@@ -13399,6 +13964,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &2098289236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098289231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 14
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
 --- !u!1 &2099970465
 GameObject:
   m_ObjectHideFlags: 0
@@ -13608,6 +14188,7 @@ GameObject:
   - component: {fileID: 2102077413}
   - component: {fileID: 2102077412}
   - component: {fileID: 2102077414}
+  - component: {fileID: 2102077415}
   m_Layer: 0
   m_Name: InternalFastener_0_Right
   m_TagString: Untagged
@@ -13711,8 +14292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
+  zoneId: InternalFastener_0_Right
+  acceptedPartType: 2
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   prerequisiteZoneIds: []
@@ -13720,6 +14301,21 @@ MonoBehaviour:
   isOptional: 0
   isSatisfied: 0
   isActive: 0
+--- !u!114 &2102077415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102077410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 2
+  acceptedModuleIndex: 0
+  ignoreModuleIndex: 0
 --- !u!1 &2116170431
 GameObject:
   m_ObjectHideFlags: 0
@@ -13950,6 +14546,7 @@ GameObject:
   - component: {fileID: 2118926759}
   - component: {fileID: 2118926758}
   - component: {fileID: 2118926757}
+  - component: {fileID: 2118926760}
   m_Layer: 0
   m_Name: RightHousing_3
   m_TagString: Untagged
@@ -13987,11 +14584,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58b4ee4c37fa45a5e9a06847c4c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapZone
-  zoneId: 
-  acceptedPartType: 0
-  acceptedModuleIndex: 0
-  ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  zoneId: RightHousing_3
+  acceptedPartType: 12
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
+  prerequisiteZoneIds:
+  - TerminalLug_3_Right
+  - TerminalLug_3_Left
+  - InterlockingDriveRing_3
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -14065,6 +14665,21 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &2118926760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118926755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603279c8ae8db0541bcf94e94395298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartTypeSelectFilter
+  acceptedType: 12
+  acceptedModuleIndex: 3
+  ignoreModuleIndex: 1
 --- !u!1001 &891726464977617767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14182,6 +14797,68 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dae86721c71ee42018bbec0181a4e52e, type: 3}
+--- !u!1001 &3334306931185956195
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1703943418505955228, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
+      propertyPath: m_Name
+      value: ABB_Switch
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034442279743829894, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034442279743829894, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034442279743829894, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034442279743829894, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034442279743829894, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034442279743829894, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034442279743829894, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034442279743829894, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034442279743829894, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034442279743829894, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
+--- !u!1 &4654563198445855955 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1703943418505955228, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
+  m_PrefabInstance: {fileID: 3334306931185956195}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5214591598045136834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14427,5 +15104,5 @@ SceneRoots:
   - {fileID: 331264285}
   - {fileID: 1087267762}
   - {fileID: 445370523}
-  - {fileID: 1711171822}
+  - {fileID: 3334306931185956195}
   - {fileID: 1251589627}
