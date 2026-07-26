@@ -14824,6 +14824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ABB_Switch
       objectReference: {fileID: 0}
+    - target: {fileID: 1703943418505955228, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7034442279743829894, guid: 999b0af00c0d3084b97a9e8f87c6e270, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
