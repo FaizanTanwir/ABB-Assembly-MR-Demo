@@ -361,10 +361,7 @@ MonoBehaviour:
   acceptedPartType: 12
   acceptedModuleIndex: 2
   ignoreModuleIndex: 1
-  prerequisiteZoneIds:
-  - InterlockingDriveRing_2
-  - TerminalLug_2_Right
-  - TerminalLug_2_Left
+  prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -865,10 +862,7 @@ MonoBehaviour:
   acceptedPartType: 12
   acceptedModuleIndex: 1
   ignoreModuleIndex: 1
-  prerequisiteZoneIds:
-  - TerminalLug_1_Right
-  - TerminalLug_1_Left
-  - InterlockingDriveRing_1
+  prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -1060,7 +1054,11 @@ MonoBehaviour:
   acceptedPartType: 18
   acceptedModuleIndex: -1
   ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - TopCover_0
+  - ContactCover_1
+  - ContactCover_2
+  - ContactCover_3
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -1732,7 +1730,13 @@ MonoBehaviour:
   acceptedPartType: 1
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - BottomHousing_0
+  - OperatingShaft_0
+  - InterlockingNut_0_A
+  - InterlockingNut_0_B
+  - InterlockingNut_0_C
+  - InterlockingNut_0_D
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -2224,13 +2228,7 @@ MonoBehaviour:
   acceptedPartType: 0
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
-  prerequisiteZoneIds:
-  - InterlockingNut_0_A
-  - InterlockingNut_0_B
-  - InterlockingNut_0_C
-  - InterlockingNut_0_D
-  - ExternalFastener_0_Left
-  - ExternalFastener_0_Right
+  prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -2323,8 +2321,7 @@ MonoBehaviour:
   acceptedPartType: 8
   acceptedModuleIndex: 3
   ignoreModuleIndex: 1
-  prerequisiteZoneIds:
-  - MountingClip_3_Left
+  prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -2551,7 +2548,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &436358033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3326,7 +3323,8 @@ MonoBehaviour:
   acceptedModuleIndex: 2
   ignoreModuleIndex: 1
   prerequisiteZoneIds:
-  - ContactWindow_2
+  - LeftHousing_2
+  - RightHousing_2
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -3467,8 +3465,7 @@ MonoBehaviour:
   acceptedPartType: 8
   acceptedModuleIndex: 3
   ignoreModuleIndex: 1
-  prerequisiteZoneIds:
-  - MountingClip_3_Right
+  prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -3694,8 +3691,7 @@ MonoBehaviour:
   acceptedPartType: 8
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
-  prerequisiteZoneIds:
-  - MountingClip_0_Right
+  prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -3835,7 +3831,11 @@ MonoBehaviour:
   acceptedPartType: 18
   acceptedModuleIndex: -1
   ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - TopCover_0
+  - ContactCover_1
+  - ContactCover_2
+  - ContactCover_3
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -3975,7 +3975,11 @@ MonoBehaviour:
   acceptedPartType: 13
   acceptedModuleIndex: 2
   ignoreModuleIndex: 1
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_2
+  - InterlockingDriveRing_2
+  - TerminalLug_2_Left
+  - TerminalLug_2_Right
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -6594,8 +6598,8 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   prerequisiteZoneIds:
-  - WhiteStrip_0
-  - RedStrip_0
+  - InternalFastener_0_Right
+  - InternalFastener_0_Left
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -8591,8 +8595,7 @@ MonoBehaviour:
   acceptedPartType: 8
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
-  prerequisiteZoneIds:
-  - MountingClip_0_Left
+  prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -8991,7 +8994,8 @@ MonoBehaviour:
   acceptedPartType: 2
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - TopHousing_0
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -9344,7 +9348,8 @@ MonoBehaviour:
   acceptedPartType: 4
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - TopCover_0
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -10142,7 +10147,8 @@ MonoBehaviour:
   acceptedPartType: 5
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - ShaftReceiverCollar_0
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -10359,7 +10365,8 @@ MonoBehaviour:
   acceptedModuleIndex: 1
   ignoreModuleIndex: 1
   prerequisiteZoneIds:
-  - ContactWindow_1
+  - RightHousing_1
+  - LeftHousing_1
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -11163,7 +11170,8 @@ MonoBehaviour:
   acceptedPartType: 3
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - BottomHousing_0
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -11781,7 +11789,8 @@ MonoBehaviour:
   acceptedModuleIndex: 3
   ignoreModuleIndex: 1
   prerequisiteZoneIds:
-  - ContactWindow_3
+  - LeftHousing_3
+  - RightHousing_3
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -12773,7 +12782,11 @@ MonoBehaviour:
   acceptedPartType: 13
   acceptedModuleIndex: 1
   ignoreModuleIndex: 1
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_1
+  - InterlockingDriveRing_1
+  - TerminalLug_1_Left
+  - TerminalLug_1_Right
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -13329,7 +13342,11 @@ MonoBehaviour:
   acceptedPartType: 13
   acceptedModuleIndex: 3
   ignoreModuleIndex: 1
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_3
+  - InterlockingDriveRing_3
+  - TerminalLug_3_Left
+  - TerminalLug_3_Right
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -14296,7 +14313,8 @@ MonoBehaviour:
   acceptedPartType: 2
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - TopHousing_0
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0
@@ -14588,10 +14606,7 @@ MonoBehaviour:
   acceptedPartType: 12
   acceptedModuleIndex: 3
   ignoreModuleIndex: 1
-  prerequisiteZoneIds:
-  - TerminalLug_3_Right
-  - TerminalLug_3_Left
-  - InterlockingDriveRing_3
+  prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
   isOptional: 0
   isSatisfied: 0

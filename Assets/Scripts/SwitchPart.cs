@@ -20,8 +20,17 @@ public class SwitchPart : MonoBehaviour
         _originalColors = new Color[_renderers.Length];
         for (int i = 0; i < _renderers.Length; i++)
         {
-            _renderers[i].GetPropertyBlock(_propBlock);
-            _originalColors[i] = _renderers[i].material.GetColor("_BaseColor");
+            // Use sharedMaterial to read the actual asset color
+            // Fall back to white if BaseColor isn't present
+            if (_renderers[i].sharedMaterial != null && 
+                _renderers[i].sharedMaterial.HasProperty("_BaseColor"))
+            {
+                _originalColors[i] = _renderers[i].sharedMaterial.GetColor("_BaseColor");
+            }
+            else
+            {
+                _originalColors[i] = Color.white;
+            }
         }
     }
     
