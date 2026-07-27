@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 using System.Collections.Generic;
+using UnityEngine.InputSystem;
 
 public class SwitchSpawner : MonoBehaviour
 {
@@ -23,18 +24,83 @@ public class SwitchSpawner : MonoBehaviour
     
     void Update()
     {
-        if (_spawned) return;
-        if (Input.touchCount == 0) return;
-        
-        Touch touch = Input.GetTouch(0);
-        if (touch.phase != TouchPhase.Began) return;
-        
-        if (_raycastManager.Raycast(touch.position, _hits, 
-            TrackableType.PlaneWithinBounds))
+        if (_spawned)
+            return;
+
+    #if UNITY_EDITOR
+
+        // ===============================
+        // UNITY EDITOR (Mouse Input)
+        // ===============================
+
+        if (Mouse.current == null || !Mouse.current.leftButton.wasPressedThisFrame)
         {
-            Pose hitPose = _hits[0].pose;
-            SpawnAllParts(hitPose);
+            Debug.Log("Mouse Click Detected");
+            return;
         }
+
+        Vector2 mousePos = Mouse.current.position.ReadValue();
+
+        // First try the normal AR raycast against simulated planes
+        if (_raycastManager != null &&
+            _raycastManager.Raycast(mousePos, _hits, TrackableType.PlaneWithinBounds))
+        {
+            Debug.Log("Editor: AR plane hit.");
+            SpawnAllParts(_hits[0].pose);
+        }
+        else
+        {
+            // Fallback: spawn one meter in front of the camera
+            Camera cam = Camera.main;
+
+            if (cam == null)
+            {
+                Debug.LogWarning("Main Camera not found.");
+                return;
+            }
+
+            Vector3 spawnPosition =
+                cam.transform.position +
+                cam.transform.forward * 1.0f;
+
+            spawnPosition.y = 0f;
+
+            SpawnAllParts(
+                new Pose(
+                    spawnPosition,
+                    Quaternion.identity));
+
+            Debug.Log("Editor fallback spawn used.");
+        }
+
+    #else
+
+        // ===============================
+        // ANDROID / META QUEST
+        // ===============================
+
+        if (Touchscreen.current == null)
+            return;
+
+        var primaryTouch = Touchscreen.current.primaryTouch;
+        Debug.Log("Touch Detected");
+
+        if (!primaryTouch.press.wasPressedThisFrame)
+            return;
+
+        Vector2 touchPosition = primaryTouch.position.ReadValue();
+
+        if (_raycastManager != null &&
+            _raycastManager.Raycast(
+                touchPosition,
+                _hits,
+                TrackableType.PlaneWithinBounds))
+        {
+            Debug.Log("Device: AR plane hit.");
+            SpawnAllParts(_hits[0].pose);
+        }
+
+    #endif
     }
     
     private void SpawnAllParts(Pose tablePose)
@@ -56,6 +122,7 @@ public class SwitchSpawner : MonoBehaviour
             Quaternion spawnRot = tablePose.rotation * 
                                   Quaternion.Euler(entry.localRotation);
             
+            Debug.Log($"Spawning {entry.groupLabel} at {spawnPos}");
             GameObject part = Instantiate(entry.partPrefab, spawnPos, spawnRot);
 
             // KEY CHANGE: override moduleIndex from the layout entry
