@@ -1122,7 +1122,6 @@ UnityEngine.Object::ToString_Injected
 UnityEngine.Object::set_hideFlags_Injected
 UnityEngine.Object::get_hideFlags_Injected
 UnityEngine.Object::FindObjectsByType
-UnityEngine.Object::FindObjectsOfType
 UnityEngine.ObjectDispatcher::CreateDispatchSystemHandle
 UnityEngine.ObjectDispatcher::DestroyDispatchSystemHandle
 UnityEngine.ObjectDispatcher::DispatchTransformDataChangesAndClear
