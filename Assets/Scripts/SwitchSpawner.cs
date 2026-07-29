@@ -34,10 +34,9 @@ public class SwitchSpawner : MonoBehaviour
         // ===============================
 
         if (Mouse.current == null || !Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            Debug.Log("Mouse Click Detected");
             return;
-        }
+
+        Debug.Log("Mouse Click Detected");
 
         Vector2 mousePos = Mouse.current.position.ReadValue();
 
