@@ -21,7 +21,7 @@ public class SwitchSpawnerMR : MonoBehaviour
 
     [Header("Spawn Settings")]
     [Tooltip("Fallback distance in front of camera when no surface is hit")]
-    public float fallbackSpawnDistance = 0.8f;
+    public float fallbackSpawnDistance = 0.2f;
 
     [Tooltip("How far below eye level to place parts when using fallback spawn")]
     public float fallbackYOffset = -0.5f;
