@@ -7,6 +7,12 @@
 
 
 
+extern void ARPlaneColliderGenerator_Awake_m48543095E1B7F2AF0F4731398C54225C13EA2A1C (void);
+extern void ARPlaneColliderGenerator_OnEnable_m8203A3665B4BCB0FAF26C4BBC943D197FC45D309 (void);
+extern void ARPlaneColliderGenerator_OnDisable_mA9F6A8A368473975F1B9FF911EFB61B77D4BAE6E (void);
+extern void ARPlaneColliderGenerator_OnPlanesChanged_mFFC96CDEB59D36856A4261E761915555A9E88C49 (void);
+extern void ARPlaneColliderGenerator_AddOrUpdateCollider_m70CBA2AF2268A36B3470545BEB8F49DF98D3254C (void);
+extern void ARPlaneColliderGenerator__ctor_mC6291080D223333851CE396985574462AEC2ED5B (void);
 extern void AssemblyManager_get_Instance_m82AFC1DC1F78929270D98E5ED38B3976AD78B5D0 (void);
 extern void AssemblyManager_set_Instance_m759AFC700CB7DD67B3B231E1B728E23DEE5EE433 (void);
 extern void AssemblyManager_Awake_mDED869F78032B0D42C5968959EA10FFA038B1C6B (void);
@@ -33,6 +39,8 @@ extern void AssemblySnapZone_OnSelectEntered_mB0557F8949006FE9B24EA212F62216935C
 extern void AssemblySnapZone_SetZoneColor_m20AAA8CBBA7CF5089C4400CAE4C7E78EFCA9DC03 (void);
 extern void AssemblySnapZone__ctor_m587B3AFC6E65A03162097FEC7052AF892D7384EF (void);
 extern void AssemblySnapZone__cctor_mDF712464DDCA5AFC0A2F2C440C37D1A13CF61B06 (void);
+extern void ForcePassthrough_Start_m70D1316DD69F2480170F4C457FD12313DC238E52 (void);
+extern void ForcePassthrough__ctor_mB65F04BFE2C3534F777033E97E69261F7A1BB7B9 (void);
 extern void SwitchSpawnerMR_Start_m83617E491978E9E659600C556B0CBE2F2CA0129E (void);
 extern void SwitchSpawnerMR_OnDestroy_mB0128C87BB1AF5CF238D0BB2FA0C9C413E576FD6 (void);
 extern void SwitchSpawnerMR_OnSpawnActionPerformed_m044F2CE1ACC7F5E39FD488664A4DDEA3180D299C (void);
@@ -151,8 +159,14 @@ extern void U3CWaitUntilNextCardU3Ed__36_MoveNext_mEB6BA70FAED1CFCFF4A723EA3EAB8
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDB2315FB1F67F06B37604285AD8F003E282D1607 (void);
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_IEnumerator_Reset_m5E5CC9DFDC8C17DB423A7C7ECBCD4342A7754633 (void);
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_IEnumerator_get_Current_mE7D77BA338B271D9E95117683B19436CFFF37229 (void);
-static Il2CppMethodPointer s_methodPointers[144] = 
+static Il2CppMethodPointer s_methodPointers[152] = 
 {
+	ARPlaneColliderGenerator_Awake_m48543095E1B7F2AF0F4731398C54225C13EA2A1C,
+	ARPlaneColliderGenerator_OnEnable_m8203A3665B4BCB0FAF26C4BBC943D197FC45D309,
+	ARPlaneColliderGenerator_OnDisable_mA9F6A8A368473975F1B9FF911EFB61B77D4BAE6E,
+	ARPlaneColliderGenerator_OnPlanesChanged_mFFC96CDEB59D36856A4261E761915555A9E88C49,
+	ARPlaneColliderGenerator_AddOrUpdateCollider_m70CBA2AF2268A36B3470545BEB8F49DF98D3254C,
+	ARPlaneColliderGenerator__ctor_mC6291080D223333851CE396985574462AEC2ED5B,
 	AssemblyManager_get_Instance_m82AFC1DC1F78929270D98E5ED38B3976AD78B5D0,
 	AssemblyManager_set_Instance_m759AFC700CB7DD67B3B231E1B728E23DEE5EE433,
 	AssemblyManager_Awake_mDED869F78032B0D42C5968959EA10FFA038B1C6B,
@@ -179,6 +193,8 @@ static Il2CppMethodPointer s_methodPointers[144] =
 	AssemblySnapZone_SetZoneColor_m20AAA8CBBA7CF5089C4400CAE4C7E78EFCA9DC03,
 	AssemblySnapZone__ctor_m587B3AFC6E65A03162097FEC7052AF892D7384EF,
 	AssemblySnapZone__cctor_mDF712464DDCA5AFC0A2F2C440C37D1A13CF61B06,
+	ForcePassthrough_Start_m70D1316DD69F2480170F4C457FD12313DC238E52,
+	ForcePassthrough__ctor_mB65F04BFE2C3534F777033E97E69261F7A1BB7B9,
 	SwitchSpawnerMR_Start_m83617E491978E9E659600C556B0CBE2F2CA0129E,
 	SwitchSpawnerMR_OnDestroy_mB0128C87BB1AF5CF238D0BB2FA0C9C413E576FD6,
 	SwitchSpawnerMR_OnSpawnActionPerformed_m044F2CE1ACC7F5E39FD488664A4DDEA3180D299C,
@@ -301,10 +317,16 @@ static Il2CppMethodPointer s_methodPointers[144] =
 extern void Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] = 
 {
-	{ 0x06000075, Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_AdjustorThunk },
+	{ 0x0600007D, Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[144] = 
+static const int32_t s_InvokerIndices[152] = 
 {
+	19027,
+	19027,
+	19027,
+	12890,
+	14456,
+	19027,
 	32446,
 	31148,
 	19027,
@@ -331,6 +353,8 @@ static const int32_t s_InvokerIndices[144] =
 	14237,
 	19027,
 	32553,
+	19027,
+	19027,
 	19027,
 	19027,
 	14901,
@@ -454,7 +478,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	144,
+	152,
 	s_methodPointers,
 	1,
 	s_adjustorThunks,

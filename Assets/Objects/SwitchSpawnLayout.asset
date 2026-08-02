@@ -15,226 +15,226 @@ MonoBehaviour:
   parts:
   - partPrefab: {fileID: 6317680914018919423, guid: 16d69aaf855eef64d840debe121f9e48, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.32, y: 0, z: 0.16}
+    localOffset: {x: -0.45, y: 0, z: 0.3}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-BottomHousing
   - partPrefab: {fileID: 1095910247449084361, guid: 6516ccbedd51fed4da03cc38c666146d, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.32, y: 0, z: 0.08}
+    localOffset: {x: -0.45, y: 0, z: 0.15}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-TopHousing
   - partPrefab: {fileID: 7505057712800117394, guid: 92cd8145ae82ed54895415c1da815923, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.32, y: 0, z: 0}
+    localOffset: {x: -0.45, y: 0, z: 0}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-OperatingShaft
   - partPrefab: {fileID: 5604315057071095407, guid: 19168f71fd1339b4c95adacaa9643a03, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.32, y: 0, z: -0.08}
+    localOffset: {x: -0.45, y: 0, z: -0.15}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-TopCover
   - partPrefab: {fileID: 2628822095830160885, guid: 5d5fa962347b2e548b0e8ed6264b2117, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.24, y: 0, z: 0.16}
+    localOffset: {x: -0.3, y: 0, z: 0.3}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-InternalFastener-L
   - partPrefab: {fileID: 2628822095830160885, guid: 5d5fa962347b2e548b0e8ed6264b2117, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.24, y: 0, z: 0.08}
+    localOffset: {x: -0.3, y: 0, z: 0.15}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-InternalFastener-R
   - partPrefab: {fileID: 8050079311935019042, guid: 9278fdcbaf38a77438d9756fc6ee34d6, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.24, y: 0, z: 0}
+    localOffset: {x: -0.3, y: 0, z: 0}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-ShaftReceiverCollar
   - partPrefab: {fileID: 7383748265211862526, guid: c9f8a6b904c5fcd4b981e229da0332bd, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.24, y: 0, z: -0.08}
+    localOffset: {x: -0.3, y: 0, z: -0.15}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-ClampingBolt
   - partPrefab: {fileID: 3089828489110144530, guid: a8d37cd80b049a2418776fdb0a5c8219, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.16, y: 0, z: 0.16}
+    localOffset: {x: -0.15, y: 0, z: 0.3}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-InterlockingNut-A
   - partPrefab: {fileID: 3089828489110144530, guid: a8d37cd80b049a2418776fdb0a5c8219, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.16, y: 0, z: 0.08}
+    localOffset: {x: -0.15, y: 0, z: 0.15}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-InterlockingNut-B
   - partPrefab: {fileID: 3089828489110144530, guid: a8d37cd80b049a2418776fdb0a5c8219, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.16, y: 0, z: 0}
+    localOffset: {x: -0.15, y: 0, z: 0}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-InterlockingNut-C
   - partPrefab: {fileID: 3089828489110144530, guid: a8d37cd80b049a2418776fdb0a5c8219, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.16, y: 0, z: -0.08}
+    localOffset: {x: -0.15, y: 0, z: -0.15}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-InterlockingNut-D
   - partPrefab: {fileID: 1007995582630814870, guid: 1eb63292bc7aeee4a82016f122177e5e, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.08, y: 0, z: 0.16}
+    localOffset: {x: -0.15, y: 0, z: -0.3}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-RedStrip
   - partPrefab: {fileID: 8003352778142502370, guid: 0f861045e9d8a7b47ab92fb7be4f63a5, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.08, y: 0, z: 0.08}
+    localOffset: {x: -0.3, y: 0, z: -0.3}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-WhiteStrip
   - partPrefab: {fileID: 1428541746596201694, guid: b24a5b02fac675b4b96b67b4acfc3bb9, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.08, y: 0, z: 0}
+    localOffset: {x: -0.45, y: 0, z: -0.3}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-ExternalFastener-L
   - partPrefab: {fileID: 1428541746596201694, guid: b24a5b02fac675b4b96b67b4acfc3bb9, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.08, y: 0, z: -0.08}
+    localOffset: {x: -0.45, y: 0, z: -0.45}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-ExternalFastener-R
   - partPrefab: {fileID: 1680880586628169519, guid: 87ba6b18baf3a0045b7b96347dc9645f, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.08, y: 0, z: -0.16}
+    localOffset: {x: -0.3, y: 0, z: -0.45}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-MountingClip-L
   - partPrefab: {fileID: 1680880586628169519, guid: 87ba6b18baf3a0045b7b96347dc9645f, type: 3}
     moduleIndex: 0
-    localOffset: {x: -0.16, y: 0, z: -0.16}
+    localOffset: {x: -0.15, y: 0, z: -0.45}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Driver-MountingClip-R
   - partPrefab: {fileID: 1407218811134833108, guid: 63598e4a904cacc4f916e1db9d665f70, type: 3}
     moduleIndex: 1
-    localOffset: {x: 0.04, y: 0, z: 0.16}
+    localOffset: {x: 0.1, y: 0, z: 0.3}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv1-RightHousing
   - partPrefab: {fileID: 700210531292516062, guid: 0d82837042c45cb4b9ff9013023ab779, type: 3}
     moduleIndex: 1
-    localOffset: {x: 0.04, y: 0, z: 0.08}
+    localOffset: {x: 0.1, y: 0, z: 0.15}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv1-LeftHousing
   - partPrefab: {fileID: 8786071707638474187, guid: aba6363235722e44a86aab8012c5759e, type: 3}
     moduleIndex: 1
-    localOffset: {x: 0.04, y: 0, z: 0}
+    localOffset: {x: 0.1, y: 0, z: 0}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv1-InterlockingDriveRing
   - partPrefab: {fileID: 6593282631123723673, guid: 95aadcaf87f2ba843bc2035c7255fa32, type: 3}
     moduleIndex: 1
-    localOffset: {x: 0.04, y: 0, z: -0.08}
+    localOffset: {x: 0.1, y: 0, z: -0.15}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv1-ContactCover
   - partPrefab: {fileID: 8236495877236304634, guid: a27a8d467227bf94bbedae88cbd1e5c7, type: 3}
     moduleIndex: 1
-    localOffset: {x: 0.12, y: 0, z: 0.16}
+    localOffset: {x: 0.25, y: 0, z: 0.3}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv1-ContactWindow
   - partPrefab: {fileID: 4443386816463180234, guid: 0674077cf6e401c4296677563a556a55, type: 3}
     moduleIndex: 1
-    localOffset: {x: 0.12, y: 0, z: 0.08}
+    localOffset: {x: 0.25, y: 0, z: 0.15}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv1-TerminalLug-Left
   - partPrefab: {fileID: 4443386816463180234, guid: 0674077cf6e401c4296677563a556a55, type: 3}
     moduleIndex: 1
-    localOffset: {x: 0.12, y: 0, z: 0}
+    localOffset: {x: 0.25, y: 0, z: 0}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv1-TerminalLug-Right
   - partPrefab: {fileID: 1407218811134833108, guid: 63598e4a904cacc4f916e1db9d665f70, type: 3}
     moduleIndex: 2
-    localOffset: {x: 0.2, y: 0, z: 0.16}
+    localOffset: {x: 0.4, y: 0, z: 0.3}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv2-RightHousing
   - partPrefab: {fileID: 700210531292516062, guid: 0d82837042c45cb4b9ff9013023ab779, type: 3}
     moduleIndex: 2
-    localOffset: {x: 0.2, y: 0, z: 0.08}
+    localOffset: {x: 0.4, y: 0, z: 0.15}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv2-LeftHousing
   - partPrefab: {fileID: 8786071707638474187, guid: aba6363235722e44a86aab8012c5759e, type: 3}
     moduleIndex: 2
-    localOffset: {x: 0.2, y: 0, z: 0}
+    localOffset: {x: 0.4, y: 0, z: 0}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv2-InterlockingDriveRing
   - partPrefab: {fileID: 6593282631123723673, guid: 95aadcaf87f2ba843bc2035c7255fa32, type: 3}
     moduleIndex: 2
-    localOffset: {x: 0.2, y: 0, z: -0.08}
+    localOffset: {x: 0.4, y: 0, z: -0.15}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv2-ContactCover
   - partPrefab: {fileID: 8236495877236304634, guid: a27a8d467227bf94bbedae88cbd1e5c7, type: 3}
     moduleIndex: 2
-    localOffset: {x: 0.28, y: 0, z: 0.16}
+    localOffset: {x: 0.55, y: 0, z: 0.3}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv2-ContactWindow
   - partPrefab: {fileID: 4443386816463180234, guid: 0674077cf6e401c4296677563a556a55, type: 3}
     moduleIndex: 2
-    localOffset: {x: 0.28, y: 0, z: 0.08}
+    localOffset: {x: 0.55, y: 0, z: 0.15}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv2-TerminalLug-Left
   - partPrefab: {fileID: 4443386816463180234, guid: 0674077cf6e401c4296677563a556a55, type: 3}
     moduleIndex: 2
-    localOffset: {x: 0.28, y: 0, z: 0}
+    localOffset: {x: 0.55, y: 0, z: 0}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv2-TerminalLug-Right
   - partPrefab: {fileID: 1407218811134833108, guid: 63598e4a904cacc4f916e1db9d665f70, type: 3}
     moduleIndex: 3
-    localOffset: {x: 0.36, y: 0, z: 0.16}
+    localOffset: {x: 0.7, y: 0, z: 0.3}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv3-RightHousing
   - partPrefab: {fileID: 700210531292516062, guid: 0d82837042c45cb4b9ff9013023ab779, type: 3}
     moduleIndex: 3
-    localOffset: {x: 0.36, y: 0, z: 0.08}
+    localOffset: {x: 0.7, y: 0, z: 0.15}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv3-LeftHousing
   - partPrefab: {fileID: 8786071707638474187, guid: aba6363235722e44a86aab8012c5759e, type: 3}
     moduleIndex: 3
-    localOffset: {x: 0.36, y: 0, z: 0}
+    localOffset: {x: 0.7, y: 0, z: 0}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv3-InterlockingDriveRing
   - partPrefab: {fileID: 6593282631123723673, guid: 95aadcaf87f2ba843bc2035c7255fa32, type: 3}
     moduleIndex: 3
-    localOffset: {x: 0.36, y: 0, z: -0.08}
+    localOffset: {x: 0.7, y: 0, z: -0.15}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv3-ContactCover
   - partPrefab: {fileID: 8236495877236304634, guid: a27a8d467227bf94bbedae88cbd1e5c7, type: 3}
     moduleIndex: 3
-    localOffset: {x: 0.44, y: 0, z: 0.16}
+    localOffset: {x: 0.85, y: 0, z: 0.3}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv3-ContactWindow
   - partPrefab: {fileID: 4443386816463180234, guid: 0674077cf6e401c4296677563a556a55, type: 3}
     moduleIndex: 3
-    localOffset: {x: 0.44, y: 0, z: 0.08}
+    localOffset: {x: 0.85, y: 0, z: 0.15}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv3-TerminalLug-Left
   - partPrefab: {fileID: 4443386816463180234, guid: 0674077cf6e401c4296677563a556a55, type: 3}
     moduleIndex: 3
-    localOffset: {x: 0.44, y: 0, z: 0}
+    localOffset: {x: 0.85, y: 0, z: 0}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv3-TerminalLug-Right
   - partPrefab: {fileID: 2887783483993356020, guid: 2c0e09424b52240429bfa5ff33894296, type: 3}
     moduleIndex: 3
-    localOffset: {x: 0.44, y: 0, z: -0.08}
+    localOffset: {x: 0.85, y: 0, z: -0.15}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv3-ExternalFastener-L
+  - partPrefab: {fileID: 695310394337450082, guid: 06295963f88a09d4ab666622e9cf58b9, type: 3}
+    moduleIndex: 3
+    localOffset: {x: 0.7, y: 0, z: -0.45}
+    localRotation: {x: 0, y: 0, z: 0}
+    groupLabel: Recv3-MountingClip-R
   - partPrefab: {fileID: 2887783483993356020, guid: 2c0e09424b52240429bfa5ff33894296, type: 3}
     moduleIndex: 3
-    localOffset: {x: 0.44, y: 0, z: -0.16}
+    localOffset: {x: 0.85, y: 0, z: -0.3}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv3-ExternalFastener-R
   - partPrefab: {fileID: 695310394337450082, guid: 06295963f88a09d4ab666622e9cf58b9, type: 3}
     moduleIndex: 3
-    localOffset: {x: 0.36, y: 0, z: -0.16}
+    localOffset: {x: 0.7, y: 0, z: -0.3}
     localRotation: {x: 0, y: 0, z: 0}
     groupLabel: Recv3-MountingClip-L
-  - partPrefab: {fileID: 695310394337450082, guid: 06295963f88a09d4ab666622e9cf58b9, type: 3}
-    moduleIndex: 3
-    localOffset: {x: 0.36, y: 0, z: -0.24}
-    localRotation: {x: 0, y: 0, z: 0}
-    groupLabel: Recv3-MountingClip-R
   - partPrefab: {fileID: 491895599481013986, guid: 81a1ed0d326ac4a47824a5ec1db05f46, type: 3}
     moduleIndex: -1
-    localOffset: {x: 0, y: 0, z: -0.28}
+    localOffset: {x: 0, y: 0, z: -0.6}
     localRotation: {x: 0, y: 90, z: 0}
     groupLabel: Global-ModularRod-A
   - partPrefab: {fileID: 491895599481013986, guid: 81a1ed0d326ac4a47824a5ec1db05f46, type: 3}
     moduleIndex: -1
-    localOffset: {x: 0.08, y: 0, z: -0.28}
+    localOffset: {x: 0.15, y: 0, z: -0.6}
     localRotation: {x: 0, y: 90, z: 0}
     groupLabel: Global-ModularRod-B
