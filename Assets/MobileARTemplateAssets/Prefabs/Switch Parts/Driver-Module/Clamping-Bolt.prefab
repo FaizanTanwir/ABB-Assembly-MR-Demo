@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7383748265211862526
+--- !u!1 &335176978171332502
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,13 +8,13 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7735972074984461034}
-  - component: {fileID: 2677875968782135479}
-  - component: {fileID: 6463214710161389399}
-  - component: {fileID: 7074870941411933337}
-  - component: {fileID: 6407755277711338044}
-  - component: {fileID: 4235733896887441917}
-  - component: {fileID: 3496513251633876960}
+  - component: {fileID: 3506478675492532161}
+  - component: {fileID: 7772259388831728259}
+  - component: {fileID: 8789535550925227775}
+  - component: {fileID: 1303126647773228662}
+  - component: {fileID: 2673919540020896800}
+  - component: {fileID: 856847016477557219}
+  - component: {fileID: 248377397196330402}
   m_Layer: 0
   m_Name: Clamping-Bolt
   m_TagString: Untagged
@@ -22,36 +22,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7735972074984461034
+--- !u!4 &3506478675492532161
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7383748265211862526}
+  m_GameObject: {fileID: 335176978171332502}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &2677875968782135479
+--- !u!33 &7772259388831728259
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7383748265211862526}
+  m_GameObject: {fileID: 335176978171332502}
   m_Mesh: {fileID: -3816940148195755506, guid: ea782911ec95b834b970042863f9ca52, type: 3}
---- !u!23 &6463214710161389399
+--- !u!23 &8789535550925227775
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7383748265211862526}
+  m_GameObject: {fileID: 335176978171332502}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -94,13 +94,13 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &7074870941411933337
+--- !u!136 &1303126647773228662
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7383748265211862526}
+  m_GameObject: {fileID: 335176978171332502}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -117,13 +117,13 @@ CapsuleCollider:
   m_Height: 0.065
   m_Direction: 0
   m_Center: {x: -0.69526815, y: 1.291182, z: 0.76600206}
---- !u!54 &6407755277711338044
+--- !u!54 &2673919540020896800
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7383748265211862526}
+  m_GameObject: {fileID: 335176978171332502}
   serializedVersion: 5
   m_Mass: 0.01
   m_LinearDamping: 0
@@ -144,13 +144,13 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!114 &4235733896887441917
+--- !u!114 &856847016477557219
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7383748265211862526}
+  m_GameObject: {fileID: 335176978171332502}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable
   m_InteractionManager: {fileID: 0}
   m_Colliders:
-  - {fileID: 7074870941411933337}
+  - {fileID: 1303126647773228662}
   m_InteractionLayers:
     m_Bits: 1
   m_DistanceCalculationMode: 1
@@ -274,13 +274,13 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
---- !u!114 &3496513251633876960
+--- !u!114 &248377397196330402
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7383748265211862526}
+  m_GameObject: {fileID: 335176978171332502}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c9ed889dc5bfdd498f98c54b5fb0dc6, type: 3}
