@@ -44,6 +44,8 @@ public class AssemblyManager : MonoBehaviour
         }
         
         CheckAssemblyComplete();
+
+        FindFirstObjectByType<AssemblyHintSystem>()?.RefreshHints();
     }
     
     public void EvaluateZone(AssemblySnapZone zone)

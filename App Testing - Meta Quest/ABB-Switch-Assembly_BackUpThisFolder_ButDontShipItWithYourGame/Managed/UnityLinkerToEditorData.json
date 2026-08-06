@@ -1047,6 +1047,14 @@
             "icon": null
           },
           {
+            "name": "PhysicsMaterial",
+            "scenes": [
+              "Assets/Scenes/MR-SampleScene.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Rigidbody",
             "scenes": [
               "Assets/Scenes/MR-SampleScene.unity"

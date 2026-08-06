@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class SwitchPart : MonoBehaviour
 {
@@ -33,29 +35,56 @@ public class SwitchPart : MonoBehaviour
             }
         }
     }
-    
+
+    void OnEnable()
+    {
+        var interactable = GetComponent<XRGrabInteractable>();
+        if (interactable != null)
+        {
+            interactable.hoverEntered.AddListener(OnHoverEntered);
+            interactable.hoverExited.AddListener(OnHoverExited);
+        }
+    }
+
+    void OnDisable()
+    {
+        var interactable = GetComponent<XRGrabInteractable>();
+        if (interactable != null)
+        {
+            interactable.hoverEntered.RemoveListener(OnHoverEntered);
+            interactable.hoverExited.RemoveListener(OnHoverExited);
+        }
+    }
+
+    private void OnHoverEntered(HoverEnterEventArgs args)
+    {
+        PartLabelDisplay display = FindFirstObjectByType<PartLabelDisplay>();
+        display?.ShowLabel(this, transform.position);
+    }
+
+    private void OnHoverExited(HoverExitEventArgs args)
+    {
+        PartLabelDisplay display = FindFirstObjectByType<PartLabelDisplay>();
+        display?.ShowLabel(null, Vector3.zero);
+    }
+
     public void SetHighlight(HighlightState state)
     {
-        Color color;
-        switch (state)
+        if (state == HighlightState.None)
         {
-            case HighlightState.Valid:
-                color = new Color(0.2f, 0.5f, 1f, 0.8f); // Blue
-                break;
-            case HighlightState.Invalid:
-                color = new Color(1f, 0.2f, 0.2f, 0.8f); // Red
-                break;
-            case HighlightState.None:
-            default:
-                RestoreOriginalColors();
-                return;
+            RestoreOriginalColors();
+            return;
         }
-        
-        for (int i = 0; i < _renderers.Length; i++)
+
+        Color color = state == HighlightState.Valid
+            ? new Color(0.2f, 0.5f, 1f, 0.8f) // Blue
+            : new Color(1f, 0.2f, 0.2f, 0.8f); // Red
+
+        foreach (var r in _renderers)
         {
-            _renderers[i].GetPropertyBlock(_propBlock);
+            r.GetPropertyBlock(_propBlock);
             _propBlock.SetColor("_BaseColor", color);
-            _renderers[i].SetPropertyBlock(_propBlock);
+            r.SetPropertyBlock(_propBlock);
         }
     }
     

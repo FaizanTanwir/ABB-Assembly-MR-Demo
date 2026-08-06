@@ -199,6 +199,7 @@ public class SwitchSpawnerMR : MonoBehaviour
         }
 
         AssemblyManager.Instance.enabled = true;
+        StartCoroutine(RefreshHintsAfterDelay());
     }
 
     public void ResetAssembly()
@@ -211,5 +212,11 @@ public class SwitchSpawnerMR : MonoBehaviour
         _spawned = false;
 
         AssemblyManager.Instance.ResetAllZones();
+    }
+
+    private System.Collections.IEnumerator RefreshHintsAfterDelay()
+    {
+        yield return new WaitForSeconds(0.5f);
+        FindFirstObjectByType<AssemblyHintSystem>()?.RefreshHints();
     }
 }
