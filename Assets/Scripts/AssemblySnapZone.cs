@@ -9,6 +9,9 @@ public class AssemblySnapZone : MonoBehaviour
     public SwitchPartType acceptedPartType;
     public int acceptedModuleIndex;
     public bool ignoreModuleIndex = false;
+
+    [Header("Visual Guide — assign the corresponding VisualSnapGuide GameObject")]
+    public VisualSnapGuide visualGuide;
     
     [Header("AND Prerequisites — ALL must be satisfied")]
     public List<string> prerequisiteZoneIds;
@@ -53,7 +56,7 @@ public class AssemblySnapZone : MonoBehaviour
     {
         if (part == null) return false;
         bool typeMatches = part.partType == acceptedPartType;
-        bool moduleMatches = ignoreModuleIndex || (part.moduleIndex == acceptedModuleIndex);
+        bool moduleMatches = ignoreModuleIndex || part.moduleIndex == acceptedModuleIndex;
         return typeMatches && moduleMatches;
     }
     
@@ -62,11 +65,21 @@ public class AssemblySnapZone : MonoBehaviour
         isActive = active;
         _socket.socketActive = active;
         
+        // if (_zoneRenderer != null)
+        // {
+        //     _zoneRenderer.enabled = active; // Hide zone visualization when inactive
+        //     SetZoneColor(active ? ReadyColor : InactiveColor);
+        // }
+
+        // The zone's own renderer at 0,0,0 is always hidden — visual guide does the work
         if (_zoneRenderer != null)
-        {
-            _zoneRenderer.enabled = active; // Hide zone visualization when inactive
-            SetZoneColor(active ? ReadyColor : InactiveColor);
-        }
+            _zoneRenderer.enabled = false;
+
+        // Update the visual guide
+        if (visualGuide != null)
+            visualGuide.SetState(active
+                ? VisualSnapGuide.GuideState.Ready
+                : VisualSnapGuide.GuideState.Inactive);
     }
     
     private void OnHoverEntered(HoverEnterEventArgs args)
@@ -77,13 +90,15 @@ public class AssemblySnapZone : MonoBehaviour
         SwitchPart part = args.interactableObject.transform.GetComponent<SwitchPart>();
         if (part == null) return;
         
-        bool valid = IsCorrectPart(part);
-        
-        // Highlight the part
-        part.SetHighlight(valid ? HighlightState.Valid : HighlightState.Invalid);
-        
-        // Highlight the zone itself
-        SetZoneColor(valid ? HoverValidColor : HoverInvalidColor);
+        // Only respond to correct part type — wrong-type zones stay silent
+        if (!IsCorrectPart(part)) return;
+
+        // Turn part blue
+        part.SetHighlight(HighlightState.Valid);
+
+        // Turn visual guide bright green while hovering
+        if (visualGuide != null)
+            visualGuide.SetState(VisualSnapGuide.GuideState.HoverValid);
     }
     
     private void OnHoverExited(HoverExitEventArgs args)
@@ -91,7 +106,9 @@ public class AssemblySnapZone : MonoBehaviour
         SwitchPart part = args.interactableObject.transform.GetComponent<SwitchPart>();
         if (part != null) part.SetHighlight(HighlightState.None);
         
-        SetZoneColor(isActive ? ReadyColor : InactiveColor);
+        // Return guide to ready state (blue) after hover ends
+        if (visualGuide != null && isActive && !isSatisfied)
+            visualGuide.SetState(VisualSnapGuide.GuideState.Ready);
     }
     
     private void OnSelectEntered(SelectEnterEventArgs args)
@@ -101,7 +118,8 @@ public class AssemblySnapZone : MonoBehaviour
         if (part == null || !IsCorrectPart(part))
         {
             // Wrong part forced in — eject it
-            _socket.interactionManager.SelectExit(_socket, 
+            _socket.interactionManager.SelectExit(
+                _socket, 
                 (UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable)args.interactableObject);
             part?.SetHighlight(HighlightState.Invalid);
             return;
@@ -111,8 +129,12 @@ public class AssemblySnapZone : MonoBehaviour
         isSatisfied = true;
         part.SetHighlight(HighlightState.None);
         part.GetComponent<Rigidbody>().isKinematic = true; // Lock it in place
-        SetZoneColor(SatisfiedColor);
+        // SetZoneColor(SatisfiedColor);
         
+        // Mark visual guide as satisfied (faint green, stays visible as confirmation)
+        if (visualGuide != null)
+            visualGuide.SetState(VisualSnapGuide.GuideState.Satisfied);
+
         // Notify the AssemblyManager to check if new zones should unlock
         AssemblyManager.Instance.OnZoneSatisfied(zoneId);
 
@@ -123,13 +145,5 @@ public class AssemblySnapZone : MonoBehaviour
             if (childZone != null)
                 AssemblyManager.Instance.EvaluateZone(childZone);
         }
-    }
-    
-    private void SetZoneColor(Color color)
-    {
-        if (_zoneRenderer == null) return;
-        _zoneRenderer.GetPropertyBlock(_propBlock);
-        _propBlock.SetColor("_BaseColor", color);
-        _zoneRenderer.SetPropertyBlock(_propBlock);
     }
 }

@@ -433,6 +433,7 @@ struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
 struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E;
 struct Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432;
 struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+struct VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB52062E457BD1B7;
 struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3;
@@ -460,7 +461,7 @@ struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 struct ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24;
 struct SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555;
 struct PartSpawnEntry_tA885B23FC435E9E29B8867440A27E28D46AE5008;
-struct U3CRefreshHintsAfterDelayU3Ed__18_tDF64FC9FF3A25738387F868A8372CDFF6247CB2B;
+struct U3CRefreshHintsAfterDelayU3Ed__19_t86619983F6BE42F4ECC559CDA7651F8B4F31DF12;
 struct MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6;
 
 IL2CPP_EXTERN_C RuntimeClass* Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var;
@@ -506,7 +507,7 @@ IL2CPP_EXTERN_C RuntimeClass* SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB8
 IL2CPP_EXTERN_C RuntimeClass* SwitchSpawner_t74B0FB3D43113A1521ACFF103BF5D6EAA534D6A2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CRefreshHintsAfterDelayU3Ed__18_tDF64FC9FF3A25738387F868A8372CDFF6247CB2B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CRefreshHintsAfterDelayU3Ed__19_t86619983F6BE42F4ECC559CDA7651F8B4F31DF12_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass9_0_tB171460B1584D508D6132D166A7B3905636BD529_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t779473AC5693BB70AECC73402341ED16EF8BE1C0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t7CAAD2752E540B804904F5E12EE7D4A02639DF89_il2cpp_TypeInfo_var;
@@ -518,10 +519,11 @@ IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____4E6883D5B04B2424DB858941EDA67C0E42DC740CC60A3B8F9560DCD44CB065A0_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____8368043B2B24DB353F80D9A7108920337913C478BC0C007FFD8468F9577FE223_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____5E56F282BC47187047FE668C9B47A61385D37D3A3DA7715EBFAE316934E399BE_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____AAC0F0E3DA09673562EFF7EB55F7D97CB81756BA646C6137092DD5521AEF6D45_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral035724FB6B26721761DCF3E1F3816792E1B2289E;
 IL2CPP_EXTERN_C String_t* _stringLiteral097F37F3ED2CFD2A42AD5A1A9DB967264145EEB3;
 IL2CPP_EXTERN_C String_t* _stringLiteral0AC2E5E93A066BF6EC2562D799CBF6081DD32508;
@@ -681,7 +683,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* TweenableVariableAsyncBase_1_Dispose_m8302D
 IL2CPP_EXTERN_C const RuntimeMethod* TweenableVariableAsyncBase_1_get_Value_m5DAFDAB70CA05D176B1C3158F7485F8162F3E8FC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TweenableVariableBase_1_HandleTween_m46B71286EECBE0E3F279B742875CE8EF4D068791_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TweenableVariableBase_1_set_target_m353B619618455D8C59D23B5D02D69EFB492AAA59_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CRefreshHintsAfterDelayU3Ed__18_System_Collections_IEnumerator_Reset_mA37C8018D3F3A5E15F0BF299FFBA31B716135386_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CRefreshHintsAfterDelayU3Ed__19_System_Collections_IEnumerator_Reset_m79FEEF2AAEEF2646FA7E5B6261C797BA7DB09292_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CCheckAssemblyCompleteU3Eb__10_0_m052385FD41AC9B644851F773B88A1B1875ECCB96_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CCheckAssemblyCompleteU3Eb__10_1_m03C407BDFBE7329E35CB92FB59BF571E241CD628_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CRefreshHintsU3Eb__4_0_m024C3D3F6FEA1C0D9ACD516B8D438F3CA21E2FCD_RuntimeMethod_var;
@@ -925,7 +927,7 @@ struct Step_tDA95386D8B883218C1F37F75FCA9DAF8A6934E52  : public RuntimeObject
 	String_t* ___buttonText;
 	bool ___includeSkipButton;
 };
-struct U3CRefreshHintsAfterDelayU3Ed__18_tDF64FC9FF3A25738387F868A8372CDFF6247CB2B  : public RuntimeObject
+struct U3CRefreshHintsAfterDelayU3Ed__19_t86619983F6BE42F4ECC559CDA7651F8B4F31DF12  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -1445,7 +1447,7 @@ struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : 
 	float ___m_Seconds;
 };
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D599_t56C31538DBB2E0A82D4FE28D9554337C125E09AF 
+struct __StaticArrayInitTypeSizeU3D620_t6C15E13BADD7F78A0868AF7059A789B0CE8EDCEE 
 {
 	union
 	{
@@ -1455,12 +1457,12 @@ struct __StaticArrayInitTypeSizeU3D599_t56C31538DBB2E0A82D4FE28D9554337C125E09AF
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D599_t56C31538DBB2E0A82D4FE28D9554337C125E09AF__padding[599];
+		uint8_t __StaticArrayInitTypeSizeU3D620_t6C15E13BADD7F78A0868AF7059A789B0CE8EDCEE__padding[620];
 	};
 };
 #pragma pack(pop, tp)
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D838_t2CF82C3D3A58B15128B27173C9776907B1844304 
+struct __StaticArrayInitTypeSizeU3D880_tB3B06A00DD2F3E6D7F0881359DFDC7AD44B1C277 
 {
 	union
 	{
@@ -1470,7 +1472,7 @@ struct __StaticArrayInitTypeSizeU3D838_t2CF82C3D3A58B15128B27173C9776907B1844304
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D838_t2CF82C3D3A58B15128B27173C9776907B1844304__padding[838];
+		uint8_t __StaticArrayInitTypeSizeU3D880_tB3B06A00DD2F3E6D7F0881359DFDC7AD44B1C277__padding[880];
 	};
 };
 #pragma pack(pop, tp)
@@ -2185,6 +2187,10 @@ struct PartSpawnEntry_tA885B23FC435E9E29B8867440A27E28D46AE5008  : public Runtim
 	String_t* ___groupLabel;
 };
 struct TextInputSources_t41387D6C9CB16E60390F47A15AEB8185BE966D26 
+{
+	int32_t ___value__;
+};
+struct GuideState_tA2F5523768DF112F9C875DBA4A518EC57523BB23 
 {
 	int32_t ___value__;
 };
@@ -3532,6 +3538,7 @@ struct AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8  : public Mono
 	int32_t ___acceptedPartType;
 	int32_t ___acceptedModuleIndex;
 	bool ___ignoreModuleIndex;
+	VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* ___visualGuide;
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___prerequisiteZoneIds;
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___orPrerequisiteZoneIds;
 	bool ___isOptional;
@@ -3636,6 +3643,7 @@ struct SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05  : public MonoB
 {
 	SwitchSpawnLayout_t9EEFA6C1A0FC45EB13D3CEC1D34E903432D7604E* ___layout;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___snapZonesRoot;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___visualGuidesRoot;
 	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___spawnAction;
 	float ___fallbackSpawnDistance;
 	float ___fallbackYOffset;
@@ -3666,6 +3674,12 @@ struct Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432  : public InputC
 {
 	AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___U3CxU3Ek__BackingField;
 	AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___U3CyU3Ek__BackingField;
+};
+struct VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ___linkedZoneId;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ____renderer;
+	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* ____propBlock;
 };
 struct XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -4450,8 +4464,8 @@ struct ReadOnlyList_1_t11A7E2B2381E52652C09E41FC8CEBB0675A2E801_StaticFields
 };
 struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D599_t56C31538DBB2E0A82D4FE28D9554337C125E09AF ___4E6883D5B04B2424DB858941EDA67C0E42DC740CC60A3B8F9560DCD44CB065A0;
-	__StaticArrayInitTypeSizeU3D838_t2CF82C3D3A58B15128B27173C9776907B1844304 ___8368043B2B24DB353F80D9A7108920337913C478BC0C007FFD8468F9577FE223;
+	__StaticArrayInitTypeSizeU3D620_t6C15E13BADD7F78A0868AF7059A789B0CE8EDCEE ___5E56F282BC47187047FE668C9B47A61385D37D3A3DA7715EBFAE316934E399BE;
+	__StaticArrayInitTypeSizeU3D880_tB3B06A00DD2F3E6D7F0881359DFDC7AD44B1C277 ___AAC0F0E3DA09673562EFF7EB55F7D97CB81756BA646C6137092DD5521AEF6D45;
 };
 struct String_t_StaticFields
 {
@@ -4572,6 +4586,13 @@ struct SwitchSpawner_t74B0FB3D43113A1521ACFF103BF5D6EAA534D6A2_StaticFields
 struct SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05_StaticFields
 {
 	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ____arHits;
+};
+struct VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_StaticFields
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___InactiveColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___ReadyColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___HoverColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___SatisfiedColor;
 };
 struct XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4_StaticFields
 {
@@ -5254,7 +5275,7 @@ inline void UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2 (
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSocketInteractor_set_socketActive_mE981DDB5F5FC62108A0BB65676AAF946DED5DE57 (XRSocketInteractor_tD9A9BBE8C2E7A2FF635641E857D93383388BCEDE* __this, bool ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, bool ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone_SetZoneColor_m20AAA8CBBA7CF5089C4400CAE4C7E78EFCA9DC03 (AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_color, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualSnapGuide_SetState_m0F933414AC1549B2809B4F60288D867DC831E8E0 (VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* __this, int32_t ___0_state, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HoverEnterEventArgs_get_interactableObject_m62A4C0C6E6587F019618B675201AE325F8144B75 (HoverEnterEventArgs_t4BCFA6BFD8D007CEE2D72D9D61DAED6C72F8CE2E* __this, const RuntimeMethod* method) ;
 inline SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* Component_GetComponent_TisSwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_mA70B7FA079356016846F4CE43E8571C58C3D5C0F (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -5380,7 +5401,7 @@ inline void List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_inline (List_
 	((  void (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, const RuntimeMethod*))List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyManager_ResetAllZones_mC1E567153C960AB629051CF9E6E082FC3B0F2CC9 (AssemblyManager_tE1D118B98389763192B5C8D198FDB4AB3F9EF2AA* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRefreshHintsAfterDelayU3Ed__18__ctor_m49F6308AE3F81A6895006B12F45AAF810971EB1C (U3CRefreshHintsAfterDelayU3Ed__18_tDF64FC9FF3A25738387F868A8372CDFF6247CB2B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRefreshHintsAfterDelayU3Ed__19__ctor_m9CAC491214AABCEB85FA2D86FC74637BABD28ADF (U3CRefreshHintsAfterDelayU3Ed__19_t86619983F6BE42F4ECC559CDA7651F8B4F31DF12* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 inline void List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, const RuntimeMethod* method)
 {
 	((  void (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
@@ -5437,6 +5458,7 @@ inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 InputControl_1_ReadValu
 	return ((  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 (*) (InputControl_1_tC164085710F2FAA9161295C9B7FE273AF893CF66*, const RuntimeMethod*))InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541_gshared)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawner_SpawnAllParts_m99A8685C58B8EAD589A62243220B7212BFBA2CB5 (SwitchSpawner_t74B0FB3D43113A1521ACFF103BF5D6EAA534D6A2* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_tablePose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualSnapGuide_Apply_mFDDA31B7958C0DE585D60F224FDE50E853840003 (VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_color, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_Rotate_m2A308205498AFEEA3DF784B1C86E4F7C126CA2EE (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_eulers, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
@@ -7624,24 +7646,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone_Awake_m565A2A6EC52F4A6B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:39>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:42>
 		XRSocketInteractor_tD9A9BBE8C2E7A2FF635641E857D93383388BCEDE* L_0;
 		L_0 = Component_GetComponent_TisXRSocketInteractor_tD9A9BBE8C2E7A2FF635641E857D93383388BCEDE_m9F381FA2A01EDA420B68BCDC18284E7BF2202F5E(__this, Component_GetComponent_TisXRSocketInteractor_tD9A9BBE8C2E7A2FF635641E857D93383388BCEDE_m9F381FA2A01EDA420B68BCDC18284E7BF2202F5E_RuntimeMethod_var);
 		__this->____socket = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____socket), (void*)L_0);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:40>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:43>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_1;
 		L_1 = Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8(__this, Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8_RuntimeMethod_var);
 		__this->____zoneRenderer = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____zoneRenderer), (void*)L_1);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:41>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:44>
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_2 = (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D*)il2cpp_codegen_object_new(MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var);
 		MaterialPropertyBlock__ctor_m14C3432585F7BB65028BCD64A0FD6607A1B490FB(L_2, NULL);
 		__this->____propBlock = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____propBlock), (void*)L_2);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:44>
-		AssemblySnapZone_SetZoneActive_m89B9E439A311F97C9DD9525C946FA11CEB0711E1(__this, (bool)0, NULL);
 		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:47>
+		AssemblySnapZone_SetZoneActive_m89B9E439A311F97C9DD9525C946FA11CEB0711E1(__this, (bool)0, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:50>
 		XRSocketInteractor_tD9A9BBE8C2E7A2FF635641E857D93383388BCEDE* L_3 = __this->____socket;
 		NullCheck(L_3);
 		HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* L_4;
@@ -7650,7 +7672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone_Awake_m565A2A6EC52F4A6B
 		UnityAction_1__ctor_m3C8E30AEA90302CA8E564E339058E839E40196F4(L_5, __this, (intptr_t)((void*)AssemblySnapZone_OnHoverEntered_m666C6A500FB5E91A5291F2B5CB65C0477FDF44AB_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		UnityEvent_1_AddListener_mAC66156659CCBF4F403AA58A3029F740AB221D8F(L_4, L_5, UnityEvent_1_AddListener_mAC66156659CCBF4F403AA58A3029F740AB221D8F_RuntimeMethod_var);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:48>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:51>
 		XRSocketInteractor_tD9A9BBE8C2E7A2FF635641E857D93383388BCEDE* L_6 = __this->____socket;
 		NullCheck(L_6);
 		HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* L_7;
@@ -7659,7 +7681,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone_Awake_m565A2A6EC52F4A6B
 		UnityAction_1__ctor_m917A650EF730B0F8CDB9227A03A45B24FB54BCF8(L_8, __this, (intptr_t)((void*)AssemblySnapZone_OnHoverExited_m7D464FA3689F9959F0839C48F840CBA78444D2C1_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
 		UnityEvent_1_AddListener_m05144EB9F3BFA975DF4C33D66491674CFDF53722(L_7, L_8, UnityEvent_1_AddListener_m05144EB9F3BFA975DF4C33D66491674CFDF53722_RuntimeMethod_var);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:49>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:52>
 		XRSocketInteractor_tD9A9BBE8C2E7A2FF635641E857D93383388BCEDE* L_9 = __this->____socket;
 		NullCheck(L_9);
 		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_10;
@@ -7668,7 +7690,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone_Awake_m565A2A6EC52F4A6B
 		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_11, __this, (intptr_t)((void*)AssemblySnapZone_OnSelectEntered_mB0557F8949006FE9B24EA212F62216935C2650AA_RuntimeMethod_var), NULL);
 		NullCheck(L_10);
 		UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2(L_10, L_11, UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:50>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:53>
 		return;
 	}
 }
@@ -7687,7 +7709,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AssemblySnapZone_IsCorrectPart_mD78BBA64
 	int32_t G_B5_0 = 0;
 	int32_t G_B5_1 = 0;
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:54>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:57>
 		SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_0 = ___0_part;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7698,18 +7720,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AssemblySnapZone_IsCorrectPart_mD78BBA64
 		}
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:54>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:57>
 		return (bool)0;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:55>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:58>
 		SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_2 = ___0_part;
 		NullCheck(L_2);
 		int32_t L_3 = L_2->___partType;
 		int32_t L_4 = __this->___acceptedPartType;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:56>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:59>
 		bool L_5 = __this->___ignoreModuleIndex;
 		if (L_5)
 		{
@@ -7737,7 +7759,7 @@ IL_0031:
 IL_0032:
 	{
 		V_0 = (bool)G_B5_0;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:57>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:60>
 		bool L_9 = V_0;
 		return (bool)((int32_t)(G_B5_1&(int32_t)L_9));
 	}
@@ -7748,74 +7770,85 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone_SetZoneActive_m89B9E439
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* G_B3_0 = NULL;
-	AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* G_B2_0 = NULL;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B4_0;
-	memset((&G_B4_0), 0, sizeof(G_B4_0));
-	AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* G_B4_1 = NULL;
+	VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* G_B5_0 = NULL;
+	VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* G_B4_0 = NULL;
+	int32_t G_B6_0 = 0;
+	VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* G_B6_1 = NULL;
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:62>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:65>
 		bool L_0 = ___0_active;
 		__this->___isActive = L_0;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:63>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:66>
 		XRSocketInteractor_tD9A9BBE8C2E7A2FF635641E857D93383388BCEDE* L_1 = __this->____socket;
 		bool L_2 = ___0_active;
 		NullCheck(L_1);
 		XRSocketInteractor_set_socketActive_mE981DDB5F5FC62108A0BB65676AAF946DED5DE57(L_1, L_2, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:65>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:75>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_3 = __this->____zoneRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
 		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_4)
 		{
-			goto IL_0042;
+			goto IL_002d;
 		}
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:67>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:76>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_5 = __this->____zoneRenderer;
-		bool L_6 = ___0_active;
 		NullCheck(L_5);
-		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_5, L_6, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:68>
-		bool L_7 = ___0_active;
-		if (L_7)
+		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_5, (bool)0, NULL);
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:79>
+		VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* L_6 = __this->___visualGuide;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
 		{
-			G_B3_0 = __this;
-			goto IL_0038;
+			goto IL_004d;
 		}
-		G_B2_0 = __this;
 	}
 	{
-		il2cpp_codegen_runtime_class_init_inline(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8 = ((AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_StaticFields*)il2cpp_codegen_static_fields_for(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var))->___InactiveColor;
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:80>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:81>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:82>
+		VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* L_8 = __this->___visualGuide;
+		bool L_9 = ___0_active;
+		if (L_9)
+		{
+			G_B5_0 = L_8;
+			goto IL_0047;
+		}
 		G_B4_0 = L_8;
-		G_B4_1 = G_B2_0;
-		goto IL_003d;
+	}
+	{
+		G_B6_0 = 0;
+		G_B6_1 = G_B4_0;
+		goto IL_0048;
 	}
 
-IL_0038:
+IL_0047:
 	{
-		il2cpp_codegen_runtime_class_init_inline(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = ((AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_StaticFields*)il2cpp_codegen_static_fields_for(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var))->___ReadyColor;
-		G_B4_0 = L_9;
-		G_B4_1 = G_B3_0;
+		G_B6_0 = 1;
+		G_B6_1 = G_B5_0;
 	}
 
-IL_003d:
+IL_0048:
 	{
-		NullCheck(G_B4_1);
-		AssemblySnapZone_SetZoneColor_m20AAA8CBBA7CF5089C4400CAE4C7E78EFCA9DC03(G_B4_1, G_B4_0, NULL);
+		NullCheck(G_B6_1);
+		VisualSnapGuide_SetState_m0F933414AC1549B2809B4F60288D867DC831E8E0(G_B6_1, G_B6_0, NULL);
 	}
 
-IL_0042:
+IL_004d:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:70>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:83>
 		return;
 	}
 }
@@ -7825,25 +7858,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone_OnHoverEntered_m666C6A5
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisSwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_mA70B7FA079356016846F4CE43E8571C58C3D5C0F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IXRInteractable_t094DA697CF40A061C2820FDE5B5838D08D7E9609_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* V_0 = NULL;
-	bool V_1 = false;
-	SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* G_B6_0 = NULL;
-	SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* G_B5_0 = NULL;
-	int32_t G_B7_0 = 0;
-	SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* G_B7_1 = NULL;
-	AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* G_B9_0 = NULL;
-	AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* G_B8_0 = NULL;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B10_0;
-	memset((&G_B10_0), 0, sizeof(G_B10_0));
-	AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* G_B10_1 = NULL;
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:74>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:87>
 		bool L_0 = __this->___isActive;
 		if (L_0)
 		{
@@ -7851,13 +7873,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone_OnHoverEntered_m666C6A5
 		}
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:74>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:87>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:77>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:90>
 		HoverEnterEventArgs_t4BCFA6BFD8D007CEE2D72D9D61DAED6C72F8CE2E* L_1 = ___0_args;
 		NullCheck(L_1);
 		RuntimeObject* L_2;
@@ -7869,7 +7891,7 @@ IL_0009:
 		SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_4;
 		L_4 = Component_GetComponent_TisSwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_mA70B7FA079356016846F4CE43E8571C58C3D5C0F(L_3, Component_GetComponent_TisSwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_mA70B7FA079356016846F4CE43E8571C58C3D5C0F_RuntimeMethod_var);
 		V_0 = L_4;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:78>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:91>
 		SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_5 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -7880,73 +7902,52 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:78>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:91>
 		return;
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:80>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:94>
 		SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_7 = V_0;
 		bool L_8;
 		L_8 = AssemblySnapZone_IsCorrectPart_mD78BBA6462EF6A342151A67360DF81B21DFB232B(__this, L_7, NULL);
-		V_1 = L_8;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:83>
+		if (L_8)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:94>
+		return;
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:97>
 		SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_9 = V_0;
-		bool L_10 = V_1;
-		if (L_10)
+		NullCheck(L_9);
+		SwitchPart_SetHighlight_mAE51CEDDEB0AAF535543467E90791AADAFC209F3(L_9, 1, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:100>
+		VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* L_10 = __this->___visualGuide;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_11)
 		{
-			G_B6_0 = L_9;
-			goto IL_0033;
+			goto IL_004f;
 		}
-		G_B5_0 = L_9;
 	}
 	{
-		G_B7_0 = 2;
-		G_B7_1 = G_B5_0;
-		goto IL_0034;
-	}
-
-IL_0033:
-	{
-		G_B7_0 = 1;
-		G_B7_1 = G_B6_0;
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:101>
+		VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* L_12 = __this->___visualGuide;
+		NullCheck(L_12);
+		VisualSnapGuide_SetState_m0F933414AC1549B2809B4F60288D867DC831E8E0(L_12, 2, NULL);
 	}
 
-IL_0034:
+IL_004f:
 	{
-		NullCheck(G_B7_1);
-		SwitchPart_SetHighlight_mAE51CEDDEB0AAF535543467E90791AADAFC209F3(G_B7_1, G_B7_0, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:86>
-		bool L_11 = V_1;
-		if (L_11)
-		{
-			G_B9_0 = __this;
-			goto IL_0044;
-		}
-		G_B8_0 = __this;
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12 = ((AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_StaticFields*)il2cpp_codegen_static_fields_for(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var))->___HoverInvalidColor;
-		G_B10_0 = L_12;
-		G_B10_1 = G_B8_0;
-		goto IL_0049;
-	}
-
-IL_0044:
-	{
-		il2cpp_codegen_runtime_class_init_inline(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13 = ((AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_StaticFields*)il2cpp_codegen_static_fields_for(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var))->___HoverValidColor;
-		G_B10_0 = L_13;
-		G_B10_1 = G_B9_0;
-	}
-
-IL_0049:
-	{
-		NullCheck(G_B10_1);
-		AssemblySnapZone_SetZoneColor_m20AAA8CBBA7CF5089C4400CAE4C7E78EFCA9DC03(G_B10_1, G_B10_0, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:87>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:102>
 		return;
 	}
 }
@@ -7956,20 +7957,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone_OnHoverExited_m7D464FA3
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisSwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_mA70B7FA079356016846F4CE43E8571C58C3D5C0F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IXRInteractable_t094DA697CF40A061C2820FDE5B5838D08D7E9609_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* V_0 = NULL;
-	AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* G_B4_0 = NULL;
-	AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* G_B3_0 = NULL;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B5_0;
-	memset((&G_B5_0), 0, sizeof(G_B5_0));
-	AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* G_B5_1 = NULL;
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:91>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:106>
 		HoverExitEventArgs_tFFBECDDAF90BF90AA3B7282FAEF1D8E5D19A5AD6* L_0 = ___0_args;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -7981,7 +7976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone_OnHoverExited_m7D464FA3
 		SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_3;
 		L_3 = Component_GetComponent_TisSwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_mA70B7FA079356016846F4CE43E8571C58C3D5C0F(L_2, Component_GetComponent_TisSwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_mA70B7FA079356016846F4CE43E8571C58C3D5C0F_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:92>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:107>
 		SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_4 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -7992,7 +7987,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone_OnHoverExited_m7D464FA3
 		}
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:92>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:107>
 		SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_6 = V_0;
 		NullCheck(L_6);
 		SwitchPart_SetHighlight_mAE51CEDDEB0AAF535543467E90791AADAFC209F3(L_6, 0, NULL);
@@ -8000,36 +7995,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone_OnHoverExited_m7D464FA3
 
 IL_0021:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:94>
-		bool L_7 = __this->___isActive;
-		if (L_7)
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:110>
+		VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* L_7 = __this->___visualGuide;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_8)
 		{
-			G_B4_0 = __this;
-			goto IL_0031;
+			goto IL_004b;
 		}
-		G_B3_0 = __this;
 	}
 	{
-		il2cpp_codegen_runtime_class_init_inline(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8 = ((AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_StaticFields*)il2cpp_codegen_static_fields_for(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var))->___InactiveColor;
-		G_B5_0 = L_8;
-		G_B5_1 = G_B3_0;
-		goto IL_0036;
+		bool L_9 = __this->___isActive;
+		if (!L_9)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		bool L_10 = __this->___isSatisfied;
+		if (L_10)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:111>
+		VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* L_11 = __this->___visualGuide;
+		NullCheck(L_11);
+		VisualSnapGuide_SetState_m0F933414AC1549B2809B4F60288D867DC831E8E0(L_11, 1, NULL);
 	}
 
-IL_0031:
+IL_004b:
 	{
-		il2cpp_codegen_runtime_class_init_inline(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = ((AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_StaticFields*)il2cpp_codegen_static_fields_for(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var))->___ReadyColor;
-		G_B5_0 = L_9;
-		G_B5_1 = G_B4_0;
-	}
-
-IL_0036:
-	{
-		NullCheck(G_B5_1);
-		AssemblySnapZone_SetZoneColor_m20AAA8CBBA7CF5089C4400CAE4C7E78EFCA9DC03(G_B5_1, G_B5_0, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:95>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:112>
 		return;
 	}
 }
@@ -8039,7 +8038,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone_OnSelectEntered_mB0557F
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_m3C3E2BFA2CFBD64F4CC1B067E55A0ACDCDF22C7A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisSwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_mA70B7FA079356016846F4CE43E8571C58C3D5C0F_RuntimeMethod_var);
@@ -8055,7 +8053,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone_OnSelectEntered_mB0557F
 	AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* V_2 = NULL;
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:100>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:117>
 		SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938* L_0 = ___0_args;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -8067,7 +8065,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone_OnSelectEntered_mB0557F
 		SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_3;
 		L_3 = Component_GetComponent_TisSwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_mA70B7FA079356016846F4CE43E8571C58C3D5C0F(L_2, Component_GetComponent_TisSwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_mA70B7FA079356016846F4CE43E8571C58C3D5C0F_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:101>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:118>
 		SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_4 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -8089,8 +8087,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone_OnSelectEntered_mB0557F
 
 IL_0023:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:104>
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:105>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:121>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:122>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:123>
 		XRSocketInteractor_tD9A9BBE8C2E7A2FF635641E857D93383388BCEDE* L_8 = __this->____socket;
 		NullCheck(L_8);
 		XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD* L_9;
@@ -8102,7 +8101,7 @@ IL_0023:
 		L_12 = SelectEnterEventArgs_get_interactableObject_m67A37BF356973E542C076FA5F6ECEA7CB494C251(L_11, NULL);
 		NullCheck(L_9);
 		VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(47, L_9, L_10, L_12);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:106>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:124>
 		SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_13 = V_0;
 		if (!L_13)
 		{
@@ -8117,65 +8116,80 @@ IL_0023:
 
 IL_0049:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:107>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:125>
 		return;
 	}
 
 IL_004a:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:111>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:129>
 		__this->___isSatisfied = (bool)1;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:112>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:130>
 		SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_15 = V_0;
 		NullCheck(L_15);
 		SwitchPart_SetHighlight_mAE51CEDDEB0AAF535543467E90791AADAFC209F3(L_15, 0, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:113>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:131>
 		SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_16 = V_0;
 		NullCheck(L_16);
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_17;
 		L_17 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(L_16, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
 		NullCheck(L_17);
 		Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED(L_17, (bool)1, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:114>
-		il2cpp_codegen_runtime_class_init_inline(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18 = ((AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_StaticFields*)il2cpp_codegen_static_fields_for(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var))->___SatisfiedColor;
-		AssemblySnapZone_SetZoneColor_m20AAA8CBBA7CF5089C4400CAE4C7E78EFCA9DC03(__this, L_18, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:117>
-		AssemblyManager_tE1D118B98389763192B5C8D198FDB4AB3F9EF2AA* L_19;
-		L_19 = AssemblyManager_get_Instance_m82AFC1DC1F78929270D98E5ED38B3976AD78B5D0_inline(NULL);
-		String_t* L_20 = __this->___zoneId;
-		NullCheck(L_19);
-		AssemblyManager_OnZoneSatisfied_m8FE5CC0BB875AD702F50501072921736512D3B7A(L_19, L_20, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:120>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
-		L_21 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:135>
+		VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* L_18 = __this->___visualGuide;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_19;
+		L_19 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_18, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_19)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:136>
+		VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* L_20 = __this->___visualGuide;
+		NullCheck(L_20);
+		VisualSnapGuide_SetState_m0F933414AC1549B2809B4F60288D867DC831E8E0(L_20, 3, NULL);
+	}
+
+IL_007e:
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:139>
+		AssemblyManager_tE1D118B98389763192B5C8D198FDB4AB3F9EF2AA* L_21;
+		L_21 = AssemblyManager_get_Instance_m82AFC1DC1F78929270D98E5ED38B3976AD78B5D0_inline(NULL);
+		String_t* L_22 = __this->___zoneId;
 		NullCheck(L_21);
-		RuntimeObject* L_22;
-		L_22 = Transform_GetEnumerator_mA7E1C882ACA0C33E284711CD09971DEA3FFEF404(L_21, NULL);
-		V_1 = L_22;
+		AssemblyManager_OnZoneSatisfied_m8FE5CC0BB875AD702F50501072921736512D3B7A(L_21, L_22, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:142>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
+		L_23 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_23);
+		RuntimeObject* L_24;
+		L_24 = Transform_GetEnumerator_mA7E1C882ACA0C33E284711CD09971DEA3FFEF404(L_23, NULL);
+		V_1 = L_24;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_00bc:
+FINALLY_00cb:
 			{
 				{
-					RuntimeObject* L_23 = V_1;
-					V_3 = ((RuntimeObject*)IsInst((RuntimeObject*)L_23, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var));
-					RuntimeObject* L_24 = V_3;
-					if (!L_24)
+					RuntimeObject* L_25 = V_1;
+					V_3 = ((RuntimeObject*)IsInst((RuntimeObject*)L_25, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var));
+					RuntimeObject* L_26 = V_3;
+					if (!L_26)
 					{
-						goto IL_00cc;
+						goto IL_00db;
 					}
 				}
 				{
-					RuntimeObject* L_25 = V_3;
-					NullCheck(L_25);
-					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_25);
+					RuntimeObject* L_27 = V_3;
+					NullCheck(L_27);
+					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_27);
 				}
 
-IL_00cc:
+IL_00db:
 				{
 					return;
 				}
@@ -8184,54 +8198,54 @@ IL_00cc:
 		try
 		{
 			{
-				goto IL_00b2_1;
+				goto IL_00c1_1;
 			}
 
-IL_008d_1:
+IL_009c_1:
 			{
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:120>
-				RuntimeObject* L_26 = V_1;
-				NullCheck(L_26);
-				RuntimeObject* L_27;
-				L_27 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_26);
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:122>
-				NullCheck(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_27, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)));
-				AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* L_28;
-				L_28 = Component_GetComponent_TisAssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_m3C3E2BFA2CFBD64F4CC1B067E55A0ACDCDF22C7A(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_27, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)), Component_GetComponent_TisAssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_m3C3E2BFA2CFBD64F4CC1B067E55A0ACDCDF22C7A_RuntimeMethod_var);
-				V_2 = L_28;
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:123>
-				AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* L_29 = V_2;
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:142>
+				RuntimeObject* L_28 = V_1;
+				NullCheck(L_28);
+				RuntimeObject* L_29;
+				L_29 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_28);
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:144>
+				NullCheck(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_29, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)));
+				AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* L_30;
+				L_30 = Component_GetComponent_TisAssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_m3C3E2BFA2CFBD64F4CC1B067E55A0ACDCDF22C7A(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_29, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)), Component_GetComponent_TisAssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_m3C3E2BFA2CFBD64F4CC1B067E55A0ACDCDF22C7A_RuntimeMethod_var);
+				V_2 = L_30;
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:145>
+				AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* L_31 = V_2;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				bool L_30;
-				L_30 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_29, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-				if (!L_30)
+				bool L_32;
+				L_32 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_31, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				if (!L_32)
 				{
-					goto IL_00b2_1;
+					goto IL_00c1_1;
 				}
 			}
 			{
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:124>
-				AssemblyManager_tE1D118B98389763192B5C8D198FDB4AB3F9EF2AA* L_31;
-				L_31 = AssemblyManager_get_Instance_m82AFC1DC1F78929270D98E5ED38B3976AD78B5D0_inline(NULL);
-				AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* L_32 = V_2;
-				NullCheck(L_31);
-				AssemblyManager_EvaluateZone_mAAA249DD730E5912C569A7BAD4F7F3418F998460(L_31, L_32, NULL);
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:146>
+				AssemblyManager_tE1D118B98389763192B5C8D198FDB4AB3F9EF2AA* L_33;
+				L_33 = AssemblyManager_get_Instance_m82AFC1DC1F78929270D98E5ED38B3976AD78B5D0_inline(NULL);
+				AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* L_34 = V_2;
+				NullCheck(L_33);
+				AssemblyManager_EvaluateZone_mAAA249DD730E5912C569A7BAD4F7F3418F998460(L_33, L_34, NULL);
 			}
 
-IL_00b2_1:
+IL_00c1_1:
 			{
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:120>
-				RuntimeObject* L_33 = V_1;
-				NullCheck(L_33);
-				bool L_34;
-				L_34 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_33);
-				if (L_34)
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:142>
+				RuntimeObject* L_35 = V_1;
+				NullCheck(L_35);
+				bool L_36;
+				L_36 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_35);
+				if (L_36)
 				{
-					goto IL_008d_1;
+					goto IL_009c_1;
 				}
 			}
 			{
-				goto IL_00cd;
+				goto IL_00dc;
 			}
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -8240,60 +8254,13 @@ IL_00b2_1:
 		}
 	}
 
-IL_00cd:
+IL_00dc:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:126>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:148>
 		return;
 	}
 }
 // Method Definition Index: 109552
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone_SetZoneColor_m20AAA8CBBA7CF5089C4400CAE4C7E78EFCA9DC03 (AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_color, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral51282E2AAC09AC6EDBC2C1C237C0183F97FEE379);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:130>
-		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = __this->____zoneRenderer;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_1;
-		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
-		{
-			goto IL_000f;
-		}
-	}
-	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:130>
-		return;
-	}
-
-IL_000f:
-	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:131>
-		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_2 = __this->____zoneRenderer;
-		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_3 = __this->____propBlock;
-		NullCheck(L_2);
-		Renderer_GetPropertyBlock_mD062F90343D70151CA060AE7EBEF2E85146A9FBA(L_2, L_3, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:132>
-		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_4 = __this->____propBlock;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5 = ___0_color;
-		NullCheck(L_4);
-		MaterialPropertyBlock_SetColor_m5B4E910B5E42518BBD0088055EB68E4A3A609DDE(L_4, _stringLiteral51282E2AAC09AC6EDBC2C1C237C0183F97FEE379, L_5, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:133>
-		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_6 = __this->____zoneRenderer;
-		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_7 = __this->____propBlock;
-		NullCheck(L_6);
-		Renderer_SetPropertyBlock_mF565698782FE54580B17CC0BFF9B0C4F0D68DF50(L_6, L_7, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:134>
-		return;
-	}
-}
-// Method Definition Index: 109553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone__ctor_m587B3AFC6E65A03162097FEC7052AF892D7384EF (AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8301,7 +8268,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone__ctor_m587B3AFC6E65A031
 		return;
 	}
 }
-// Method Definition Index: 109554
+// Method Definition Index: 109553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone__cctor_mDF712464DDCA5AFC0A2F2C440C37D1A13CF61B06 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8311,27 +8278,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone__cctor_mDF712464DDCA5AF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:31>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:34>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (0.5f), (0.5f), (0.5f), (0.300000012f), NULL);
 		((AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_StaticFields*)il2cpp_codegen_static_fields_for(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var))->___InactiveColor = L_0;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:32>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:35>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_1), (0.200000003f), (0.800000012f), (1.0f), (0.400000006f), NULL);
 		((AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_StaticFields*)il2cpp_codegen_static_fields_for(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var))->___ReadyColor = L_1;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:33>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:36>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_2), (0.100000001f), (1.0f), (0.300000012f), (0.600000024f), NULL);
 		((AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_StaticFields*)il2cpp_codegen_static_fields_for(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var))->___HoverValidColor = L_2;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:34>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:37>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_3), (1.0f), (0.200000003f), (0.100000001f), (0.600000024f), NULL);
 		((AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_StaticFields*)il2cpp_codegen_static_fields_for(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_il2cpp_TypeInfo_var))->___HoverInvalidColor = L_3;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:35>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/AssemblySnapZone.cs:38>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_4), (0.100000001f), (1.0f), (0.100000001f), (0.150000006f), NULL);
@@ -8347,7 +8314,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySnapZone__cctor_mDF712464DDCA5AF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109555
+// Method Definition Index: 109554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForcePassthrough_Start_m70D1316DD69F2480170F4C457FD12313DC238E52 (ForcePassthrough_t1BEF3696E690D380C5AED5AAB5E50BB0E76CBFC3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8396,7 +8363,7 @@ IL_0021:
 		return;
 	}
 }
-// Method Definition Index: 109556
+// Method Definition Index: 109555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForcePassthrough__ctor_mB65F04BFE2C3534F777033E97E69261F7A1BB7B9 (ForcePassthrough_t1BEF3696E690D380C5AED5AAB5E50BB0E76CBFC3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8412,7 +8379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForcePassthrough__ctor_mB65F04BFE2C3534F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109557
+// Method Definition Index: 109556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_Start_m83617E491978E9E659600C556B0CBE2F2CA0129E (SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8427,56 +8394,90 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_Start_m83617E491978E9E65
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:39>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:42>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* L_0;
 		L_0 = Object_FindFirstObjectByType_TisARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44_m98F90C26E6ABD30D89DE04D1F3AED584BF655AB1(Object_FindFirstObjectByType_TisARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44_m98F90C26E6ABD30D89DE04D1F3AED584BF655AB1_RuntimeMethod_var);
 		__this->____arRaycastManager = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____arRaycastManager), (void*)L_0);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:40>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:44>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___snapZonesRoot;
-		NullCheck(L_1);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:43>
-		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_2 = __this->___spawnAction;
-		bool L_3;
-		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_3)
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
 		{
-			goto IL_0052;
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:44>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___snapZonesRoot;
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
+	}
+
+IL_0025:
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:45>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___visualGuidesRoot;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_003f;
 		}
 	}
 	{
 		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:45>
-		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_4 = __this->___spawnAction;
-		NullCheck(L_4);
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_5;
-		L_5 = InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF(L_4, NULL);
-		NullCheck(L_5);
-		InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68(L_5, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:46>
-		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_6 = __this->___spawnAction;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___visualGuidesRoot;
 		NullCheck(L_6);
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_7;
-		L_7 = InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF(L_6, NULL);
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_8 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_8, __this, (intptr_t)((void*)SwitchSpawnerMR_OnSpawnActionPerformed_m044F2CE1ACC7F5E39FD488664A4DDEA3180D299C_RuntimeMethod_var), NULL);
-		NullCheck(L_7);
-		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_7, L_8, NULL);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
+	}
+
+IL_003f:
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:48>
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_7 = __this->___spawnAction;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_8)
+		{
+			goto IL_007a;
+		}
+	}
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:50>
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_9 = __this->___spawnAction;
+		NullCheck(L_9);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_10;
+		L_10 = InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF(L_9, NULL);
+		NullCheck(L_10);
+		InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68(L_10, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:51>
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_11 = __this->___spawnAction;
+		NullCheck(L_11);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_12;
+		L_12 = InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF(L_11, NULL);
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_13 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_13, __this, (intptr_t)((void*)SwitchSpawnerMR_OnSpawnActionPerformed_m044F2CE1ACC7F5E39FD488664A4DDEA3180D299C_RuntimeMethod_var), NULL);
+		NullCheck(L_12);
+		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_12, L_13, NULL);
 		return;
 	}
 
-IL_0052:
+IL_007a:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:50>
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:51>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:55>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:56>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral2F9BD47CCCA2D184182BB3FC48DD5954B09E8D5C, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:53>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:58>
 		return;
 	}
 }
-// Method Definition Index: 109558
+// Method Definition Index: 109557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_OnDestroy_mB0128C87BB1AF5CF238D0BB2FA0C9C413E576FD6 (SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8488,7 +8489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_OnDestroy_mB0128C87BB1AF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:57>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:62>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = __this->___spawnAction;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8499,7 +8500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_OnDestroy_mB0128C87BB1AF
 		}
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:58>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:63>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_2 = __this->___spawnAction;
 		NullCheck(L_2);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_3;
@@ -8512,15 +8513,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_OnDestroy_mB0128C87BB1AF
 
 IL_002a:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:59>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:64>
 		return;
 	}
 }
-// Method Definition Index: 109559
+// Method Definition Index: 109558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_OnSpawnActionPerformed_m044F2CE1ACC7F5E39FD488664A4DDEA3180D299C (SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_context, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:65>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:70>
 		bool L_0 = __this->____spawned;
 		if (!L_0)
 		{
@@ -8528,29 +8529,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_OnSpawnActionPerformed_m
 		}
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:65>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:70>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:66>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:71>
 		SwitchSpawnerMR_TrySpawnFromCameraForward_m9C1B4A390C185E465687ADF171FDB13221730B34(__this, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:68>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:73>
+		return;
+	}
+}
+// Method Definition Index: 109559
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_Update_mAED108C7542F55296E253F6FB804171C444F2B50 (SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:78>
+		bool L_0 = __this->____spawned;
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:78>
 		return;
 	}
 }
 // Method Definition Index: 109560
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_Update_mAED108C7542F55296E253F6FB804171C444F2B50 (SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:73>
-		bool L_0 = __this->____spawned;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:73>
-		return;
-	}
-}
-// Method Definition Index: 109561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_TrySpawnFromScreenPosition_m36476D5437009887A18F5CE226AB19EB612B3CCC (SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_screenPos, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8577,8 +8578,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_TrySpawnFromScreenPositi
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 G_B8_0;
 	memset((&G_B8_0), 0, sizeof(G_B8_0));
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:93>
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:94>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:98>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:99>
 		ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* L_0 = __this->____arRaycastManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8602,10 +8603,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_TrySpawnFromScreenPositi
 		}
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:96>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:101>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral72A560B449BD515D2ADC8C50D8109E124CA3A15D, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:97>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:102>
 		il2cpp_codegen_runtime_class_init_inline(SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05_il2cpp_TypeInfo_var);
 		List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* L_6 = ((SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05_StaticFields*)il2cpp_codegen_static_fields_for(SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05_il2cpp_TypeInfo_var))->____arHits;
 		NullCheck(L_6);
@@ -8615,17 +8616,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_TrySpawnFromScreenPositi
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_8;
 		L_8 = ARRaycastHit_get_pose_m84C13E71E21FE12CBA9AAD98DC28B1E414C9EFFD((&V_1), NULL);
 		SwitchSpawnerMR_SpawnAllParts_m4D432EA9B7BD5D9412BCE6AFA43325E8503113DC(__this, L_8, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:98>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:103>
 		return;
 	}
 
 IL_0046:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:102>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:107>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_9;
 		L_9 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		V_0 = L_9;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:103>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:108>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_10 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -8636,7 +8637,7 @@ IL_0046:
 		}
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:105>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:110>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_12 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13 = ___0_screenPos;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
@@ -8644,7 +8645,7 @@ IL_0046:
 		NullCheck(L_12);
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_15;
 		L_15 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_12, L_14, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:106>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:111>
 		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
 		bool L_16;
 		L_16 = Physics_Raycast_m839BA104A76B928A03F075C622923C6FCD2F8685(L_15, (&V_2), (5.0f), NULL);
@@ -8654,7 +8655,7 @@ IL_0046:
 		}
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:108>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:113>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_17;
 		L_17 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_2), NULL);
 		NullCheck(L_17);
@@ -8667,7 +8668,7 @@ IL_0046:
 		L_20 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralFDD9FC727347351AA62A44840D96D7D56016A9FA, L_19, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_20, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:109>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:114>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_21 = V_0;
 		NullCheck(L_21);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
@@ -8680,9 +8681,9 @@ IL_0046:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
 		L_25 = Vector3_ProjectOnPlane_m68FB895F6E9FCC45676BB8B95857D091C0D78794_inline(L_23, L_24, NULL);
 		V_3 = L_25;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:110>
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:111>
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:112>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:115>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:116>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:117>
 		float L_26;
 		L_26 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_3), NULL);
 		if ((((float)L_26) > ((float)(0.00100000005f))))
@@ -8708,7 +8709,7 @@ IL_00bd:
 IL_00c3:
 	{
 		V_4 = G_B8_0;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:113>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:118>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
 		L_30 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_2), NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_31 = V_4;
@@ -8716,19 +8717,19 @@ IL_00c3:
 		memset((&L_32), 0, sizeof(L_32));
 		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&L_32), L_30, L_31, NULL);
 		SwitchSpawnerMR_SpawnAllParts_m4D432EA9B7BD5D9412BCE6AFA43325E8503113DC(__this, L_32, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:114>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:119>
 		return;
 	}
 
 IL_00da:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:119>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:124>
 		SwitchSpawnerMR_SpawnAtFallback_mCD93EA692135CBFD7DA12A2DD18AA8708D52BD01(__this, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:120>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:125>
 		return;
 	}
 }
-// Method Definition Index: 109562
+// Method Definition Index: 109561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_TrySpawnFromCameraForward_m9C1B4A390C185E465687ADF171FDB13221730B34 (SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8757,11 +8758,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_TrySpawnFromCameraForwar
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 G_B9_0;
 	memset((&G_B9_0), 0, sizeof(G_B9_0));
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:127>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:132>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:128>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:133>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -8772,22 +8773,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_TrySpawnFromCameraForwar
 		}
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:130>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:135>
 		SwitchSpawnerMR_SpawnAtFallback_mCD93EA692135CBFD7DA12A2DD18AA8708D52BD01(__this, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:131>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:136>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:134>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:139>
 		int32_t L_3;
 		L_3 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
 		int32_t L_4;
 		L_4 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_1), ((float)il2cpp_codegen_multiply(((float)L_3), (0.5f))), ((float)il2cpp_codegen_multiply(((float)L_4), (0.5f))), NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:137>
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:138>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:142>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:143>
 		ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* L_5 = __this->____arRaycastManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -8811,10 +8812,10 @@ IL_0016:
 		}
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:140>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:145>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral0AC2E5E93A066BF6EC2562D799CBF6081DD32508, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:141>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:146>
 		il2cpp_codegen_runtime_class_init_inline(SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05_il2cpp_TypeInfo_var);
 		List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* L_11 = ((SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05_StaticFields*)il2cpp_codegen_static_fields_for(SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05_il2cpp_TypeInfo_var))->____arHits;
 		NullCheck(L_11);
@@ -8824,13 +8825,13 @@ IL_0016:
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_13;
 		L_13 = ARRaycastHit_get_pose_m84C13E71E21FE12CBA9AAD98DC28B1E414C9EFFD((&V_3), NULL);
 		SwitchSpawnerMR_SpawnAllParts_m4D432EA9B7BD5D9412BCE6AFA43325E8503113DC(__this, L_13, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:142>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:147>
 		return;
 	}
 
 IL_007b:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:146>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:151>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_14 = V_0;
 		NullCheck(L_14);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
@@ -8848,7 +8849,7 @@ IL_007b:
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_20;
 		memset((&L_20), 0, sizeof(L_20));
 		Ray__ctor_mE298992FD10A3894C38373198385F345C58BD64C_inline((&L_20), L_16, L_19, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:147>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:152>
 		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
 		bool L_21;
 		L_21 = Physics_Raycast_m839BA104A76B928A03F075C622923C6FCD2F8685(L_20, (&V_2), (3.0f), NULL);
@@ -8858,7 +8859,7 @@ IL_007b:
 		}
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:149>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:154>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_22;
 		L_22 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_2), NULL);
 		NullCheck(L_22);
@@ -8871,7 +8872,7 @@ IL_007b:
 		L_25 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral139C49E549FBCA1D91BE494FED38EE4F54E5EDB4, L_24, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_25, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:150>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:155>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_26 = V_0;
 		NullCheck(L_26);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27;
@@ -8884,9 +8885,9 @@ IL_007b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
 		L_30 = Vector3_ProjectOnPlane_m68FB895F6E9FCC45676BB8B95857D091C0D78794_inline(L_28, L_29, NULL);
 		V_4 = L_30;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:151>
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:152>
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:153>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:156>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:157>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:158>
 		float L_31;
 		L_31 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_4), NULL);
 		if ((((float)L_31) > ((float)(0.00100000005f))))
@@ -8912,7 +8913,7 @@ IL_00f0:
 IL_00f7:
 	{
 		V_5 = G_B9_0;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:154>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:159>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
 		L_35 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_2), NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_36 = V_5;
@@ -8920,19 +8921,19 @@ IL_00f7:
 		memset((&L_37), 0, sizeof(L_37));
 		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&L_37), L_35, L_36, NULL);
 		SwitchSpawnerMR_SpawnAllParts_m4D432EA9B7BD5D9412BCE6AFA43325E8503113DC(__this, L_37, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:155>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:160>
 		return;
 	}
 
 IL_010e:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:159>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:164>
 		SwitchSpawnerMR_SpawnAtFallback_mCD93EA692135CBFD7DA12A2DD18AA8708D52BD01(__this, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:160>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:165>
 		return;
 	}
 }
-// Method Definition Index: 109563
+// Method Definition Index: 109562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_SpawnAtFallback_mCD93EA692135CBFD7DA12A2DD18AA8708D52BD01 (SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8950,15 +8951,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_SpawnAtFallback_mCD93EA6
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B3_0;
 	memset((&G_B3_0), 0, sizeof(G_B3_0));
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:164>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:169>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:165>
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:166>
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:167>
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:168>
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:169>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:170>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:171>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:172>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:173>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:174>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -9009,7 +9010,7 @@ IL_0016:
 IL_0051:
 	{
 		V_1 = G_B3_0;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:171>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:176>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = L_17;
 		RuntimeObject* L_19 = Box(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var, &L_18);
@@ -9017,7 +9018,7 @@ IL_0051:
 		L_20 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralF35110081720F2065A1A04F308F90E83AB296534, L_19, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_20, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:172>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:177>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_1;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22;
 		L_22 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
@@ -9025,11 +9026,11 @@ IL_0051:
 		memset((&L_23), 0, sizeof(L_23));
 		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&L_23), L_21, L_22, NULL);
 		SwitchSpawnerMR_SpawnAllParts_m4D432EA9B7BD5D9412BCE6AFA43325E8503113DC(__this, L_23, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:173>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:178>
 		return;
 	}
 }
-// Method Definition Index: 109564
+// Method Definition Index: 109563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_SpawnAllParts_m4D432EA9B7BD5D9412BCE6AFA43325E8503113DC (SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_tablePose, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9060,44 +9061,96 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_SpawnAllParts_m4D432EA9B
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_5 = NULL;
 	SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* V_6 = NULL;
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:179>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:184>
 		__this->____spawned = (bool)1;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:181>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:187>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___snapZonesRoot;
-		NullCheck(L_0);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
-		L_1 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_0, NULL);
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2 = ___0_tablePose;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = L_2.___position;
-		NullCheck(L_1);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_1, L_3, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:182>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___snapZonesRoot;
-		NullCheck(L_4);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
-		L_5 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_4, NULL);
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_6 = ___0_tablePose;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7 = L_6.___rotation;
-		NullCheck(L_5);
-		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_5, L_7, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:183>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___snapZonesRoot;
-		NullCheck(L_8);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)1, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:185>
-		SwitchSpawnLayout_t9EEFA6C1A0FC45EB13D3CEC1D34E903432D7604E* L_9 = __this->___layout;
-		NullCheck(L_9);
-		List_1_tEFE307FED2A2AB51E53424B0078A2E78D08294CF* L_10 = L_9->___parts;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:189>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___snapZonesRoot;
+		NullCheck(L_2);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_2, NULL);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_4 = ___0_tablePose;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = L_4.___position;
+		NullCheck(L_3);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_3, L_5, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:190>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___snapZonesRoot;
+		NullCheck(L_6);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
+		L_7 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_6, NULL);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_8 = ___0_tablePose;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9 = L_8.___rotation;
+		NullCheck(L_7);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_7, L_9, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:191>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___snapZonesRoot;
 		NullCheck(L_10);
-		Enumerator_tBD9BB5B0D5B8B94B26E0C3BF6CA2689BE7CECCFF L_11;
-		L_11 = List_1_GetEnumerator_m23672262C8D34CC024A949A9A8285E9B5ECAF695(L_10, List_1_GetEnumerator_m23672262C8D34CC024A949A9A8285E9B5ECAF695_RuntimeMethod_var);
-		V_0 = L_11;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)1, NULL);
+	}
+
+IL_004d:
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:197>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___visualGuidesRoot;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_12;
+		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_12)
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:199>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___visualGuidesRoot;
+		NullCheck(L_13);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
+		L_14 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_13, NULL);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_15 = ___0_tablePose;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = L_15.___position;
+		NullCheck(L_14);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_14, L_16, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:200>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___visualGuidesRoot;
+		NullCheck(L_17);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18;
+		L_18 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_17, NULL);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_19 = ___0_tablePose;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20 = L_19.___rotation;
+		NullCheck(L_18);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_18, L_20, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:201>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___visualGuidesRoot;
+		NullCheck(L_21);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_21, (bool)1, NULL);
+	}
+
+IL_0093:
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:205>
+		SwitchSpawnLayout_t9EEFA6C1A0FC45EB13D3CEC1D34E903432D7604E* L_22 = __this->___layout;
+		NullCheck(L_22);
+		List_1_tEFE307FED2A2AB51E53424B0078A2E78D08294CF* L_23 = L_22->___parts;
+		NullCheck(L_23);
+		Enumerator_tBD9BB5B0D5B8B94B26E0C3BF6CA2689BE7CECCFF L_24;
+		L_24 = List_1_GetEnumerator_m23672262C8D34CC024A949A9A8285E9B5ECAF695(L_23, List_1_GetEnumerator_m23672262C8D34CC024A949A9A8285E9B5ECAF695_RuntimeMethod_var);
+		V_0 = L_24;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_010e:
+FINALLY_0162:
 			{
 				Enumerator_Dispose_mB30EA4836509020594CE82202C755D4A49FFB00D((&V_0), Enumerator_Dispose_mB30EA4836509020594CE82202C755D4A49FFB00D_RuntimeMethod_var);
 				return;
@@ -9106,115 +9159,115 @@ FINALLY_010e:
 		try
 		{
 			{
-				goto IL_0100_1;
+				goto IL_0154_1;
 			}
 
-IL_0055_1:
+IL_00a9_1:
 			{
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:185>
-				PartSpawnEntry_tA885B23FC435E9E29B8867440A27E28D46AE5008* L_12;
-				L_12 = Enumerator_get_Current_m8680ADC61426BC69DCE96F6A69661943339D6506_inline((&V_0), Enumerator_get_Current_m8680ADC61426BC69DCE96F6A69661943339D6506_RuntimeMethod_var);
-				V_1 = L_12;
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:187>
-				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_13 = ___0_tablePose;
-				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = L_13.___rotation;
-				PartSpawnEntry_tA885B23FC435E9E29B8867440A27E28D46AE5008* L_15 = V_1;
-				NullCheck(L_15);
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = L_15->___localOffset;
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
-				L_17 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_14, L_16, NULL);
-				V_2 = L_17;
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:188>
-				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_18 = ___0_tablePose;
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = L_18.___position;
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_2;
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
-				L_21 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_19, L_20, NULL);
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
-				L_22 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
-				L_23 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_22, (0.0500000007f), NULL);
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
-				L_24 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_21, L_23, NULL);
-				V_3 = L_24;
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:189>
-				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_25 = ___0_tablePose;
-				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26 = L_25.___rotation;
-				PartSpawnEntry_tA885B23FC435E9E29B8867440A27E28D46AE5008* L_27 = V_1;
-				NullCheck(L_27);
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = L_27->___localRotation;
-				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_29;
-				L_29 = Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline(L_28, NULL);
-				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_30;
-				L_30 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_26, L_29, NULL);
-				V_4 = L_30;
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:191>
-				PartSpawnEntry_tA885B23FC435E9E29B8867440A27E28D46AE5008* L_31 = V_1;
-				NullCheck(L_31);
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = L_31->___partPrefab;
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_3;
-				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_34 = V_4;
-				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35;
-				L_35 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_32, L_33, L_34, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
-				V_5 = L_35;
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:193>
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36 = V_5;
-				NullCheck(L_36);
-				SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_37;
-				L_37 = GameObject_GetComponent_TisSwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_m352E97D1E221FEB5DA102823193A1218036C0C1D(L_36, GameObject_GetComponent_TisSwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_m352E97D1E221FEB5DA102823193A1218036C0C1D_RuntimeMethod_var);
-				V_6 = L_37;
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:194>
-				SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_38 = V_6;
-				bool L_39;
-				L_39 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_38, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-				if (!L_39)
-				{
-					goto IL_00d8_1;
-				}
-			}
-			{
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:195>
-				SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_40 = V_6;
-				PartSpawnEntry_tA885B23FC435E9E29B8867440A27E28D46AE5008* L_41 = V_1;
-				NullCheck(L_41);
-				int32_t L_42 = L_41->___moduleIndex;
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:205>
+				PartSpawnEntry_tA885B23FC435E9E29B8867440A27E28D46AE5008* L_25;
+				L_25 = Enumerator_get_Current_m8680ADC61426BC69DCE96F6A69661943339D6506_inline((&V_0), Enumerator_get_Current_m8680ADC61426BC69DCE96F6A69661943339D6506_RuntimeMethod_var);
+				V_1 = L_25;
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:207>
+				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_26 = ___0_tablePose;
+				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_27 = L_26.___rotation;
+				PartSpawnEntry_tA885B23FC435E9E29B8867440A27E28D46AE5008* L_28 = V_1;
+				NullCheck(L_28);
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29 = L_28->___localOffset;
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
+				L_30 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_27, L_29, NULL);
+				V_2 = L_30;
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:208>
+				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_31 = ___0_tablePose;
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = L_31.___position;
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_2;
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
+				L_34 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_32, L_33, NULL);
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
+				L_35 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
+				L_36 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_35, (0.0500000007f), NULL);
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
+				L_37 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_34, L_36, NULL);
+				V_3 = L_37;
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:209>
+				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_38 = ___0_tablePose;
+				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_39 = L_38.___rotation;
+				PartSpawnEntry_tA885B23FC435E9E29B8867440A27E28D46AE5008* L_40 = V_1;
 				NullCheck(L_40);
-				L_40->___moduleIndex = L_42;
-			}
-
-IL_00d8_1:
-			{
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:197>
-				List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_43 = __this->____spawnedParts;
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_44 = V_5;
-				NullCheck(L_43);
-				List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_43, L_44, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:198>
-				PartSpawnEntry_tA885B23FC435E9E29B8867440A27E28D46AE5008* L_45 = V_1;
-				NullCheck(L_45);
-				String_t* L_46 = L_45->___groupLabel;
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47 = V_3;
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48 = L_47;
-				RuntimeObject* L_49 = Box(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var, &L_48);
-				String_t* L_50;
-				L_50 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralC7F637D266C345DE26E335D71419E9E748D0B2BC, L_46, L_49, NULL);
-				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-				Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_50, NULL);
-			}
-
-IL_0100_1:
-			{
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:185>
-				bool L_51;
-				L_51 = Enumerator_MoveNext_mA1DF9B1EFC8775C6EA04FE4D43482DE748037137((&V_0), Enumerator_MoveNext_mA1DF9B1EFC8775C6EA04FE4D43482DE748037137_RuntimeMethod_var);
-				if (L_51)
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41 = L_40->___localRotation;
+				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_42;
+				L_42 = Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline(L_41, NULL);
+				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_43;
+				L_43 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_39, L_42, NULL);
+				V_4 = L_43;
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:211>
+				PartSpawnEntry_tA885B23FC435E9E29B8867440A27E28D46AE5008* L_44 = V_1;
+				NullCheck(L_44);
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_45 = L_44->___partPrefab;
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46 = V_3;
+				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_47 = V_4;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_48;
+				L_48 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_45, L_46, L_47, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+				V_5 = L_48;
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:213>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_49 = V_5;
+				NullCheck(L_49);
+				SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_50;
+				L_50 = GameObject_GetComponent_TisSwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_m352E97D1E221FEB5DA102823193A1218036C0C1D(L_49, GameObject_GetComponent_TisSwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_m352E97D1E221FEB5DA102823193A1218036C0C1D_RuntimeMethod_var);
+				V_6 = L_50;
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:214>
+				SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_51 = V_6;
+				bool L_52;
+				L_52 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_51, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				if (!L_52)
 				{
-					goto IL_0055_1;
+					goto IL_012c_1;
 				}
 			}
 			{
-				goto IL_011c;
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:215>
+				SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* L_53 = V_6;
+				PartSpawnEntry_tA885B23FC435E9E29B8867440A27E28D46AE5008* L_54 = V_1;
+				NullCheck(L_54);
+				int32_t L_55 = L_54->___moduleIndex;
+				NullCheck(L_53);
+				L_53->___moduleIndex = L_55;
+			}
+
+IL_012c_1:
+			{
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:217>
+				List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_56 = __this->____spawnedParts;
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_57 = V_5;
+				NullCheck(L_56);
+				List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_56, L_57, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:218>
+				PartSpawnEntry_tA885B23FC435E9E29B8867440A27E28D46AE5008* L_58 = V_1;
+				NullCheck(L_58);
+				String_t* L_59 = L_58->___groupLabel;
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60 = V_3;
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61 = L_60;
+				RuntimeObject* L_62 = Box(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var, &L_61);
+				String_t* L_63;
+				L_63 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralC7F637D266C345DE26E335D71419E9E748D0B2BC, L_59, L_62, NULL);
+				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+				Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_63, NULL);
+			}
+
+IL_0154_1:
+			{
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:205>
+				bool L_64;
+				L_64 = Enumerator_MoveNext_mA1DF9B1EFC8775C6EA04FE4D43482DE748037137((&V_0), Enumerator_MoveNext_mA1DF9B1EFC8775C6EA04FE4D43482DE748037137_RuntimeMethod_var);
+				if (L_64)
+				{
+					goto IL_00a9_1;
+				}
+			}
+			{
+				goto IL_0170;
 			}
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -9223,23 +9276,23 @@ IL_0100_1:
 		}
 	}
 
-IL_011c:
+IL_0170:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:201>
-		AssemblyManager_tE1D118B98389763192B5C8D198FDB4AB3F9EF2AA* L_52;
-		L_52 = AssemblyManager_get_Instance_m82AFC1DC1F78929270D98E5ED38B3976AD78B5D0_inline(NULL);
-		NullCheck(L_52);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_52, (bool)1, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:202>
-		RuntimeObject* L_53;
-		L_53 = SwitchSpawnerMR_RefreshHintsAfterDelay_m5F0977B7EEA5C5621DB107FA9FA2D540B97F7E54(__this, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_54;
-		L_54 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_53, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:203>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:221>
+		AssemblyManager_tE1D118B98389763192B5C8D198FDB4AB3F9EF2AA* L_65;
+		L_65 = AssemblyManager_get_Instance_m82AFC1DC1F78929270D98E5ED38B3976AD78B5D0_inline(NULL);
+		NullCheck(L_65);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_65, (bool)1, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:222>
+		RuntimeObject* L_66;
+		L_66 = SwitchSpawnerMR_RefreshHintsAfterDelay_m5F0977B7EEA5C5621DB107FA9FA2D540B97F7E54(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_67;
+		L_67 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_66, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:223>
 		return;
 	}
 }
-// Method Definition Index: 109565
+// Method Definition Index: 109564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_ResetAssembly_mB3A447DBBAB5F2EAE8355F48F5CDA5E4069D7D31 (SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9256,7 +9309,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR_ResetAssembly_mB3A447DBB
 	Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:207>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:227>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->____spawnedParts;
 		NullCheck(L_0);
 		Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_1;
@@ -9281,17 +9334,17 @@ FINALLY_0025:
 
 IL_000e_1:
 			{
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:207>
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:227>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 				L_2 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_0), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:208>
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:228>
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_2, NULL);
 			}
 
 IL_001a_1:
 			{
-				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:207>
+				//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:227>
 				bool L_3;
 				L_3 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_0), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
 				if (L_3)
@@ -9311,41 +9364,75 @@ IL_001a_1:
 
 IL_0033:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:209>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:229>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_4 = __this->____spawnedParts;
 		NullCheck(L_4);
 		List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_inline(L_4, List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_RuntimeMethod_var);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:211>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:231>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___snapZonesRoot;
-		NullCheck(L_5);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:212>
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_6)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:231>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___snapZonesRoot;
+		NullCheck(L_7);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
+	}
+
+IL_0058:
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:232>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___visualGuidesRoot;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:232>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___visualGuidesRoot;
+		NullCheck(L_10);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
+	}
+
+IL_0072:
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:233>
 		__this->____spawned = (bool)0;
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:214>
-		AssemblyManager_tE1D118B98389763192B5C8D198FDB4AB3F9EF2AA* L_6;
-		L_6 = AssemblyManager_get_Instance_m82AFC1DC1F78929270D98E5ED38B3976AD78B5D0_inline(NULL);
-		NullCheck(L_6);
-		AssemblyManager_ResetAllZones_mC1E567153C960AB629051CF9E6E082FC3B0F2CC9(L_6, NULL);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:215>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:235>
+		AssemblyManager_tE1D118B98389763192B5C8D198FDB4AB3F9EF2AA* L_11;
+		L_11 = AssemblyManager_get_Instance_m82AFC1DC1F78929270D98E5ED38B3976AD78B5D0_inline(NULL);
+		NullCheck(L_11);
+		AssemblyManager_ResetAllZones_mC1E567153C960AB629051CF9E6E082FC3B0F2CC9(L_11, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:236>
 		return;
 	}
 }
-// Method Definition Index: 109566
+// Method Definition Index: 109565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SwitchSpawnerMR_RefreshHintsAfterDelay_m5F0977B7EEA5C5621DB107FA9FA2D540B97F7E54 (SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRefreshHintsAfterDelayU3Ed__18_tDF64FC9FF3A25738387F868A8372CDFF6247CB2B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRefreshHintsAfterDelayU3Ed__19_t86619983F6BE42F4ECC559CDA7651F8B4F31DF12_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CRefreshHintsAfterDelayU3Ed__18_tDF64FC9FF3A25738387F868A8372CDFF6247CB2B* L_0 = (U3CRefreshHintsAfterDelayU3Ed__18_tDF64FC9FF3A25738387F868A8372CDFF6247CB2B*)il2cpp_codegen_object_new(U3CRefreshHintsAfterDelayU3Ed__18_tDF64FC9FF3A25738387F868A8372CDFF6247CB2B_il2cpp_TypeInfo_var);
-		U3CRefreshHintsAfterDelayU3Ed__18__ctor_m49F6308AE3F81A6895006B12F45AAF810971EB1C(L_0, 0, NULL);
+		U3CRefreshHintsAfterDelayU3Ed__19_t86619983F6BE42F4ECC559CDA7651F8B4F31DF12* L_0 = (U3CRefreshHintsAfterDelayU3Ed__19_t86619983F6BE42F4ECC559CDA7651F8B4F31DF12*)il2cpp_codegen_object_new(U3CRefreshHintsAfterDelayU3Ed__19_t86619983F6BE42F4ECC559CDA7651F8B4F31DF12_il2cpp_TypeInfo_var);
+		U3CRefreshHintsAfterDelayU3Ed__19__ctor_m9CAC491214AABCEB85FA2D86FC74637BABD28ADF(L_0, 0, NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 109567
+// Method Definition Index: 109566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR__ctor_mD41A25F7E14BB5DE2FE245EFC0D80A578C65DC80 (SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9356,11 +9443,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR__ctor_mD41A25F7E14BB5DE2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:24>
-		__this->___fallbackSpawnDistance = (0.200000003f);
 		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:27>
+		__this->___fallbackSpawnDistance = (0.200000003f);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:30>
 		__this->___fallbackYOffset = (-0.5f);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:35>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:38>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_0, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		__this->____spawnedParts = L_0;
@@ -9369,7 +9456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR__ctor_mD41A25F7E14BB5DE2
 		return;
 	}
 }
-// Method Definition Index: 109568
+// Method Definition Index: 109567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR__cctor_mC0716DB31053710850ECA38BEDBA348C366B1367 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9381,7 +9468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR__cctor_mC0716DB310537108
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:32>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:35>
 		List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* L_0 = (List_1_t0754071572EFE7A5C92A59495D2524FC935364E3*)il2cpp_codegen_object_new(List_1_t0754071572EFE7A5C92A59495D2524FC935364E3_il2cpp_TypeInfo_var);
 		List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9(L_0, List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9_RuntimeMethod_var);
 		((SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05_StaticFields*)il2cpp_codegen_static_fields_for(SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05_il2cpp_TypeInfo_var))->____arHits = L_0;
@@ -9397,8 +9484,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnerMR__cctor_mC0716DB310537108
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109569
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRefreshHintsAfterDelayU3Ed__18__ctor_m49F6308AE3F81A6895006B12F45AAF810971EB1C (U3CRefreshHintsAfterDelayU3Ed__18_tDF64FC9FF3A25738387F868A8372CDFF6247CB2B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// Method Definition Index: 109568
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRefreshHintsAfterDelayU3Ed__19__ctor_m9CAC491214AABCEB85FA2D86FC74637BABD28ADF (U3CRefreshHintsAfterDelayU3Ed__19_t86619983F6BE42F4ECC559CDA7651F8B4F31DF12* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -9407,15 +9494,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRefreshHintsAfterDelayU3Ed__18__ctor_
 		return;
 	}
 }
-// Method Definition Index: 109570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRefreshHintsAfterDelayU3Ed__18_System_IDisposable_Dispose_mE653975C17700C26D210F1958D4BE8AFC7E1F97F (U3CRefreshHintsAfterDelayU3Ed__18_tDF64FC9FF3A25738387F868A8372CDFF6247CB2B* __this, const RuntimeMethod* method) 
+// Method Definition Index: 109569
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRefreshHintsAfterDelayU3Ed__19_System_IDisposable_Dispose_m1DA5689C764E2C42315359E99D77BED7CB5D5CC6 (U3CRefreshHintsAfterDelayU3Ed__19_t86619983F6BE42F4ECC559CDA7651F8B4F31DF12* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 109571
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRefreshHintsAfterDelayU3Ed__18_MoveNext_mEF17CFD9D34B21F6673976AC5FA35E6C63E2D2C1 (U3CRefreshHintsAfterDelayU3Ed__18_tDF64FC9FF3A25738387F868A8372CDFF6247CB2B* __this, const RuntimeMethod* method) 
+// Method Definition Index: 109570
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRefreshHintsAfterDelayU3Ed__19_MoveNext_mD15EB3A61A9E2BB5BA6473C11D848A23E0B83DF9 (U3CRefreshHintsAfterDelayU3Ed__19_t86619983F6BE42F4ECC559CDA7651F8B4F31DF12* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9451,7 +9538,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRefreshHintsAfterDelayU3Ed__18_MoveNe
 IL_0010:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:219>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:240>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_3 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_3, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_3;
@@ -9463,7 +9550,7 @@ IL_0010:
 IL_0030:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:220>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:241>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		AssemblyHintSystem_tD4CB994672DAD73DBBE883E7B6F03A92872701FA* L_4;
 		L_4 = Object_FindFirstObjectByType_TisAssemblyHintSystem_tD4CB994672DAD73DBBE883E7B6F03A92872701FA_mA04631563DB6613E1F043F4B46977E28590C4558(Object_FindFirstObjectByType_TisAssemblyHintSystem_tD4CB994672DAD73DBBE883E7B6F03A92872701FA_mA04631563DB6613E1F043F4B46977E28590C4558_RuntimeMethod_var);
@@ -9487,29 +9574,29 @@ IL_0042:
 
 IL_0047:
 	{
-		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:221>
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/MR Scripts/SwitchSpawnerMR.cs:242>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 109572
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRefreshHintsAfterDelayU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAD8418F231A7A6655022BA821D79DA323D55250B (U3CRefreshHintsAfterDelayU3Ed__18_tDF64FC9FF3A25738387F868A8372CDFF6247CB2B* __this, const RuntimeMethod* method) 
+// Method Definition Index: 109571
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRefreshHintsAfterDelayU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC7B0B4476B548DF41ED997C3432C5C78DD818E0D (U3CRefreshHintsAfterDelayU3Ed__19_t86619983F6BE42F4ECC559CDA7651F8B4F31DF12* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
 		return L_0;
 	}
 }
-// Method Definition Index: 109573
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRefreshHintsAfterDelayU3Ed__18_System_Collections_IEnumerator_Reset_mA37C8018D3F3A5E15F0BF299FFBA31B716135386 (U3CRefreshHintsAfterDelayU3Ed__18_tDF64FC9FF3A25738387F868A8372CDFF6247CB2B* __this, const RuntimeMethod* method) 
+// Method Definition Index: 109572
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRefreshHintsAfterDelayU3Ed__19_System_Collections_IEnumerator_Reset_m79FEEF2AAEEF2646FA7E5B6261C797BA7DB09292 (U3CRefreshHintsAfterDelayU3Ed__19_t86619983F6BE42F4ECC559CDA7651F8B4F31DF12* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CRefreshHintsAfterDelayU3Ed__18_System_Collections_IEnumerator_Reset_mA37C8018D3F3A5E15F0BF299FFBA31B716135386_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CRefreshHintsAfterDelayU3Ed__19_System_Collections_IEnumerator_Reset_m79FEEF2AAEEF2646FA7E5B6261C797BA7DB09292_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 109574
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRefreshHintsAfterDelayU3Ed__18_System_Collections_IEnumerator_get_Current_m9D6A9B3F2A68CC6FB36FF64FB503C4C58D350ADD (U3CRefreshHintsAfterDelayU3Ed__18_tDF64FC9FF3A25738387F868A8372CDFF6247CB2B* __this, const RuntimeMethod* method) 
+// Method Definition Index: 109573
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRefreshHintsAfterDelayU3Ed__19_System_Collections_IEnumerator_get_Current_m03AC46CDDF127F405CE3195C48AC6111D224E367 (U3CRefreshHintsAfterDelayU3Ed__19_t86619983F6BE42F4ECC559CDA7651F8B4F31DF12* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -9524,7 +9611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRefreshHintsAfterDelayU3Ed_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109575
+// Method Definition Index: 109574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PartLabelDisplay_Start_m28230D123877864CC2E641BBB3395B0E9FB22304 (PartLabelDisplay_t24A41F6D5C81D72F5D6C6B6CB5D22912FC6EF69B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9580,7 +9667,7 @@ IL_0019:
 		return;
 	}
 }
-// Method Definition Index: 109576
+// Method Definition Index: 109575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PartLabelDisplay_ShowLabel_m0069DEC7ED13259AF8C659169A4E066384EACFC8 (PartLabelDisplay_t24A41F6D5C81D72F5D6C6B6CB5D22912FC6EF69B* __this, SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* ___0_part, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_worldPosition, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9797,7 +9884,7 @@ IL_0118:
 		return;
 	}
 }
-// Method Definition Index: 109577
+// Method Definition Index: 109576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PartLabelDisplay__ctor_mDE983CDE0828C9AF9DB1F70E3131594677AA47BA (PartLabelDisplay_t24A41F6D5C81D72F5D6C6B6CB5D22912FC6EF69B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9807,7 +9894,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PartLabelDisplay__ctor_mDE983CDE0828C9AF
 		return;
 	}
 }
-// Method Definition Index: 109578
+// Method Definition Index: 109577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PartLabelDisplay__cctor_m9A19607875BED2584BB5658243FBB4C0D0B46DE7 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9855,7 +9942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PartLabelDisplay__cctor_m9A19607875BED25
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109579
+// Method Definition Index: 109578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PartTypeSelectFilter_get_canProcess_m45462AE1E2FEF8065320367B94776B1E69C13045 (PartTypeSelectFilter_t55895C8FBAB4B7FA82DFCDC089344F60C243E05E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9865,7 +9952,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PartTypeSelectFilter_get_canProcess_m454
 		return L_0;
 	}
 }
-// Method Definition Index: 109580
+// Method Definition Index: 109579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PartTypeSelectFilter_Process_mAEBF7F0CCF323FB9C6219EF26F44E9C8661A4BD9 (PartTypeSelectFilter_t55895C8FBAB4B7FA82DFCDC089344F60C243E05E* __this, RuntimeObject* ___0_interactor, RuntimeObject* ___1_interactable, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9960,7 +10047,7 @@ IL_0045:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 109581
+// Method Definition Index: 109580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PartTypeSelectFilter__ctor_mBA81E3D85A9D54D32659C2A9D5D947745484C510 (PartTypeSelectFilter_t55895C8FBAB4B7FA82DFCDC089344F60C243E05E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9976,7 +10063,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PartTypeSelectFilter__ctor_mBA81E3D85A9D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109582
+// Method Definition Index: 109581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchPart_Awake_m5CBEF14A521572A2385BC2458DFDB7F4BA1A33B8 (SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10103,7 +10190,7 @@ IL_0096:
 		return;
 	}
 }
-// Method Definition Index: 109583
+// Method Definition Index: 109582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchPart_OnEnable_mFB7BF5DBFE9D10CF8C933672B81DF053A114E1FE (SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10162,7 +10249,7 @@ IL_003e:
 		return;
 	}
 }
-// Method Definition Index: 109584
+// Method Definition Index: 109583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchPart_OnDisable_m48E9FEDE5CF0AFB8EADD3828E84A97706B803318 (SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10221,7 +10308,7 @@ IL_003e:
 		return;
 	}
 }
-// Method Definition Index: 109585
+// Method Definition Index: 109584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchPart_OnHoverEntered_mD01971D8392C7761BEA1B7875CF9482D7D712D36 (SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* __this, HoverEnterEventArgs_t4BCFA6BFD8D007CEE2D72D9D61DAED6C72F8CE2E* ___0_args, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10264,7 +10351,7 @@ IL_000a:
 		return;
 	}
 }
-// Method Definition Index: 109586
+// Method Definition Index: 109585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchPart_OnHoverExited_m75A2B8B4F3BD2E0E1804D021E994E0F662CE1937 (SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* __this, HoverExitEventArgs_tFFBECDDAF90BF90AA3B7282FAEF1D8E5D19A5AD6* ___0_args, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10304,7 +10391,7 @@ IL_000a:
 		return;
 	}
 }
-// Method Definition Index: 109587
+// Method Definition Index: 109586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchPart_SetHighlight_mAE51CEDDEB0AAF535543467E90791AADAFC209F3 (SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* __this, int32_t ___0_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10413,7 +10500,7 @@ IL_007d:
 		return;
 	}
 }
-// Method Definition Index: 109588
+// Method Definition Index: 109587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchPart_RestoreOriginalColors_m205F5AA70FE83A033CD29B9C8B3060A62B688689 (SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10479,7 +10566,7 @@ IL_004a:
 		return;
 	}
 }
-// Method Definition Index: 109589
+// Method Definition Index: 109588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchPart__ctor_m3B0A431586C3DBB3777FC2DFBD01FD4A1BC4DCE9 (SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10511,7 +10598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchPart__ctor_m3B0A431586C3DBB3777FC2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109590
+// Method Definition Index: 109589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnLayout__ctor_m98306C96381767D24BE805934ADFDD760E5EA939 (SwitchSpawnLayout_t9EEFA6C1A0FC45EB13D3CEC1D34E903432D7604E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10527,7 +10614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawnLayout__ctor_m98306C96381767D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109591
+// Method Definition Index: 109590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PartSpawnEntry__ctor_mB142CE1A1DA999985FB3F0A7C887A7829BA28406 (PartSpawnEntry_tA885B23FC435E9E29B8867440A27E28D46AE5008* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10543,7 +10630,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PartSpawnEntry__ctor_mB142CE1A1DA999985F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109592
+// Method Definition Index: 109591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawner_Start_mE4C71754D30B02F4A5E59C6053DE2204DD2FB717 (SwitchSpawner_t74B0FB3D43113A1521ACFF103BF5D6EAA534D6A2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10568,7 +10655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawner_Start_mE4C71754D30B02F4A5E
 		return;
 	}
 }
-// Method Definition Index: 109593
+// Method Definition Index: 109592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawner_Update_mAF32BACA4C41FB5029A61930C4FE1D6167F111B4 (SwitchSpawner_t74B0FB3D43113A1521ACFF103BF5D6EAA534D6A2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10709,7 +10796,7 @@ IL_0085:
 		return;
 	}
 }
-// Method Definition Index: 109594
+// Method Definition Index: 109593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawner_SpawnAllParts_m99A8685C58B8EAD589A62243220B7212BFBA2CB5 (SwitchSpawner_t74B0FB3D43113A1521ACFF103BF5D6EAA534D6A2* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_tablePose, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10916,7 +11003,7 @@ IL_011c:
 		return;
 	}
 }
-// Method Definition Index: 109595
+// Method Definition Index: 109594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawner_ResetAssembly_mB532DF0AC23AFEACFFEE66A35E3E1CD60DC4F121 (SwitchSpawner_t74B0FB3D43113A1521ACFF103BF5D6EAA534D6A2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11007,7 +11094,7 @@ IL_0033:
 		return;
 	}
 }
-// Method Definition Index: 109596
+// Method Definition Index: 109595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawner__ctor_m70483F2484191F9D3E361DC1C87012BD8181FCB9 (SwitchSpawner_t74B0FB3D43113A1521ACFF103BF5D6EAA534D6A2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11027,7 +11114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawner__ctor_m70483F2484191F9D3E3
 		return;
 	}
 }
-// Method Definition Index: 109597
+// Method Definition Index: 109596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawner__cctor_mCF467E3C2F48E60827B21B5703089856465F6D24 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11055,7 +11142,223 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchSpawner__cctor_mCF467E3C2F48E60827
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 109597
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualSnapGuide_Awake_m72BC38DBB670F917A255813F5788ACB6E9639EDD (VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:21>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0;
+		L_0 = Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8(__this, Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8_RuntimeMethod_var);
+		__this->____renderer = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____renderer), (void*)L_0);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:22>
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_1 = (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D*)il2cpp_codegen_object_new(MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var);
+		MaterialPropertyBlock__ctor_m14C3432585F7BB65028BCD64A0FD6607A1B490FB(L_1, NULL);
+		__this->____propBlock = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____propBlock), (void*)L_1);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:23>
+		return;
+	}
+}
 // Method Definition Index: 109598
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualSnapGuide_SetState_m0F933414AC1549B2809B4F60288D867DC831E8E0 (VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* __this, int32_t ___0_state, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:27>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = __this->____renderer;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:27>
+		return;
+	}
+
+IL_000f:
+	{
+		int32_t L_2 = ___0_state;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0026;
+			}
+			case 1:
+			{
+				goto IL_0033;
+			}
+			case 2:
+			{
+				goto IL_004b;
+			}
+			case 3:
+			{
+				goto IL_0063;
+			}
+		}
+	}
+	{
+		return;
+	}
+
+IL_0026:
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:32>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_3 = __this->____renderer;
+		NullCheck(L_3);
+		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_3, (bool)0, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:33>
+		return;
+	}
+
+IL_0033:
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:35>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_4 = __this->____renderer;
+		NullCheck(L_4);
+		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_4, (bool)1, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:36>
+		il2cpp_codegen_runtime_class_init_inline(VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5 = ((VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_StaticFields*)il2cpp_codegen_static_fields_for(VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_il2cpp_TypeInfo_var))->___ReadyColor;
+		VisualSnapGuide_Apply_mFDDA31B7958C0DE585D60F224FDE50E853840003(__this, L_5, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:37>
+		return;
+	}
+
+IL_004b:
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:39>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_6 = __this->____renderer;
+		NullCheck(L_6);
+		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_6, (bool)1, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:40>
+		il2cpp_codegen_runtime_class_init_inline(VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7 = ((VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_StaticFields*)il2cpp_codegen_static_fields_for(VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_il2cpp_TypeInfo_var))->___HoverColor;
+		VisualSnapGuide_Apply_mFDDA31B7958C0DE585D60F224FDE50E853840003(__this, L_7, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:41>
+		return;
+	}
+
+IL_0063:
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:43>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_8 = __this->____renderer;
+		NullCheck(L_8);
+		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_8, (bool)1, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:44>
+		il2cpp_codegen_runtime_class_init_inline(VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = ((VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_StaticFields*)il2cpp_codegen_static_fields_for(VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_il2cpp_TypeInfo_var))->___SatisfiedColor;
+		VisualSnapGuide_Apply_mFDDA31B7958C0DE585D60F224FDE50E853840003(__this, L_9, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:47>
+		return;
+	}
+}
+// Method Definition Index: 109599
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualSnapGuide_Apply_mFDDA31B7958C0DE585D60F224FDE50E853840003 (VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_color, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral51282E2AAC09AC6EDBC2C1C237C0183F97FEE379);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:51>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = __this->____renderer;
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_1 = __this->____propBlock;
+		NullCheck(L_0);
+		Renderer_GetPropertyBlock_mD062F90343D70151CA060AE7EBEF2E85146A9FBA(L_0, L_1, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:52>
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_2 = __this->____propBlock;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___0_color;
+		NullCheck(L_2);
+		MaterialPropertyBlock_SetColor_m5B4E910B5E42518BBD0088055EB68E4A3A609DDE(L_2, _stringLiteral51282E2AAC09AC6EDBC2C1C237C0183F97FEE379, L_3, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:53>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_4 = __this->____renderer;
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_5 = __this->____propBlock;
+		NullCheck(L_4);
+		Renderer_SetPropertyBlock_mF565698782FE54580B17CC0BFF9B0C4F0D68DF50(L_4, L_5, NULL);
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:54>
+		return;
+	}
+}
+// Method Definition Index: 109600
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualSnapGuide__ctor_mE65A0F6673DA991E1E6F40D6ADFC7BFCEDAECEE2 (VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 109601
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualSnapGuide__cctor_m7785D147F88B44F9967800C771D41986DC9E44D7 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:14>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (0.400000006f), (0.400000006f), (0.400000006f), (0.0f), NULL);
+		((VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_StaticFields*)il2cpp_codegen_static_fields_for(VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_il2cpp_TypeInfo_var))->___InactiveColor = L_0;
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:15>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_1), (0.200000003f), (0.800000012f), (1.0f), (0.400000006f), NULL);
+		((VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_StaticFields*)il2cpp_codegen_static_fields_for(VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_il2cpp_TypeInfo_var))->___ReadyColor = L_1;
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:16>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_2), (0.0f), (1.0f), (0.400000006f), (0.75f), NULL);
+		((VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_StaticFields*)il2cpp_codegen_static_fields_for(VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_il2cpp_TypeInfo_var))->___HoverColor = L_2;
+		//<source_info:C:/Users/CAC/XR-Projects/ABB-Assembly-MR-Demo/Assets/Scripts/VisualSnapGuide.cs:17>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_3), (0.100000001f), (1.0f), (0.100000001f), (0.200000003f), NULL);
+		((VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_StaticFields*)il2cpp_codegen_static_fields_for(VisualSnapGuide_t1000627CE8BA0E66C7A0FCC8FAF5AFC843E64E94_il2cpp_TypeInfo_var))->___SatisfiedColor = L_3;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 109602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneTemplate_RotateCube_Update_mAF2FB34B99E325443A80D60A7EB73DC092EAE9A6 (SceneTemplate_RotateCube_tB6D99CC88F0E89517A2E6E071F0334FE69FB44CC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11076,7 +11379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneTemplate_RotateCube_Update_mAF2FB34
 		return;
 	}
 }
-// Method Definition Index: 109599
+// Method Definition Index: 109603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneTemplate_RotateCube__ctor_mC7E11C05D25FFF6F8D7EA06AAE5598B497365CD2 (SceneTemplate_RotateCube_tB6D99CC88F0E89517A2E6E071F0334FE69FB44CC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11094,41 +11397,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneTemplate_RotateCube__ctor_mC7E11C05
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109600
+// Method Definition Index: 109604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____4E6883D5B04B2424DB858941EDA67C0E42DC740CC60A3B8F9560DCD44CB065A0_FieldInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____8368043B2B24DB353F80D9A7108920337913C478BC0C007FFD8468F9577FE223_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____5E56F282BC47187047FE668C9B47A61385D37D3A3DA7715EBFAE316934E399BE_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____AAC0F0E3DA09673562EFF7EB55F7D97CB81756BA646C6137092DD5521AEF6D45_FieldInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)838));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)880));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____8368043B2B24DB353F80D9A7108920337913C478BC0C007FFD8468F9577FE223_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____AAC0F0E3DA09673562EFF7EB55F7D97CB81756BA646C6137092DD5521AEF6D45_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)599));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)620));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____4E6883D5B04B2424DB858941EDA67C0E42DC740CC60A3B8F9560DCD44CB065A0_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____5E56F282BC47187047FE668C9B47A61385D37D3A3DA7715EBFAE316934E399BE_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
 		(&V_0)->___TypesData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
-		(&V_0)->___TotalFiles = ((int32_t)16);
-		(&V_0)->___TotalTypes = ((int32_t)19);
+		(&V_0)->___TotalFiles = ((int32_t)17);
+		(&V_0)->___TotalTypes = ((int32_t)20);
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
 		return L_6;
 	}
 }
-// Method Definition Index: 109601
+// Method Definition Index: 109605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11214,7 +11517,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109602
+// Method Definition Index: 109606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* CutoutMaskUI_get_materialForRendering_m1E481305FA17C6A7AC2A91C9A8BC62CBA40EB21A (CutoutMaskUI_t331D7742560D4950E00071EF06D12E7CEB17C4C2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11240,7 +11543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 		return L_2;
 	}
 }
-// Method Definition Index: 109603
+// Method Definition Index: 109607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CutoutMaskUI__ctor_m6E3A5D1ED0A30B06735B45E13EE7641085EADE2D (CutoutMaskUI_t331D7742560D4950E00071EF06D12E7CEB17C4C2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11255,7 +11558,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CutoutMaskUI__ctor_m6E3A5D1ED0A30B06735B
 		return;
 	}
 }
-// Method Definition Index: 109604
+// Method Definition Index: 109608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CutoutMaskUI__cctor_m3FA8526EBAB8E0DFA5881AEBA12CDA8F6533303B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11281,7 +11584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CutoutMaskUI__cctor_m3FA8526EBAB8E0DFA58
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109605
+// Method Definition Index: 109609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ARPlaneMeshVisualizerFader_get_planeRenderer_mE0F863984F8932C7436F1438715E28DD4C36B4F5 (ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11290,7 +11593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Renderer_t320575F223BCB177A982E5DDB5DB19FAA89
 		return L_0;
 	}
 }
-// Method Definition Index: 109606
+// Method Definition Index: 109610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_set_planeRenderer_mB6BD0023FC974413E78865195AFD4CDED6D005C0 (ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11301,7 +11604,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_set_planeRend
 		return;
 	}
 }
-// Method Definition Index: 109607
+// Method Definition Index: 109611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ARPlaneMeshVisualizerFader_get_fadeSpeed_m0D6E35B0AF60E1509038D6FAF9C0D3D149ABEF67 (ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11310,7 +11613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ARPlaneMeshVisualizerFader_get_fadeSpee
 		return L_0;
 	}
 }
-// Method Definition Index: 109608
+// Method Definition Index: 109612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_set_fadeSpeed_mE25D166F928224C5D272124C535639CE720933C8 (ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11320,7 +11623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_set_fadeSpeed
 		return;
 	}
 }
-// Method Definition Index: 109609
+// Method Definition Index: 109613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_Awake_mF798E9D5A3D303A1F4744EF4982E13D956DA6E84 (ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11347,7 +11650,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_Awake_mF798E9
 		return;
 	}
 }
-// Method Definition Index: 109610
+// Method Definition Index: 109614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_OnDestroy_m03D69328EC13A59FF4A9C8F6F8AA2DC24A73F296 (ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11365,7 +11668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_OnDestroy_m03
 		return;
 	}
 }
-// Method Definition Index: 109611
+// Method Definition Index: 109615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_Update_mC63ACFB057C13D0BB002BFE4C60133ADCE651B06 (ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11403,7 +11706,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_Update_mC63AC
 		return;
 	}
 }
-// Method Definition Index: 109612
+// Method Definition Index: 109616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_set_visualizeSurfaces_mE9BC4C4A3F5BD1AB7632103E08DF37CA6C6102BE (ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11454,7 +11757,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 109613
+// Method Definition Index: 109617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_SetVisualsImmediate_mD5E2370C97439CABCA623A48CD81AE8F0ECC041B (ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* __this, float ___0_alpha, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11478,7 +11781,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_SetVisualsImm
 		return;
 	}
 }
-// Method Definition Index: 109614
+// Method Definition Index: 109618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader__ctor_m60EFD56DAC9D5D47B5A66654AAC8390EB37C9E14 (ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11509,7 +11812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader__ctor_m60EFD5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109615
+// Method Definition Index: 109619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ARTemplateMenuManager_get_createButton_m406757CA637E53BEA9EA71842A253DA599D02E13 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11518,7 +11821,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE
 		return L_0;
 	}
 }
-// Method Definition Index: 109616
+// Method Definition Index: 109620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_createButton_m8BAE9D9A3DBB071AAC2C185954E667813634BB09 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11529,7 +11832,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_createButton_m
 		return;
 	}
 }
-// Method Definition Index: 109617
+// Method Definition Index: 109621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ARTemplateMenuManager_get_deleteButton_mC7336FA4A5557D67AA32100D3A0053FE1C422B0A (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11538,7 +11841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE
 		return L_0;
 	}
 }
-// Method Definition Index: 109618
+// Method Definition Index: 109622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_deleteButton_m06DA868A30F8A38A0943D351E7AE644C54952F60 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11549,7 +11852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_deleteButton_m
 		return;
 	}
 }
-// Method Definition Index: 109619
+// Method Definition Index: 109623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ARTemplateMenuManager_get_objectMenu_mCD36DE747435F40A8BCCAF313C39BA2A5C821829 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11558,7 +11861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_0;
 	}
 }
-// Method Definition Index: 109620
+// Method Definition Index: 109624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_objectMenu_m85D2A2D58CE1ACD14E1FCC8A24F3E127F174DC91 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11569,7 +11872,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_objectMenu_m85
 		return;
 	}
 }
-// Method Definition Index: 109621
+// Method Definition Index: 109625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ARTemplateMenuManager_get_modalMenu_m7E1DE3E1FB1BA72B2360EEC4DF766D8015230F36 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11578,7 +11881,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_0;
 	}
 }
-// Method Definition Index: 109622
+// Method Definition Index: 109626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_modalMenu_mEFDF9244FADBFA263C7A1EE729F3F4640DD6525F (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11589,7 +11892,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_modalMenu_mEFD
 		return;
 	}
 }
-// Method Definition Index: 109623
+// Method Definition Index: 109627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ARTemplateMenuManager_get_objectMenuAnimator_mD7513E6170193E4E871AD680E2E6008AB2ED6AC5 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11598,7 +11901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Animator_t8A52E42AE54F76681838FE9E632683EF395
 		return L_0;
 	}
 }
-// Method Definition Index: 109624
+// Method Definition Index: 109628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_objectMenuAnimator_m6645E67754B65626A23BDD50A795F6F5A78BA5AE (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11609,7 +11912,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_objectMenuAnim
 		return;
 	}
 }
-// Method Definition Index: 109625
+// Method Definition Index: 109629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* ARTemplateMenuManager_get_objectSpawner_m0FFCB3BA803A8A16A7629A844A4998A9D152DCB1 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11618,7 +11921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectSpawner_t5ACB5F84845F9E874424BADB585AB1
 		return L_0;
 	}
 }
-// Method Definition Index: 109626
+// Method Definition Index: 109630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_objectSpawner_mD1D7815120705857A02DDA0201C7E527D0967F8C (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11629,7 +11932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_objectSpawner_
 		return;
 	}
 }
-// Method Definition Index: 109627
+// Method Definition Index: 109631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ARTemplateMenuManager_get_cancelButton_m41132A169C64ADD848B13206B9D4BEC49242235B (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11638,7 +11941,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE
 		return L_0;
 	}
 }
-// Method Definition Index: 109628
+// Method Definition Index: 109632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_cancelButton_m7AFEA00CDFEF41E5A181A7EDFCB23EFDE5BF6AC0 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11649,7 +11952,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_cancelButton_m
 		return;
 	}
 }
-// Method Definition Index: 109629
+// Method Definition Index: 109633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInteractionGroup_tC4826C686618B4D279303C4A8CF660C39E8AE91C* ARTemplateMenuManager_get_interactionGroup_m5BAFF9C7428F553084230EE277466221634F1320 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11658,7 +11961,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInteractionGroup_tC4826C686618B4D279303C4A8
 		return L_0;
 	}
 }
-// Method Definition Index: 109630
+// Method Definition Index: 109634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_interactionGroup_m898AABCF30C2267D7BA033B910756832FC523043 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, XRInteractionGroup_tC4826C686618B4D279303C4A8CF660C39E8AE91C* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11669,7 +11972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_interactionGro
 		return;
 	}
 }
-// Method Definition Index: 109631
+// Method Definition Index: 109635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* ARTemplateMenuManager_get_debugPlaneSlider_m76458865CBB5D52D68916230DDDCCF79F9A3F08B (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11678,7 +11981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DebugSlider_tA600859221313A94DA826024E574C2E2
 		return L_0;
 	}
 }
-// Method Definition Index: 109632
+// Method Definition Index: 109636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_debugPlaneSlider_m8C17F7BA78306BCE40401E4739F217BA2301DEC2 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11689,7 +11992,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_debugPlaneSlid
 		return;
 	}
 }
-// Method Definition Index: 109633
+// Method Definition Index: 109637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3BFFDE26A928* ARTemplateMenuManager_get_planeManager_m1409352BFEE79725B3F82AD6D3C352FE1F2E3012 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11698,7 +12001,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3
 		return L_0;
 	}
 }
-// Method Definition Index: 109634
+// Method Definition Index: 109638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_planeManager_m9B17877B865463BA66D3760B1742AE6B0CAB85D2 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3BFFDE26A928* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11709,7 +12012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_planeManager_m
 		return;
 	}
 }
-// Method Definition Index: 109635
+// Method Definition Index: 109639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARTemplateMenuManager_get_useARPlaneFading_m3DA623DC3849983993371A9EBAACC4DD430557DA (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11718,7 +12021,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARTemplateMenuManager_get_useARPlaneFadi
 		return L_0;
 	}
 }
-// Method Definition Index: 109636
+// Method Definition Index: 109640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_useARPlaneFading_m15507F3016F352B49D66E6318C4E7FB7F42A4A07 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11728,7 +12031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_useARPlaneFadi
 		return;
 	}
 }
-// Method Definition Index: 109637
+// Method Definition Index: 109641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* ARTemplateMenuManager_get_arDebugMenu_m6A32CDD53005AA1E02B785A0774CF278F08A9387 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11737,7 +12040,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897A
 		return L_0;
 	}
 }
-// Method Definition Index: 109638
+// Method Definition Index: 109642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_arDebugMenu_m727865D805293C1F3DF25FF17F42913BE47BB92C (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11748,7 +12051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_arDebugMenu_m7
 		return;
 	}
 }
-// Method Definition Index: 109639
+// Method Definition Index: 109643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* ARTemplateMenuManager_get_debugMenuSlider_mEADC537BE254781633DE4BBCF8D95DA5B7B5BE86 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11757,7 +12060,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DebugSlider_tA600859221313A94DA826024E574C2E2
 		return L_0;
 	}
 }
-// Method Definition Index: 109640
+// Method Definition Index: 109644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_debugMenuSlider_m80312CD8884559930D5586DAC8CC4A7FC97DFA0E (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11768,7 +12071,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_debugMenuSlide
 		return;
 	}
 }
-// Method Definition Index: 109641
+// Method Definition Index: 109645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ARTemplateMenuManager_get_tapStartPositionInput_m766DCF6BB7E4D2F6AF35B6148F42B49D4E97327C (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11777,7 +12080,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD
 		return L_0;
 	}
 }
-// Method Definition Index: 109642
+// Method Definition Index: 109646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_tapStartPositionInput_mADE4884212E3373CAA0F8FA4609A1BD9645907FA (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11794,7 +12097,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_tapStartPositi
 		return;
 	}
 }
-// Method Definition Index: 109643
+// Method Definition Index: 109647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ARTemplateMenuManager_get_dragCurrentPositionInput_m4D53B25C9CF576D55AD4C70EB79C4CC709C1A9FC (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11803,7 +12106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD
 		return L_0;
 	}
 }
-// Method Definition Index: 109644
+// Method Definition Index: 109648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_dragCurrentPositionInput_mA93D40CB00F4AA16B060256AA1E7E9704333277A (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11820,7 +12123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_dragCurrentPos
 		return;
 	}
 }
-// Method Definition Index: 109645
+// Method Definition Index: 109649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_OnEnable_mE63D4E18266704999F66488EB5102CDD0527C163 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11877,7 +12180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_OnEnable_mE63D4E18
 		return;
 	}
 }
-// Method Definition Index: 109646
+// Method Definition Index: 109650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_OnDisable_mB0F06A403E8434B38D78BA2958838783A4604677 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11936,7 +12239,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_OnDisable_mB0F06A4
 		return;
 	}
 }
-// Method Definition Index: 109647
+// Method Definition Index: 109651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_Start_m6020B2664A0F831BFC9FA36FA5ECE324A162C3E5 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12038,7 +12341,7 @@ IL_005c:
 		return;
 	}
 }
-// Method Definition Index: 109648
+// Method Definition Index: 109652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_Update_m41A25E76911A74A8BF3B7EDBDC731656EB6F7B13 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12377,7 +12680,7 @@ IL_014c:
 		return;
 	}
 }
-// Method Definition Index: 109649
+// Method Definition Index: 109653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_SetObjectToSpawn_m155CAF0A317C2C89BB2FB356A1F384FE59D2AC51 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, int32_t ___0_objectIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12448,7 +12751,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 109650
+// Method Definition Index: 109654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_ShowMenu_mDB578D954CD0D2CFBADD6D10DA62CDB2BDCF2A4F (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12489,7 +12792,7 @@ IL_0036:
 		return;
 	}
 }
-// Method Definition Index: 109651
+// Method Definition Index: 109655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_ShowHideModal_m6575D99605DB1537DAB40008DA7200705EE28D7B (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12525,7 +12828,7 @@ IL_0021:
 		return;
 	}
 }
-// Method Definition Index: 109652
+// Method Definition Index: 109656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_ShowHideDebugPlane_m2282B04316E058A784B473BDBB3A65282F510A08 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* G_B2_0 = NULL;
@@ -12569,7 +12872,7 @@ IL_0021:
 		return;
 	}
 }
-// Method Definition Index: 109653
+// Method Definition Index: 109657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_ShowHideDebugMenu_mB9F4776D58DBAA66DAAA917E3AB07F7C9F47EE98 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* G_B2_0 = NULL;
@@ -12694,7 +12997,7 @@ IL_00be:
 		return;
 	}
 }
-// Method Definition Index: 109654
+// Method Definition Index: 109658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_ClearAllObjects_m1E161646B1EA35616E18F70280C2A9CF8C064C92 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12795,7 +13098,7 @@ IL_0043:
 		return;
 	}
 }
-// Method Definition Index: 109655
+// Method Definition Index: 109659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_HideMenu_m2D828D525C645048A2A93A43508D9D4E30A206D5 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12817,7 +13120,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_HideMenu_m2D828D52
 		return;
 	}
 }
-// Method Definition Index: 109656
+// Method Definition Index: 109660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_ChangePlaneVisibility_m239F74ABC468ED2CE35CCF1B4F81CA55C7BF6A5E (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, bool ___0_setVisible, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12975,7 +13278,7 @@ IL_007d:
 		return;
 	}
 }
-// Method Definition Index: 109657
+// Method Definition Index: 109661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_DeleteFocusedObject_mD129DEC369E92E8E6F808BF21B69AEB48ECD0714 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13019,7 +13322,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 109658
+// Method Definition Index: 109662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_InitializeDebugMenuOffsets_m938637767BF7A65C98324A8E13E496A1ED88E7BF (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13121,7 +13424,7 @@ IL_0096:
 		return;
 	}
 }
-// Method Definition Index: 109659
+// Method Definition Index: 109663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_AdjustARDebugMenuPosition_m15BCD49D43DB9A623208862E7D0EACA7A31465BF (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13596,7 +13899,7 @@ IL_0371:
 		return;
 	}
 }
-// Method Definition Index: 109660
+// Method Definition Index: 109664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_OnPlaneChanged_mC4C7B2EC4E6A847208902916F916037D6AA188D9 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, ARTrackablesChangedEventArgs_1_tEB03975F0BB8E8FF1B5EDAE64BB7F40F4C194FEC ___0_eventArgs, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14081,7 +14384,7 @@ IL_0239:
 		return;
 	}
 }
-// Method Definition Index: 109661
+// Method Definition Index: 109665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager__ctor_mD204E47547C91292D266167524E9336952560CD0 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14183,7 +14486,7 @@ IL2CPP_EXTERN_C void Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC_marshal_com_
 IL2CPP_EXTERN_C void Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC_marshal_com_cleanup(Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 109662
+// Method Definition Index: 109666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3 (Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC* __this, int32_t ___0_goal, const RuntimeMethod* method) 
 {
 	{
@@ -14211,7 +14514,7 @@ IL2CPP_EXTERN_C  void Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_Adjus
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109663
+// Method Definition Index: 109667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t20A6371B98B4B87A72259FDB28D506AE0BE1B298* GoalManager_get_stepList_m6EA5508AEAE197DBFE897C04AD213EDFB8B1A084 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14220,7 +14523,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t20A6371B98B4B87A72259FDB28D506AE0BE1B
 		return L_0;
 	}
 }
-// Method Definition Index: 109664
+// Method Definition Index: 109668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_stepList_mA3E53C66DA58F6AA6C1EF9ABCBA673926DC58476 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, List_1_t20A6371B98B4B87A72259FDB28D506AE0BE1B298* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -14231,7 +14534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_stepList_mA3E53C66DA58F6
 		return;
 	}
 }
-// Method Definition Index: 109665
+// Method Definition Index: 109669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* GoalManager_get_objectSpawner_m5C0DA064849D64E0199FE5C7F04374B3E2628DC3 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14240,7 +14543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectSpawner_t5ACB5F84845F9E874424BADB585AB1
 		return L_0;
 	}
 }
-// Method Definition Index: 109666
+// Method Definition Index: 109670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_objectSpawner_mF4927B049EAA1EBFFF1FA84D9FDE1BDB9D805A56 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -14251,7 +14554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_objectSpawner_mF4927B049
 		return;
 	}
 }
-// Method Definition Index: 109667
+// Method Definition Index: 109671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GoalManager_get_greetingPrompt_mC83C9B94AB3A47C40B0BDC1C6AF2B827D9895B22 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14260,7 +14563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_0;
 	}
 }
-// Method Definition Index: 109668
+// Method Definition Index: 109672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_greetingPrompt_m1B4B83D9E61D0F1DD7AC87AD62E955D9007B67EE (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -14271,7 +14574,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_greetingPrompt_m1B4B83D9
 		return;
 	}
 }
-// Method Definition Index: 109669
+// Method Definition Index: 109673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GoalManager_get_optionsButton_m7FB7270CA296B926DF782661FB85259EF18F7AAA (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14280,7 +14583,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_0;
 	}
 }
-// Method Definition Index: 109670
+// Method Definition Index: 109674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_optionsButton_m31A54052EB4E9733563BC61B68CD44642F25DEBF (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -14291,7 +14594,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_optionsButton_m31A54052E
 		return;
 	}
 }
-// Method Definition Index: 109671
+// Method Definition Index: 109675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GoalManager_get_createButton_mEB6C08112C792D7F80852C5233EB9008AB2F2B1B (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14300,7 +14603,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_0;
 	}
 }
-// Method Definition Index: 109672
+// Method Definition Index: 109676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_createButton_mEA66050F14D4871F920B642A628467D7A4A9A86D (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -14311,7 +14614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_createButton_mEA66050F14
 		return;
 	}
 }
-// Method Definition Index: 109673
+// Method Definition Index: 109677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* GoalManager_get_menuManager_m2D7052A638CAE15415D2DD010C2A9B05535A997C (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14320,7 +14623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ARTemplateMenuManager_tC3CF87B307CD51E3E48665
 		return L_0;
 	}
 }
-// Method Definition Index: 109674
+// Method Definition Index: 109678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_menuManager_mFDFB3A63C58982FF216205589FFAAEFE4E8325D4 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -14331,7 +14634,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_menuManager_mFDFB3A63C58
 		return;
 	}
 }
-// Method Definition Index: 109675
+// Method Definition Index: 109679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_Update_mE203497116EDF8D482CC832D08158D65090CA836 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14416,7 +14719,7 @@ IL_0064:
 		return;
 	}
 }
-// Method Definition Index: 109676
+// Method Definition Index: 109680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_CompleteGoal_m9C1797EBCE79E796CC041C797ADE7D0E5C3CCE8D (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14521,7 +14824,7 @@ IL_00c0:
 		return;
 	}
 }
-// Method Definition Index: 109677
+// Method Definition Index: 109681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_PreprocessGoal_m41209A651864747FC74E9F003C7D3E35BAA55A26 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14620,7 +14923,7 @@ IL_009e:
 		return;
 	}
 }
-// Method Definition Index: 109678
+// Method Definition Index: 109682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GoalManager_WaitUntilNextCard_m62A6D1D6FE5E5CEE49C944B9E2B55565D1F0A59D (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, float ___0_seconds, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14643,7 +14946,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GoalManager_WaitUntilNextCard_
 		return L_2;
 	}
 }
-// Method Definition Index: 109679
+// Method Definition Index: 109683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_ForceCompleteGoal_m7C90BBE0DA79D889DE63885F3F4C30039E8132E3 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14653,7 +14956,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_ForceCompleteGoal_m7C90BBE0D
 		return;
 	}
 }
-// Method Definition Index: 109680
+// Method Definition Index: 109684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_OnObjectSpawned_mAFDD5E4AA054A8A6909BEE5E19D377DB660C2F00 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_spawnedObject, const RuntimeMethod* method) 
 {
 	{
@@ -14686,7 +14989,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 109681
+// Method Definition Index: 109685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_StartCoaching_mA030D1E9954799F06A5CDCD7F4F7423BC8665849 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14901,7 +15204,7 @@ IL_0130:
 		return;
 	}
 }
-// Method Definition Index: 109682
+// Method Definition Index: 109686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager__ctor_m3DE714B5F1A03972C4D1D91766D792CA5DCDB34C (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14937,7 +15240,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager__ctor_m3DE714B5F1A03972C4D1D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109683
+// Method Definition Index: 109687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Step__ctor_m1E5BEE09EA6B979A6897181C3B576F03A167060C (Step_tDA95386D8B883218C1F37F75FCA9DAF8A6934E52* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14953,7 +15256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Step__ctor_m1E5BEE09EA6B979A6897181C3B57
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109684
+// Method Definition Index: 109688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitUntilNextCardU3Ed__36__ctor_m5CB03CB5AC255CBBC477F37DE13205A71039E5C2 (U3CWaitUntilNextCardU3Ed__36_t5D60AB379FAA12B8BBE308F7FCB469065CCD0C3B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -14963,14 +15266,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitUntilNextCardU3Ed__36__ctor_m5CB0
 		return;
 	}
 }
-// Method Definition Index: 109685
+// Method Definition Index: 109689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitUntilNextCardU3Ed__36_System_IDisposable_Dispose_m741C5A0B93200A75CD341F29E553094DBBBD5CD8 (U3CWaitUntilNextCardU3Ed__36_t5D60AB379FAA12B8BBE308F7FCB469065CCD0C3B* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 109686
+// Method Definition Index: 109690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CWaitUntilNextCardU3Ed__36_MoveNext_mEB6BA70FAED1CFCFF4A723EA3EAB82ADDBBF1506 (U3CWaitUntilNextCardU3Ed__36_t5D60AB379FAA12B8BBE308F7FCB469065CCD0C3B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15051,7 +15354,7 @@ IL_005d:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 109687
+// Method Definition Index: 109691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitUntilNextCardU3Ed__36_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDB2315FB1F67F06B37604285AD8F003E282D1607 (U3CWaitUntilNextCardU3Ed__36_t5D60AB379FAA12B8BBE308F7FCB469065CCD0C3B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15059,7 +15362,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitUntilNextCardU3Ed__36_S
 		return L_0;
 	}
 }
-// Method Definition Index: 109688
+// Method Definition Index: 109692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitUntilNextCardU3Ed__36_System_Collections_IEnumerator_Reset_m5E5CC9DFDC8C17DB423A7C7ECBCD4342A7754633 (U3CWaitUntilNextCardU3Ed__36_t5D60AB379FAA12B8BBE308F7FCB469065CCD0C3B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15068,7 +15371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitUntilNextCardU3Ed__36_System_Coll
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CWaitUntilNextCardU3Ed__36_System_Collections_IEnumerator_Reset_m5E5CC9DFDC8C17DB423A7C7ECBCD4342A7754633_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 109689
+// Method Definition Index: 109693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitUntilNextCardU3Ed__36_System_Collections_IEnumerator_get_Current_mE7D77BA338B271D9E95117683B19436CFFF37229 (U3CWaitUntilNextCardU3Ed__36_t5D60AB379FAA12B8BBE308F7FCB469065CCD0C3B* __this, const RuntimeMethod* method) 
 {
 	{

@@ -7,7 +7,7 @@ using UnityEngine.InputSystem;
 /// <summary>
 /// MR (Meta Quest) version of SwitchSpawner.
 /// Editor: left mouse click to spawn (with AR raycast or fallback).
-/// Quest: right controller trigger button to spawn (physics raycast against 
+/// Quest: right controller grip button to spawn (physics raycast against 
 ///        AR plane meshes, with fallback to fixed position).
 /// </summary>
 public class SwitchSpawnerMR : MonoBehaviour
@@ -15,8 +15,11 @@ public class SwitchSpawnerMR : MonoBehaviour
     public SwitchSpawnLayout layout;
     public GameObject snapZonesRoot;
 
+    [Header("Visual Guides Root")]
+    public GameObject visualGuidesRoot;
+
     [Header("Quest Input")]
-    [Tooltip("Assign: XRI RightHand/Trigger from the XRI Default Input Actions asset")]
+    [Tooltip("Assign: XRI RightHand/Select from the XRI Default Input Actions asset")]
     public InputActionReference spawnAction;
 
     [Header("Spawn Settings")]
@@ -37,7 +40,9 @@ public class SwitchSpawnerMR : MonoBehaviour
     void Start()
     {
         _arRaycastManager = FindFirstObjectByType<ARRaycastManager>();
-        snapZonesRoot.SetActive(false);
+        // Hide both roots until the user spawns
+        if (snapZonesRoot   != null) snapZonesRoot.SetActive(false);
+        if (visualGuidesRoot != null) visualGuidesRoot.SetActive(false);
 
         // Subscribe to controller trigger input
         if (spawnAction != null)
@@ -178,10 +183,25 @@ public class SwitchSpawnerMR : MonoBehaviour
     {
         _spawned = true;
 
-        snapZonesRoot.transform.position = tablePose.position;
-        snapZonesRoot.transform.rotation = tablePose.rotation;
-        snapZonesRoot.SetActive(true);
+        // ── Move snap zones to tap position ──────────────────────────────────
+        if (snapZonesRoot != null)
+        {
+            snapZonesRoot.transform.position = tablePose.position;
+            snapZonesRoot.transform.rotation = tablePose.rotation;
+            snapZonesRoot.SetActive(true);
+        }
 
+        // ── Move visual guides to tap position ───────────────────────────────
+        // The guides' LOCAL positions encode the part offset from the switch origin.
+        // Moving the root to tablePose.position offsets all guides correctly.
+        if (visualGuidesRoot != null)
+        {
+            visualGuidesRoot.transform.position = tablePose.position;
+            visualGuidesRoot.transform.rotation = tablePose.rotation;
+            visualGuidesRoot.SetActive(true);
+        }
+
+        // ── Spawn part instances ──────────────────────────────────────────────
         foreach (var entry in layout.parts)
         {
             Vector3 worldOffset = tablePose.rotation * entry.localOffset;
@@ -208,7 +228,8 @@ public class SwitchSpawnerMR : MonoBehaviour
             Destroy(part);
         _spawnedParts.Clear();
 
-        snapZonesRoot.SetActive(false);
+        if (snapZonesRoot    != null) snapZonesRoot.SetActive(false);
+        if (visualGuidesRoot != null) visualGuidesRoot.SetActive(false);
         _spawned = false;
 
         AssemblyManager.Instance.ResetAllZones();
