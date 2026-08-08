@@ -219,6 +219,12 @@ public class SwitchSpawnerMR : MonoBehaviour
         }
 
         AssemblyManager.Instance.enabled = true;
+
+        SpawnPreview preview = FindFirstObjectByType<SpawnPreview>();
+
+        if (preview != null)
+            preview.OnPartsSpawned();
+            
         StartCoroutine(RefreshHintsAfterDelay());
     }
 

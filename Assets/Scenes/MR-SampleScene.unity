@@ -259,6 +259,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -557,6 +558,7 @@ MonoBehaviour:
   visualGuide: {fileID: 1302198918}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -873,6 +875,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -1061,6 +1064,7 @@ MonoBehaviour:
   visualGuide: {fileID: 955858688}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -1377,6 +1381,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -1616,6 +1621,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -1923,6 +1929,7 @@ MonoBehaviour:
   - ContactCover_2
   - ContactCover_3
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -2436,6 +2443,7 @@ MonoBehaviour:
   visualGuide: {fileID: 56357886}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -3254,6 +3262,7 @@ MonoBehaviour:
   - RightHousing_1
   - LeftHousing_1
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -3470,6 +3479,7 @@ MonoBehaviour:
   - ContactCover_2
   - ContactCover_3
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -3670,6 +3680,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -3858,6 +3869,7 @@ MonoBehaviour:
   visualGuide: {fileID: 576840409}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -4175,6 +4187,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - TopCover_0
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -4400,6 +4413,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - TopHousing_0
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -4601,6 +4615,7 @@ MonoBehaviour:
   visualGuide: {fileID: 1598569651}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -5017,6 +5032,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -5242,6 +5258,7 @@ MonoBehaviour:
   - InternalFastener_0_Right
   - InternalFastener_0_Left
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -5460,6 +5477,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - BottomHousing_0
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -5767,6 +5785,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -5968,6 +5987,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -6168,6 +6188,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -6372,6 +6393,7 @@ MonoBehaviour:
   - TerminalLug_1_Left
   - TerminalLug_1_Right
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -6680,6 +6702,7 @@ MonoBehaviour:
   visualGuide: {fileID: 1264269438}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -6884,6 +6907,7 @@ MonoBehaviour:
   - ContactCover_2
   - ContactCover_3
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -7531,6 +7555,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -7873,6 +7898,7 @@ MonoBehaviour:
   - LeftHousing_3
   - RightHousing_3
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -8096,6 +8122,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -8474,6 +8501,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -8675,6 +8703,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - TopHousing_0
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -9097,6 +9126,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -9285,6 +9315,7 @@ MonoBehaviour:
   visualGuide: {fileID: 1625235451}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -9646,6 +9677,7 @@ MonoBehaviour:
   - TerminalLug_3_Left
   - TerminalLug_3_Right
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -9953,6 +9985,7 @@ MonoBehaviour:
   visualGuide: {fileID: 655381088}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -10299,6 +10332,7 @@ MonoBehaviour:
   visualGuide: {fileID: 1366413220}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -10544,6 +10578,7 @@ MonoBehaviour:
   - InterlockingNut_0_C
   - InterlockingNut_0_D
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -10732,6 +10767,7 @@ MonoBehaviour:
   visualGuide: {fileID: 225613536}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -11152,6 +11188,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -11375,6 +11412,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - ShaftReceiverCollar_0
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -11558,6 +11596,11 @@ PrefabInstance:
     - target: {fileID: 2611708878441549689, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266174449277905841, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_text
+      value: Press grip button of the right controller to spawn the Switch Parts
+        inside the highlighted area.
       objectReference: {fileID: 0}
     - target: {fileID: 5266174449277905841, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
       propertyPath: m_fontSize
@@ -11791,6 +11834,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -12269,6 +12313,7 @@ MonoBehaviour:
   visualGuide: {fileID: 1956326961}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -12472,6 +12517,7 @@ MonoBehaviour:
   visualGuide: {fileID: 220001424}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -12672,6 +12718,7 @@ MonoBehaviour:
   visualGuide: {fileID: 504794095}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -12872,6 +12919,7 @@ MonoBehaviour:
   visualGuide: {fileID: 1938633217}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -13281,6 +13329,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - BottomHousing_0
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -13499,6 +13548,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -13791,6 +13841,7 @@ MonoBehaviour:
   visualGuide: {fileID: 713211442}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -14029,6 +14080,7 @@ MonoBehaviour:
   - InterlockingNut_0_C
   - InterlockingNut_0_D
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -14262,6 +14314,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -14590,6 +14643,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -14898,6 +14952,7 @@ MonoBehaviour:
   visualGuide: {fileID: 1118323838}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -15628,6 +15683,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - TopHousing_0
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -15828,6 +15884,7 @@ MonoBehaviour:
   visualGuide: {fileID: 2080435689}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -16076,6 +16133,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -16389,6 +16447,7 @@ MonoBehaviour:
   - InternalFastener_0_Right
   - InternalFastener_0_Left
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -16581,6 +16640,7 @@ MonoBehaviour:
   - TerminalLug_1_Left
   - TerminalLug_1_Right
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -17613,6 +17673,7 @@ MonoBehaviour:
   - LeftHousing_2
   - RightHousing_2
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -17813,6 +17874,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -18002,6 +18064,7 @@ MonoBehaviour:
   visualGuide: {fileID: 799003814}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -18202,6 +18265,7 @@ MonoBehaviour:
   visualGuide: {fileID: 1066548614}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -18519,6 +18583,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - ShaftReceiverCollar_0
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -18827,6 +18892,7 @@ MonoBehaviour:
   - TerminalLug_3_Left
   - TerminalLug_3_Right
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -18887,6 +18953,52 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552559627}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1574119387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1574119389}
+  - component: {fileID: 1574119388}
+  m_Layer: 0
+  m_Name: SpawnPreview
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1574119388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574119387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f85ecba15625694da82b1995e9b4037, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnPreview
+  previewPrefab: {fileID: 3741605463989457548, guid: 1da1ba1fc846f9d4db986fdde36b0840, type: 3}
+  previewScale: {x: 2, y: 1, z: 1.5}
+--- !u!4 &1574119389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574119387}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.23867, y: -0, z: 0.05227}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1582311673
 GameObject:
   m_ObjectHideFlags: 0
@@ -19015,6 +19127,7 @@ MonoBehaviour:
   visualGuide: {fileID: 567989539}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -19681,6 +19794,7 @@ MonoBehaviour:
   - LeftHousing_3
   - RightHousing_3
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -19869,6 +19983,7 @@ MonoBehaviour:
   visualGuide: {fileID: 1379845123}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -20240,6 +20355,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -20428,6 +20544,7 @@ MonoBehaviour:
   visualGuide: {fileID: 1884641623}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -20640,6 +20757,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -20840,6 +20958,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -21043,6 +21162,7 @@ MonoBehaviour:
   - RightHousing_1
   - LeftHousing_1
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -21668,6 +21788,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - TopHousing_0
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -21860,6 +21981,7 @@ MonoBehaviour:
   - TerminalLug_2_Left
   - TerminalLug_2_Right
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -22260,6 +22382,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -22459,6 +22582,7 @@ MonoBehaviour:
   visualGuide: {fileID: 1463282134}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -22662,6 +22786,7 @@ MonoBehaviour:
   - LeftHousing_2
   - RightHousing_2
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -22873,6 +22998,7 @@ MonoBehaviour:
   visualGuide: {fileID: 233380338}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -23177,6 +23303,7 @@ MonoBehaviour:
   visualGuide: {fileID: 1962970561}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -23388,6 +23515,7 @@ MonoBehaviour:
   visualGuide: {fileID: 121968411}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -23755,6 +23883,7 @@ MonoBehaviour:
   visualGuide: {fileID: 471075896}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -24317,6 +24446,7 @@ MonoBehaviour:
   visualGuide: {fileID: 831611502}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -24530,6 +24660,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -24718,6 +24849,7 @@ MonoBehaviour:
   visualGuide: {fileID: 243856350}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -24935,6 +25067,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -25124,6 +25257,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - TopCover_0
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -25237,6 +25371,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -25581,6 +25716,7 @@ MonoBehaviour:
   - TerminalLug_2_Left
   - TerminalLug_2_Right
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -25889,6 +26025,7 @@ MonoBehaviour:
   - ContactCover_2
   - ContactCover_3
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -26089,6 +26226,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -26285,6 +26423,7 @@ MonoBehaviour:
   visualGuide: {fileID: 968044362}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -26497,6 +26636,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -26697,6 +26837,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
+  snapSound: {fileID: 0}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -27805,3 +27946,4 @@ SceneRoots:
   - {fileID: 882674934}
   - {fileID: 1041568862}
   - {fileID: 687178848}
+  - {fileID: 1574119389}

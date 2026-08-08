@@ -19,6 +19,9 @@ public class AssemblySnapZone : MonoBehaviour
     [Header("OR Prerequisites — ANY ONE must be satisfied (empty = skip check)")]
     public List<string> orPrerequisiteZoneIds;
 
+    [Header("Audio")]
+    public AudioClip snapSound; // Assign a short click/snap sound in Inspector
+
     [Header("Options")]
     public bool isOptional = false; // Optional zones don't block AssemblyComplete
 
@@ -134,6 +137,10 @@ public class AssemblySnapZone : MonoBehaviour
         // Mark visual guide as satisfied (faint green, stays visible as confirmation)
         if (visualGuide != null)
             visualGuide.SetState(VisualSnapGuide.GuideState.Satisfied);
+
+        // Correct snap — play snap sound:
+        if (snapSound != null)
+            AudioSource.PlayClipAtPoint(snapSound, transform.position, 0.8f);
 
         // Notify the AssemblyManager to check if new zones should unlock
         AssemblyManager.Instance.OnZoneSatisfied(zoneId);

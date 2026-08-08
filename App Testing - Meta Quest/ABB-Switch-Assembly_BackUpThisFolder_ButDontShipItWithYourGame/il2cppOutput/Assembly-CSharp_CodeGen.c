@@ -73,6 +73,11 @@ extern void PartLabelDisplay__cctor_m9A19607875BED2584BB5658243FBB4C0D0B46DE7 (v
 extern void PartTypeSelectFilter_get_canProcess_m45462AE1E2FEF8065320367B94776B1E69C13045 (void);
 extern void PartTypeSelectFilter_Process_mAEBF7F0CCF323FB9C6219EF26F44E9C8661A4BD9 (void);
 extern void PartTypeSelectFilter__ctor_mBA81E3D85A9D54D32659C2A9D5D947745484C510 (void);
+extern void SpawnPreview_Start_m0CDF189E4C10B882963C5D8E492E78E9EC57D2B0 (void);
+extern void SpawnPreview_OnPartsSpawned_m22B0FD3635E25AD1B0C1285C83A919D636E1DBC8 (void);
+extern void SpawnPreview_Update_m830B1C850E8170812B30BA8A3F531DD22D3E7119 (void);
+extern void SpawnPreview__ctor_mCAD04821E4E4C9F48C8C1809CAA5DB2D6B8A3A65 (void);
+extern void SpawnPreview__cctor_m113F8A3E4EB466A7AB7585955EDD308B0E648974 (void);
 extern void SwitchPart_Awake_m5CBEF14A521572A2385BC2458DFDB7F4BA1A33B8 (void);
 extern void SwitchPart_OnEnable_mFB7BF5DBFE9D10CF8C933672B81DF053A114E1FE (void);
 extern void SwitchPart_OnDisable_m48E9FEDE5CF0AFB8EADD3828E84A97706B803318 (void);
@@ -186,7 +191,7 @@ extern void U3CWaitUntilNextCardU3Ed__36_MoveNext_mEB6BA70FAED1CFCFF4A723EA3EAB8
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDB2315FB1F67F06B37604285AD8F003E282D1607 (void);
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_IEnumerator_Reset_m5E5CC9DFDC8C17DB423A7C7ECBCD4342A7754633 (void);
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_IEnumerator_get_Current_mE7D77BA338B271D9E95117683B19436CFFF37229 (void);
-static Il2CppMethodPointer s_methodPointers[179] = 
+static Il2CppMethodPointer s_methodPointers[184] = 
 {
 	ARPlaneColliderGenerator_Awake_m48543095E1B7F2AF0F4731398C54225C13EA2A1C,
 	ARPlaneColliderGenerator_OnEnable_m8203A3665B4BCB0FAF26C4BBC943D197FC45D309,
@@ -254,6 +259,11 @@ static Il2CppMethodPointer s_methodPointers[179] =
 	PartTypeSelectFilter_get_canProcess_m45462AE1E2FEF8065320367B94776B1E69C13045,
 	PartTypeSelectFilter_Process_mAEBF7F0CCF323FB9C6219EF26F44E9C8661A4BD9,
 	PartTypeSelectFilter__ctor_mBA81E3D85A9D54D32659C2A9D5D947745484C510,
+	SpawnPreview_Start_m0CDF189E4C10B882963C5D8E492E78E9EC57D2B0,
+	SpawnPreview_OnPartsSpawned_m22B0FD3635E25AD1B0C1285C83A919D636E1DBC8,
+	SpawnPreview_Update_m830B1C850E8170812B30BA8A3F531DD22D3E7119,
+	SpawnPreview__ctor_mCAD04821E4E4C9F48C8C1809CAA5DB2D6B8A3A65,
+	SpawnPreview__cctor_m113F8A3E4EB466A7AB7585955EDD308B0E648974,
 	SwitchPart_Awake_m5CBEF14A521572A2385BC2458DFDB7F4BA1A33B8,
 	SwitchPart_OnEnable_mFB7BF5DBFE9D10CF8C933672B81DF053A114E1FE,
 	SwitchPart_OnDisable_m48E9FEDE5CF0AFB8EADD3828E84A97706B803318,
@@ -371,9 +381,9 @@ static Il2CppMethodPointer s_methodPointers[179] =
 extern void Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] = 
 {
-	{ 0x06000098, Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_AdjustorThunk },
+	{ 0x0600009D, Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[179] = 
+static const int32_t s_InvokerIndices[184] = 
 {
 	19027,
 	19027,
@@ -386,11 +396,11 @@ static const int32_t s_InvokerIndices[179] =
 	10279,
 	14456,
 	19027,
-	32553,
+	32554,
 	19027,
 	10279,
-	32446,
-	31148,
+	32447,
+	31149,
 	19027,
 	19027,
 	14456,
@@ -399,7 +409,7 @@ static const int32_t s_InvokerIndices[179] =
 	19027,
 	19027,
 	19027,
-	32553,
+	32554,
 	19027,
 	10279,
 	10279,
@@ -413,7 +423,7 @@ static const int32_t s_InvokerIndices[179] =
 	14456,
 	14456,
 	19027,
-	32553,
+	32554,
 	19027,
 	19027,
 	19027,
@@ -427,7 +437,7 @@ static const int32_t s_InvokerIndices[179] =
 	19027,
 	18793,
 	19027,
-	32553,
+	32554,
 	14379,
 	19027,
 	18566,
@@ -437,10 +447,15 @@ static const int32_t s_InvokerIndices[179] =
 	19027,
 	7408,
 	19027,
-	32553,
+	32554,
 	18566,
 	4557,
 	19027,
+	19027,
+	19027,
+	19027,
+	19027,
+	32554,
 	19027,
 	19027,
 	19027,
@@ -456,19 +471,19 @@ static const int32_t s_InvokerIndices[179] =
 	14489,
 	19027,
 	19027,
-	32553,
+	32554,
 	19027,
 	14379,
 	14237,
 	19027,
-	32553,
+	32554,
 	19027,
 	19027,
-	32611,
+	32612,
 	19027,
 	18793,
 	19027,
-	32553,
+	32554,
 	18793,
 	14456,
 	18905,
@@ -559,7 +574,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	179,
+	184,
 	s_methodPointers,
 	1,
 	s_adjustorThunks,
