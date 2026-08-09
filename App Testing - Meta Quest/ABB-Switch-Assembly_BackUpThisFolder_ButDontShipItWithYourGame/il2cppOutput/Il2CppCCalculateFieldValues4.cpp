@@ -1869,7 +1869,7 @@ struct U3CGetPropertyMembersU3Ed__22_t6D8200BE8309AEA2B11C0A3857CB5C82C722CC9D  
 	bool ___U3ChasSerializeReferenceAttributeU3E5__8;
 	FieldInfo_t* ___U3CfieldU3E5__9;
 };
-struct U3CRefreshHintsAfterDelayU3Ed__19_t86619983F6BE42F4ECC559CDA7651F8B4F31DF12  : public RuntimeObject
+struct U3CRefreshHintsAfterDelayU3Ed__21_t04DA4E0AC07817596530FA057D25385EF51E13A8  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -14083,8 +14083,11 @@ struct AndroidXRPerformanceMetrics_t56078A781233561DB8A2F8C79E96202119DC9B80  : 
 struct AssemblyHintSystem_tD4CB994672DAD73DBBE883E7B6F03A92872701FA  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___hintText;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___counterText;
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___availableColor;
+	float ___lostPartDistance;
 	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* ____propBlock;
+	int32_t ____totalZones;
 };
 struct AssemblyManager_tE1D118B98389763192B5C8D198FDB4AB3F9EF2AA  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -15963,7 +15966,9 @@ struct U3CU3Ec_t4B36B3C74A377A2C00EC032658F6257601C72D9F_StaticFields
 struct U3CU3Ec_t779473AC5693BB70AECC73402341ED16EF8BE1C0_StaticFields
 {
 	U3CU3Ec_t779473AC5693BB70AECC73402341ED16EF8BE1C0* ___U3CU3E9;
-	Func_2_tD9DB05BE09411BFACAA633F75B958EA49968C324* ___U3CU3E9__4_0;
+	Func_2_tD9DB05BE09411BFACAA633F75B958EA49968C324* ___U3CU3E9__7_0;
+	Func_2_tD9DB05BE09411BFACAA633F75B958EA49968C324* ___U3CU3E9__8_0;
+	Func_2_tD9DB05BE09411BFACAA633F75B958EA49968C324* ___U3CU3E9__8_1;
 };
 struct U3CU3Ec_t7CAAD2752E540B804904F5E12EE7D4A02639DF89_StaticFields
 {
@@ -19118,12 +19123,12 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13188[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13190[1] = 
 {
 	static_cast<int32_t>(offsetof(ARPlaneColliderGenerator_tB086C1599CFFE9F2680CF2A9FEF378DF35514B73, ____planeManager)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13191[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13191[4] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec_t779473AC5693BB70AECC73402341ED16EF8BE1C0_StaticFields, ___U3CU3E9)),static_cast<int32_t>(offsetof(U3CU3Ec_t779473AC5693BB70AECC73402341ED16EF8BE1C0_StaticFields, ___U3CU3E9__4_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13192[3] = 
+	static_cast<int32_t>(offsetof(U3CU3Ec_t779473AC5693BB70AECC73402341ED16EF8BE1C0_StaticFields, ___U3CU3E9)),static_cast<int32_t>(offsetof(U3CU3Ec_t779473AC5693BB70AECC73402341ED16EF8BE1C0_StaticFields, ___U3CU3E9__7_0)),static_cast<int32_t>(offsetof(U3CU3Ec_t779473AC5693BB70AECC73402341ED16EF8BE1C0_StaticFields, ___U3CU3E9__8_0)),static_cast<int32_t>(offsetof(U3CU3Ec_t779473AC5693BB70AECC73402341ED16EF8BE1C0_StaticFields, ___U3CU3E9__8_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13192[6] = 
 {
-	static_cast<int32_t>(offsetof(AssemblyHintSystem_tD4CB994672DAD73DBBE883E7B6F03A92872701FA, ___hintText)),static_cast<int32_t>(offsetof(AssemblyHintSystem_tD4CB994672DAD73DBBE883E7B6F03A92872701FA, ___availableColor)),static_cast<int32_t>(offsetof(AssemblyHintSystem_tD4CB994672DAD73DBBE883E7B6F03A92872701FA, ____propBlock)),};
+	static_cast<int32_t>(offsetof(AssemblyHintSystem_tD4CB994672DAD73DBBE883E7B6F03A92872701FA, ___hintText)),static_cast<int32_t>(offsetof(AssemblyHintSystem_tD4CB994672DAD73DBBE883E7B6F03A92872701FA, ___counterText)),static_cast<int32_t>(offsetof(AssemblyHintSystem_tD4CB994672DAD73DBBE883E7B6F03A92872701FA, ___availableColor)),static_cast<int32_t>(offsetof(AssemblyHintSystem_tD4CB994672DAD73DBBE883E7B6F03A92872701FA, ___lostPartDistance)),static_cast<int32_t>(offsetof(AssemblyHintSystem_tD4CB994672DAD73DBBE883E7B6F03A92872701FA, ____propBlock)),static_cast<int32_t>(offsetof(AssemblyHintSystem_tD4CB994672DAD73DBBE883E7B6F03A92872701FA, ____totalZones)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13193[3] = 
 {
 	static_cast<int32_t>(offsetof(U3CU3Ec_t7CAAD2752E540B804904F5E12EE7D4A02639DF89_StaticFields, ___U3CU3E9)),static_cast<int32_t>(offsetof(U3CU3Ec_t7CAAD2752E540B804904F5E12EE7D4A02639DF89_StaticFields, ___U3CU3E9__10_0)),static_cast<int32_t>(offsetof(U3CU3Ec_t7CAAD2752E540B804904F5E12EE7D4A02639DF89_StaticFields, ___U3CU3E9__10_1)),};
@@ -19138,7 +19143,7 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13196[19] =
 	static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8, ___zoneId)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8, ___acceptedPartType)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8, ___acceptedModuleIndex)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8, ___ignoreModuleIndex)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8, ___visualGuide)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8, ___prerequisiteZoneIds)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8, ___orPrerequisiteZoneIds)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8, ___snapSound)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8, ___isOptional)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8, ___isSatisfied)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8, ___isActive)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8, ____socket)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8, ____zoneRenderer)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8, ____propBlock)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_StaticFields, ___InactiveColor)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_StaticFields, ___ReadyColor)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_StaticFields, ___HoverValidColor)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_StaticFields, ___HoverInvalidColor)),static_cast<int32_t>(offsetof(AssemblySnapZone_t8B3868B612EA13A4B88DB1073126646CA21788A8_StaticFields, ___SatisfiedColor)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13198[2] = 
 {
-	static_cast<int32_t>(offsetof(U3CRefreshHintsAfterDelayU3Ed__19_t86619983F6BE42F4ECC559CDA7651F8B4F31DF12, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CRefreshHintsAfterDelayU3Ed__19_t86619983F6BE42F4ECC559CDA7651F8B4F31DF12, ___U3CU3E2__current)),};
+	static_cast<int32_t>(offsetof(U3CRefreshHintsAfterDelayU3Ed__21_t04DA4E0AC07817596530FA057D25385EF51E13A8, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CRefreshHintsAfterDelayU3Ed__21_t04DA4E0AC07817596530FA057D25385EF51E13A8, ___U3CU3E2__current)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13199[10] = 
 {
 	static_cast<int32_t>(offsetof(SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05, ___layout)),static_cast<int32_t>(offsetof(SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05, ___snapZonesRoot)),static_cast<int32_t>(offsetof(SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05, ___visualGuidesRoot)),static_cast<int32_t>(offsetof(SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05, ___spawnAction)),static_cast<int32_t>(offsetof(SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05, ___fallbackSpawnDistance)),static_cast<int32_t>(offsetof(SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05, ___fallbackYOffset)),static_cast<int32_t>(offsetof(SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05, ____arRaycastManager)),static_cast<int32_t>(offsetof(SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05_StaticFields, ____arHits)),static_cast<int32_t>(offsetof(SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05, ____spawned)),static_cast<int32_t>(offsetof(SwitchSpawnerMR_t1C2C601EBA08B17A3887DD38D21234FB884EAC05, ____spawnedParts)),};

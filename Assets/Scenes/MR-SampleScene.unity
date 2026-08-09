@@ -11493,6 +11493,50 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 264411957123030935, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 264411957123030935, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030352676319539318, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030352676319539318, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030352676319539318, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030352676319539318, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030352676319539318, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030352676319539318, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030352676319539318, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030352676319539318, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030352676319539318, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 2499934169256056836, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
       propertyPath: m_Camera
       value: 
@@ -11597,6 +11641,58 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3031320566081284615, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031320566081284615, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031320566081284615, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1676725398}
+    - target: {fileID: 3031320566081284615, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031320566081284615, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RecoverLostParts
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031320566081284615, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: AssemblyHintSystem, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031320566081284615, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146150206081741614, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146150206081741614, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146150206081741614, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146150206081741614, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146150206081741614, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -300
+      objectReference: {fileID: 0}
+    - target: {fileID: 3251910924046529148, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_text
+      value: Recover the lost parts :(
+      objectReference: {fileID: 0}
     - target: {fileID: 5266174449277905841, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
       propertyPath: m_text
       value: Press grip button of the right controller to spawn the Switch Parts
@@ -11672,20 +11768,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7386802253250660326, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -60
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7569132411100555852, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8855867470027139047, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      propertyPath: m_text
+      value: Assembly suggestions and status will appear here ...
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6988063788864700211, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6825491123115201814, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1230243601}
   m_SourcePrefab: {fileID: 100100000, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
 --- !u!114 &1041568863 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5266174449277905841, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+  m_PrefabInstance: {fileID: 1041568862}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!114 &1041568864 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 118880419797434590, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
   m_PrefabInstance: {fileID: 1041568862}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -14174,6 +14289,30 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2287730480037448999, guid: b6d57cedc6a73c94aad8ce006a26b41b, type: 3}
   m_PrefabInstance: {fileID: 3375922771489076479}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1230243596 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6825491123115201814, guid: fec4beb0ce5d9ee448f9e8b43376600d, type: 3}
+  m_PrefabInstance: {fileID: 1041568862}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1230243601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230243596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.UI.TrackedDeviceGraphicRaycaster
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &1232857474
 GameObject:
   m_ObjectHideFlags: 0
@@ -20214,7 +20353,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblyHintSystem
   hintText: {fileID: 1041568863}
+  counterText: {fileID: 1041568864}
   availableColor: {r: 0.9764706, g: 0.60291046, b: 0.1372549, a: 1}
+  lostPartDistance: 2
 --- !u!1 &1681193598
 GameObject:
   m_ObjectHideFlags: 0

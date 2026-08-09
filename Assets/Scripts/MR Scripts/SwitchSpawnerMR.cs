@@ -14,6 +14,7 @@ public class SwitchSpawnerMR : MonoBehaviour
 {
     public SwitchSpawnLayout layout;
     public GameObject snapZonesRoot;
+    public GameObject SnapZonesRoot => snapZonesRoot;
 
     [Header("Visual Guides Root")]
     public GameObject visualGuidesRoot;
