@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 2179420565020235303}
   - component: {fileID: 5479691801321570199}
   - component: {fileID: 5253982864259548608}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terminal-Lugs-Rcv2-R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,7 +35,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3380713402289021390}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -108,8 +108,8 @@ Rigidbody:
   m_GameObject: {fileID: 3380713402289021390}
   serializedVersion: 5
   m_Mass: 0.01
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_LinearDamping: 5
+  m_AngularDamping: 8
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -123,7 +123,7 @@ Rigidbody:
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
 --- !u!114 &4873729240263741290
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SwitchPart
   partType: 17
-  moduleIndex: 0
+  moduleIndex: 2
 --- !u!65 &4356519252322717828
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -147,7 +147,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3380713402289021390}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: fc8fdb4b7c1f43c4583a87dbe715c91b, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -168,7 +168,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3380713402289021390}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: fc8fdb4b7c1f43c4583a87dbe715c91b, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -189,7 +189,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3380713402289021390}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: fc8fdb4b7c1f43c4583a87dbe715c91b, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -210,7 +210,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3380713402289021390}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: fc8fdb4b7c1f43c4583a87dbe715c91b, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -231,7 +231,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3380713402289021390}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: fc8fdb4b7c1f43c4583a87dbe715c91b, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -252,7 +252,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3380713402289021390}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: fc8fdb4b7c1f43c4583a87dbe715c91b, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
