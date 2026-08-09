@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 416741966718630983}
   - component: {fileID: 8501574646907377808}
   - component: {fileID: 7648555926739637747}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Shaft-Receiver-Collar
   m_TagString: Untagged
   m_Icon: {fileID: 0}

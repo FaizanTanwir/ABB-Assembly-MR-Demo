@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1425084086841998988}
   - component: {fileID: 1563049198343269844}
   - component: {fileID: 5585773113284428591}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Contact-Window-Rcv1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

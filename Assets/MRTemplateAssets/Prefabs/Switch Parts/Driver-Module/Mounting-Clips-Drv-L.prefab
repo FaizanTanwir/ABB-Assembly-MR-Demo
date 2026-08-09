@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 6342416272644141592}
   - component: {fileID: 9197615491325779707}
   - component: {fileID: 1418415727883617609}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mounting-Clips-Drv-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}

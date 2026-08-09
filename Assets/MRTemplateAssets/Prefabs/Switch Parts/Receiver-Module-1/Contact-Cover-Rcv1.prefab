@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 1855181116823459818}
   - component: {fileID: 6038921444494331799}
   - component: {fileID: 804388985523940365}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Contact-Cover-Rcv1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

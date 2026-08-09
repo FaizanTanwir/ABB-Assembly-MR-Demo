@@ -43,6 +43,8 @@ public class SwitchPart : MonoBehaviour
         {
             interactable.hoverEntered.AddListener(OnHoverEntered);
             interactable.hoverExited.AddListener(OnHoverExited);
+            interactable.selectEntered.AddListener(OnGrabbed);   // NEW
+            interactable.selectExited.AddListener(OnReleased);   // NEW
         }
     }
 
@@ -53,9 +55,42 @@ public class SwitchPart : MonoBehaviour
         {
             interactable.hoverEntered.RemoveListener(OnHoverEntered);
             interactable.hoverExited.RemoveListener(OnHoverExited);
+            interactable.selectEntered.RemoveListener(OnGrabbed);   // NEW
+            interactable.selectExited.RemoveListener(OnReleased);   // NEW
         }
     }
 
+    private static readonly int LayerSwitchPart       = 8; // match your layer numbers
+    private static readonly int LayerSwitchPartGrabbed = 9;
+
+    // These are called by the existing hover listeners' parent: the XR Grab Interactable
+    // Add these two additional event subscriptions inside OnEnable:
+
+    // In OnEnable, ADD these two lines alongside the existing hover listeners:
+    //     interactable.selectEntered.AddListener(OnGrabbed);
+    //     interactable.selectExited.AddListener(OnReleased);
+    // In OnDisable, ADD:
+    //     interactable.selectEntered.RemoveListener(OnGrabbed);
+    //     interactable.selectExited.RemoveListener(OnReleased);
+
+    private void OnGrabbed(SelectEnterEventArgs args)
+    {
+        // Switch to grabbed layer — no longer collides with other SwitchPart objects
+        SetLayerRecursively(gameObject, LayerSwitchPartGrabbed);
+    }
+
+    private void OnReleased(SelectExitEventArgs args)
+    {
+        // Return to normal layer — resumes collisions
+        SetLayerRecursively(gameObject, LayerSwitchPart);
+    }
+
+    private void SetLayerRecursively(GameObject obj, int layer)
+    {
+        obj.layer = layer;
+        foreach (Transform child in obj.transform)
+            SetLayerRecursively(child.gameObject, layer);
+    }
     private void OnHoverEntered(HoverEnterEventArgs args)
     {
         PartLabelDisplay display = FindFirstObjectByType<PartLabelDisplay>();

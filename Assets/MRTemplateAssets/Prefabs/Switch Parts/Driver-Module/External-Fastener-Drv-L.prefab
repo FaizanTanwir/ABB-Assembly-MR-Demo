@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8653528057080316745}
   - component: {fileID: 2209142884271227904}
   - component: {fileID: 8056183613897124523}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: External-Fastener-Drv-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}

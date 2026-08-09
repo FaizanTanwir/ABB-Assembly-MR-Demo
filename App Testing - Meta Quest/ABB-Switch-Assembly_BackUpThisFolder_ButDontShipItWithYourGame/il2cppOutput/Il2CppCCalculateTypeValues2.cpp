@@ -36528,6 +36528,11 @@ struct SpawnPreview_tDE451596153410C7C29C6D3770FA56D0E1CCB539_StaticFields
 {
 	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ____hits;
 };
+struct SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_StaticFields
+{
+	int32_t ___LayerSwitchPart;
+	int32_t ___LayerSwitchPartGrabbed;
+};
 struct SwitchSpawner_t74B0FB3D43113A1521ACFF103BF5D6EAA534D6A2_StaticFields
 {
 	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ____hits;
@@ -41500,7 +41505,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize13201 = { sizeof(PartTypeSel
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize13202;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize13202 = { sizeof(SpawnPreview_tDE451596153410C7C29C6D3770FA56D0E1CCB539), -1, sizeof(SpawnPreview_tDE451596153410C7C29C6D3770FA56D0E1CCB539_StaticFields), 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize13203;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize13203 = { sizeof(SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize13203 = { sizeof(SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E), -1, sizeof(SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_StaticFields), 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize13204;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize13204 = { sizeof(int32_t)+ sizeof(RuntimeObject), sizeof(int32_t), 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize13205;

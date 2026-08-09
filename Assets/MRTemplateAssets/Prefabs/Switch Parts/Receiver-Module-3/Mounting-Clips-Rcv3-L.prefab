@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 8218241115638199653}
   - component: {fileID: 6306891305571647473}
   - component: {fileID: 4321641501443154123}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mounting-Clips-Rcv3-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}

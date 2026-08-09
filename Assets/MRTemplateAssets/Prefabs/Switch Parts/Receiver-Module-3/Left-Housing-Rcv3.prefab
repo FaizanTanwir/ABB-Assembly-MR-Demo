@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 6832390074075068137}
   - component: {fileID: 996907987078063330}
   - component: {fileID: 1855023549614039735}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left-Housing-Rcv3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

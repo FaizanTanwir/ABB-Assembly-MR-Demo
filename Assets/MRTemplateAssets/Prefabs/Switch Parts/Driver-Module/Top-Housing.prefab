@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 1539045100511087874}
   - component: {fileID: 5518450982383994878}
   - component: {fileID: 6771910003122811284}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Top-Housing
   m_TagString: Untagged
   m_Icon: {fileID: 0}

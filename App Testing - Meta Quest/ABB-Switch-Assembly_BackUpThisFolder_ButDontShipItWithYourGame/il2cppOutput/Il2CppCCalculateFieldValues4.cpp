@@ -16684,6 +16684,11 @@ struct SpawnPreview_tDE451596153410C7C29C6D3770FA56D0E1CCB539_StaticFields
 {
 	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ____hits;
 };
+struct SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_StaticFields
+{
+	int32_t ___LayerSwitchPart;
+	int32_t ___LayerSwitchPartGrabbed;
+};
 struct SwitchSpawner_t74B0FB3D43113A1521ACFF103BF5D6EAA534D6A2_StaticFields
 {
 	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ____hits;
@@ -19146,9 +19151,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13201[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13202[6] = 
 {
 	static_cast<int32_t>(offsetof(SpawnPreview_tDE451596153410C7C29C6D3770FA56D0E1CCB539, ___previewPrefab)),static_cast<int32_t>(offsetof(SpawnPreview_tDE451596153410C7C29C6D3770FA56D0E1CCB539, ___previewScale)),static_cast<int32_t>(offsetof(SpawnPreview_tDE451596153410C7C29C6D3770FA56D0E1CCB539, ____raycastManager)),static_cast<int32_t>(offsetof(SpawnPreview_tDE451596153410C7C29C6D3770FA56D0E1CCB539_StaticFields, ____hits)),static_cast<int32_t>(offsetof(SpawnPreview_tDE451596153410C7C29C6D3770FA56D0E1CCB539, ____preview)),static_cast<int32_t>(offsetof(SpawnPreview_tDE451596153410C7C29C6D3770FA56D0E1CCB539, ____spawned)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13203[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13203[7] = 
 {
-	static_cast<int32_t>(offsetof(SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E, ___partType)),static_cast<int32_t>(offsetof(SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E, ___moduleIndex)),static_cast<int32_t>(offsetof(SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E, ____renderers)),static_cast<int32_t>(offsetof(SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E, ____propBlock)),static_cast<int32_t>(offsetof(SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E, ____originalColors)),};
+	static_cast<int32_t>(offsetof(SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E, ___partType)),static_cast<int32_t>(offsetof(SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E, ___moduleIndex)),static_cast<int32_t>(offsetof(SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E, ____renderers)),static_cast<int32_t>(offsetof(SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E, ____propBlock)),static_cast<int32_t>(offsetof(SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E, ____originalColors)),static_cast<int32_t>(offsetof(SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_StaticFields, ___LayerSwitchPart)),static_cast<int32_t>(offsetof(SwitchPart_t119318872C0DCAADE3A3AF15B0892CE6BFD2761E_StaticFields, ___LayerSwitchPartGrabbed)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13204[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};

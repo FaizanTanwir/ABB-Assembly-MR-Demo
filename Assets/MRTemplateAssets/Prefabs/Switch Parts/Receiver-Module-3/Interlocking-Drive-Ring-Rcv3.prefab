@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 493507800745441049}
   - component: {fileID: 3285415177141046739}
   - component: {fileID: 1291214050404959565}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Interlocking-Drive-Ring-Rcv3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

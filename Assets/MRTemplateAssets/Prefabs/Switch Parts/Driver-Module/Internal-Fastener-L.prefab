@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1404927702003600799}
   - component: {fileID: 3742939714348023354}
   - component: {fileID: 3498820255734437575}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Internal-Fastener-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}

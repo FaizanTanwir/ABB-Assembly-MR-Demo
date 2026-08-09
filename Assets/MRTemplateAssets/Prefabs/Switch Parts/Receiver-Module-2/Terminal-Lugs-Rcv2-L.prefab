@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 9098833277444539188}
   - component: {fileID: 8017197542748629520}
   - component: {fileID: 9212187536905380717}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terminal-Lugs-Rcv2-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}

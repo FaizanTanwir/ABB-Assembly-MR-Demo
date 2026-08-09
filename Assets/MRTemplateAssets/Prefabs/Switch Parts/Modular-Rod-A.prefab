@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1914647171362288561}
   - component: {fileID: 5585088712285405152}
   - component: {fileID: 3837674734105004340}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Modular-Rod-A
   m_TagString: Untagged
   m_Icon: {fileID: 0}

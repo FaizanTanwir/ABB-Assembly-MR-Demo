@@ -81,11 +81,15 @@ extern void SpawnPreview__cctor_m113F8A3E4EB466A7AB7585955EDD308B0E648974 (void)
 extern void SwitchPart_Awake_m5CBEF14A521572A2385BC2458DFDB7F4BA1A33B8 (void);
 extern void SwitchPart_OnEnable_mFB7BF5DBFE9D10CF8C933672B81DF053A114E1FE (void);
 extern void SwitchPart_OnDisable_m48E9FEDE5CF0AFB8EADD3828E84A97706B803318 (void);
+extern void SwitchPart_OnGrabbed_m0010156A63BEB7A0477AA1FFD2B9B1AEA6886DA8 (void);
+extern void SwitchPart_OnReleased_m332CF15BC2FC1CDE9221BF17E16DB6640D32002B (void);
+extern void SwitchPart_SetLayerRecursively_m6FBBBD442A82BB49FA0F2E470669C874ABC8415C (void);
 extern void SwitchPart_OnHoverEntered_mD01971D8392C7761BEA1B7875CF9482D7D712D36 (void);
 extern void SwitchPart_OnHoverExited_m75A2B8B4F3BD2E0E1804D021E994E0F662CE1937 (void);
 extern void SwitchPart_SetHighlight_mAE51CEDDEB0AAF535543467E90791AADAFC209F3 (void);
 extern void SwitchPart_RestoreOriginalColors_m205F5AA70FE83A033CD29B9C8B3060A62B688689 (void);
 extern void SwitchPart__ctor_m3B0A431586C3DBB3777FC2DFBD01FD4A1BC4DCE9 (void);
+extern void SwitchPart__cctor_m946105891C52DAB3294A2A02F7F5EB24CCC8AA92 (void);
 extern void SwitchSpawnLayout__ctor_m98306C96381767D24BE805934ADFDD760E5EA939 (void);
 extern void PartSpawnEntry__ctor_mB142CE1A1DA999985FB3F0A7C887A7829BA28406 (void);
 extern void SwitchSpawner_Start_mE4C71754D30B02F4A5E59C6053DE2204DD2FB717 (void);
@@ -191,7 +195,7 @@ extern void U3CWaitUntilNextCardU3Ed__36_MoveNext_mEB6BA70FAED1CFCFF4A723EA3EAB8
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDB2315FB1F67F06B37604285AD8F003E282D1607 (void);
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_IEnumerator_Reset_m5E5CC9DFDC8C17DB423A7C7ECBCD4342A7754633 (void);
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_IEnumerator_get_Current_mE7D77BA338B271D9E95117683B19436CFFF37229 (void);
-static Il2CppMethodPointer s_methodPointers[184] = 
+static Il2CppMethodPointer s_methodPointers[188] = 
 {
 	ARPlaneColliderGenerator_Awake_m48543095E1B7F2AF0F4731398C54225C13EA2A1C,
 	ARPlaneColliderGenerator_OnEnable_m8203A3665B4BCB0FAF26C4BBC943D197FC45D309,
@@ -267,11 +271,15 @@ static Il2CppMethodPointer s_methodPointers[184] =
 	SwitchPart_Awake_m5CBEF14A521572A2385BC2458DFDB7F4BA1A33B8,
 	SwitchPart_OnEnable_mFB7BF5DBFE9D10CF8C933672B81DF053A114E1FE,
 	SwitchPart_OnDisable_m48E9FEDE5CF0AFB8EADD3828E84A97706B803318,
+	SwitchPart_OnGrabbed_m0010156A63BEB7A0477AA1FFD2B9B1AEA6886DA8,
+	SwitchPart_OnReleased_m332CF15BC2FC1CDE9221BF17E16DB6640D32002B,
+	SwitchPart_SetLayerRecursively_m6FBBBD442A82BB49FA0F2E470669C874ABC8415C,
 	SwitchPart_OnHoverEntered_mD01971D8392C7761BEA1B7875CF9482D7D712D36,
 	SwitchPart_OnHoverExited_m75A2B8B4F3BD2E0E1804D021E994E0F662CE1937,
 	SwitchPart_SetHighlight_mAE51CEDDEB0AAF535543467E90791AADAFC209F3,
 	SwitchPart_RestoreOriginalColors_m205F5AA70FE83A033CD29B9C8B3060A62B688689,
 	SwitchPart__ctor_m3B0A431586C3DBB3777FC2DFBD01FD4A1BC4DCE9,
+	SwitchPart__cctor_m946105891C52DAB3294A2A02F7F5EB24CCC8AA92,
 	SwitchSpawnLayout__ctor_m98306C96381767D24BE805934ADFDD760E5EA939,
 	PartSpawnEntry__ctor_mB142CE1A1DA999985FB3F0A7C887A7829BA28406,
 	SwitchSpawner_Start_mE4C71754D30B02F4A5E59C6053DE2204DD2FB717,
@@ -381,9 +389,9 @@ static Il2CppMethodPointer s_methodPointers[184] =
 extern void Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] = 
 {
-	{ 0x0600009D, Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_AdjustorThunk },
+	{ 0x060000A1, Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[184] = 
+static const int32_t s_InvokerIndices[188] = 
 {
 	19027,
 	19027,
@@ -461,9 +469,13 @@ static const int32_t s_InvokerIndices[184] =
 	19027,
 	14456,
 	14456,
+	7334,
+	14456,
+	14456,
 	14379,
 	19027,
 	19027,
+	32554,
 	19027,
 	19027,
 	19027,
@@ -574,7 +586,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	184,
+	188,
 	s_methodPointers,
 	1,
 	s_adjustorThunks,

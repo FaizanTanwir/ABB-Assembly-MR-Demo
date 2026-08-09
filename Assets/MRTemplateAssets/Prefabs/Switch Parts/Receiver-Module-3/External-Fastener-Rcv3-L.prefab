@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4031201408954826528}
   - component: {fileID: 526450396693455777}
   - component: {fileID: 878063456548670421}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: External-Fastener-Rcv3-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}

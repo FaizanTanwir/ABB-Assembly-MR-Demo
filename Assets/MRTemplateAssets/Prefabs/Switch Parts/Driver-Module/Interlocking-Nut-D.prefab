@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3318097747105349837}
   - component: {fileID: 5231419667995316224}
   - component: {fileID: 5267133734206948543}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Interlocking-Nut-D
   m_TagString: Untagged
   m_Icon: {fileID: 0}

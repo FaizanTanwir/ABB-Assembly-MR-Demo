@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3365505137681125321}
   - component: {fileID: 5433976642884004113}
   - component: {fileID: 2218359598253964715}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Operating-Shaft
   m_TagString: Untagged
   m_Icon: {fileID: 0}

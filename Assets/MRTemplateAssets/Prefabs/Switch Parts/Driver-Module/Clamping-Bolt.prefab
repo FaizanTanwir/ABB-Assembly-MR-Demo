@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3664435595906424414}
   - component: {fileID: 2028091767594220445}
   - component: {fileID: 1491661833163567068}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Clamping-Bolt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
