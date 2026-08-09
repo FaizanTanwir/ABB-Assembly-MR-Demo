@@ -53,6 +53,7 @@ public class AssemblySnapZone : MonoBehaviour
         _socket.hoverEntered.AddListener(OnHoverEntered);
         _socket.hoverExited.AddListener(OnHoverExited);
         _socket.selectEntered.AddListener(OnSelectEntered);
+        _socket.selectExited.AddListener(OnSelectExited);
     }
     
     private bool IsCorrectPart(SwitchPart part)
@@ -152,5 +153,29 @@ public class AssemblySnapZone : MonoBehaviour
             if (childZone != null)
                 AssemblyManager.Instance.EvaluateZone(childZone);
         }
+    }
+
+    private void OnSelectExited(SelectExitEventArgs args)
+    {
+        // Only handle if this was a legitimate removal (not an ejection)
+        if (!isSatisfied) return;
+
+        SwitchPart part = args.interactableObject.transform.GetComponent<SwitchPart>();
+        if (part == null) return;
+
+        // Un-snap: restore Rigidbody to dynamic
+        var rb = part.GetComponent<Rigidbody>();
+        if (rb != null) rb.isKinematic = false;
+
+        // Reset zone state
+        isSatisfied = false;
+        SetZoneActive(true); // zone becomes available again
+
+        // Restore visual guide to ready state
+        if (visualGuide != null)
+            visualGuide.SetState(VisualSnapGuide.GuideState.Ready);
+
+        // Tell AssemblyManager to re-evaluate all zones and refresh counter
+        AssemblyManager.Instance.OnPartUnsnapped(zoneId);
     }
 }

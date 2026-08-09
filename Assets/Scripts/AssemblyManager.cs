@@ -48,6 +48,38 @@ public class AssemblyManager : MonoBehaviour
         FindFirstObjectByType<AssemblyHintSystem>()?.RefreshHints();
     }
     
+    public void OnPartUnsnapped(string zoneId)
+    {
+        // Re-evaluate all zones because removing a part may lock downstream zones again
+        foreach (var zone in allZones)
+        {
+            if (!zone.isSatisfied)
+                EvaluateZone(zone);
+            else
+            {
+                // A satisfied zone downstream of the removed zone may now be invalid
+                // if it depends on the removed zone. Force it active/inactive correctly.
+                bool shouldBeActive = zone.prerequisiteZoneIds.All(id =>
+                    _zoneLookup.TryGetValue(id, out var prereq) && prereq.isSatisfied);
+                if (!shouldBeActive)
+                {
+                    // This zone's prerequisite was just removed — it should not be satisfied anymore
+                    // Only lock it if it depends on the removed zone
+                    if (zone.prerequisiteZoneIds.Contains(zoneId))
+                    {
+                        zone.isSatisfied = false;
+                        zone.SetZoneActive(false);
+                        if (zone.visualGuide != null)
+                            zone.visualGuide.SetState(VisualSnapGuide.GuideState.Inactive);
+                    }
+                }
+            }
+        }
+
+        // Refresh hints and counter
+        FindFirstObjectByType<AssemblyHintSystem>()?.RefreshHints();
+    }
+    
     public void EvaluateZone(AssemblySnapZone zone)
     {
         if (zone.isSatisfied) return;
