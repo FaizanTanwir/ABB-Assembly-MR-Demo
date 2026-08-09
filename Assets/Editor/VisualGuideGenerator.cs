@@ -179,4 +179,48 @@ public class VisualGuideGenerator
         }
         Debug.Log("[VisualGuideGenerator] Cleared.");
     }
+
+    [MenuItem("ABB Tools/Align Zone Triggers to Visual Guides")]
+    static void AlignTriggers()
+    {
+        AssemblySnapZone[] zones =
+            Object.FindObjectsByType<AssemblySnapZone>(FindObjectsSortMode.None);
+
+        int aligned = 0;
+
+        foreach (var zone in zones)
+        {
+            if (zone.visualGuide == null)
+            {
+                Debug.LogWarning($"[AlignTriggers] Zone '{zone.zoneId}' has no visual guide.");
+                continue;
+            }
+
+            BoxCollider col = zone.GetComponent<BoxCollider>();
+            if (col == null)
+            {
+                Debug.LogWarning($"[AlignTriggers] Zone '{zone.zoneId}' has no BoxCollider.");
+                continue;
+            }
+
+            // Convert visual guide world position into zone's local space.
+            // This works regardless of parent scale or rotation.
+            Vector3 guideWorldPos = zone.visualGuide.transform.position;
+            col.center = zone.transform.InverseTransformPoint(guideWorldPos);
+
+            // Set collider size to match guide scale plus 25% tolerance
+            Vector3 guideWorldScale = zone.visualGuide.transform.lossyScale;
+            Vector3 localScale = zone.transform.lossyScale;
+            col.size = new Vector3(
+                Mathf.Max(guideWorldScale.x / Mathf.Max(localScale.x, 0.0001f), 0.01f) * 1.25f,
+                Mathf.Max(guideWorldScale.y / Mathf.Max(localScale.y, 0.0001f), 0.01f) * 1.25f,
+                Mathf.Max(guideWorldScale.z / Mathf.Max(localScale.z, 0.0001f), 0.01f) * 1.25f);
+
+            EditorUtility.SetDirty(zone);
+            aligned++;
+        }
+
+        Debug.Log($"[AlignTriggers] Aligned {aligned} zone colliders. " +
+                "Run AFTER generating visual guides and BEFORE playing.");
+    }
 }
