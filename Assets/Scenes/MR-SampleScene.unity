@@ -257,9 +257,10 @@ MonoBehaviour:
   acceptedModuleIndex: 1
   ignoreModuleIndex: 1
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_1
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -663,7 +664,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - TopHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -874,9 +875,10 @@ MonoBehaviour:
   acceptedModuleIndex: 1
   ignoreModuleIndex: 1
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_1
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -1167,9 +1169,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 666301814}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - BottomHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -1380,9 +1383,10 @@ MonoBehaviour:
   acceptedModuleIndex: 2
   ignoreModuleIndex: 1
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_2
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -1567,11 +1571,12 @@ MonoBehaviour:
   zoneId: InterlockingDriveRing_1
   acceptedPartType: 14
   acceptedModuleIndex: 1
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 1256745798}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_1
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -1920,9 +1925,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - BottomHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -2107,11 +2113,12 @@ MonoBehaviour:
   zoneId: ContactWindow_1
   acceptedPartType: 16
   acceptedModuleIndex: 1
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 814972326}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - ContactCover_1
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -2423,11 +2430,12 @@ MonoBehaviour:
   zoneId: TerminalLug_2_Right
   acceptedPartType: 17
   acceptedModuleIndex: 2
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 1884451920}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_2
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -2704,7 +2712,7 @@ MonoBehaviour:
   - InternalFastener_0_Right
   - InternalFastener_0_Left
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -2902,11 +2910,12 @@ MonoBehaviour:
   zoneId: ExternalFastener_3_Right
   acceptedPartType: 8
   acceptedModuleIndex: 3
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 323455201}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - MountingClip_3_Right
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -3245,12 +3254,19 @@ MonoBehaviour:
   ignoreModuleIndex: 0
   visualGuide: {fileID: 0}
   prerequisiteZoneIds:
-  - TopCover_0
-  - ContactCover_1
-  - ContactCover_2
-  - ContactCover_3
+  - BottomHousing_0
+  - InterlockingNut_0_A
+  - InterlockingNut_0_B
+  - InterlockingNut_0_C
+  - InterlockingNut_0_D
+  - RightHousing_1
+  - RightHousing_2
+  - RightHousing_3
+  - LeftHousing_1
+  - LeftHousing_2
+  - LeftHousing_3
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -3449,9 +3465,10 @@ MonoBehaviour:
   acceptedModuleIndex: 3
   ignoreModuleIndex: 1
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_3
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -3757,7 +3774,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - TopCover_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -4046,11 +4063,12 @@ MonoBehaviour:
   zoneId: MountingClip_3_Left
   acceptedPartType: 9
   acceptedModuleIndex: 3
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 622523576}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - LeftHousing_3
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -4673,9 +4691,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - BottomHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -4862,9 +4881,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 607747860}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - BottomHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -5302,7 +5322,7 @@ MonoBehaviour:
   zoneId: LeftHousing_1
   acceptedPartType: 13
   acceptedModuleIndex: 1
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 2010112509}
   prerequisiteZoneIds:
   - RightHousing_1
@@ -5310,7 +5330,7 @@ MonoBehaviour:
   - TerminalLug_1_Left
   - TerminalLug_1_Right
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -5529,7 +5549,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - BottomHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -5733,7 +5753,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -6024,9 +6044,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 2052499686}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - TopCover_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -6223,11 +6244,12 @@ MonoBehaviour:
   zoneId: InterlockingDriveRing_3
   acceptedPartType: 14
   acceptedModuleIndex: 3
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 1156103339}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_3
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -6439,9 +6461,10 @@ MonoBehaviour:
   acceptedModuleIndex: 3
   ignoreModuleIndex: 1
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - MountingClip_3_Left
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -6640,9 +6663,10 @@ MonoBehaviour:
   acceptedModuleIndex: 2
   ignoreModuleIndex: 1
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_2
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -6847,7 +6871,7 @@ MonoBehaviour:
   - TerminalLug_1_Left
   - TerminalLug_1_Right
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -7146,11 +7170,12 @@ MonoBehaviour:
   zoneId: TerminalLug_3_Left
   acceptedPartType: 17
   acceptedModuleIndex: 3
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 1302950411}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_3
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -7348,11 +7373,12 @@ MonoBehaviour:
   zoneId: ExternalFastener_3_Left
   acceptedPartType: 8
   acceptedModuleIndex: 3
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 972685438}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - MountingClip_3_Left
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -7551,9 +7577,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 1952594474}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - BottomHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -7993,7 +8020,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -8458,9 +8485,10 @@ MonoBehaviour:
   acceptedModuleIndex: 3
   ignoreModuleIndex: 1
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - LeftHousing_3
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -8648,11 +8676,11 @@ MonoBehaviour:
   zoneId: RightHousing_1
   acceptedPartType: 12
   acceptedModuleIndex: 1
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 1788658072}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -8849,11 +8877,12 @@ MonoBehaviour:
   zoneId: InterlockingDriveRing_2
   acceptedPartType: 14
   acceptedModuleIndex: 2
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 419586465}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_2
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -9270,9 +9299,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - MountingClip_0_Left
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -9474,7 +9504,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - TopHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -9870,12 +9900,19 @@ MonoBehaviour:
   ignoreModuleIndex: 0
   visualGuide: {fileID: 1547956172}
   prerequisiteZoneIds:
-  - TopCover_0
-  - ContactCover_1
-  - ContactCover_2
-  - ContactCover_3
+  - BottomHousing_0
+  - InterlockingNut_0_C
+  - RightHousing_1
+  - RightHousing_2
+  - RightHousing_3
+  - LeftHousing_1
+  - LeftHousing_2
+  - LeftHousing_3
+  - InterlockingNut_0_A
+  - InterlockingNut_0_B
+  - InterlockingNut_0_D
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -10280,9 +10317,10 @@ MonoBehaviour:
   acceptedModuleIndex: 2
   ignoreModuleIndex: 1
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_2
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -10622,11 +10660,11 @@ MonoBehaviour:
   zoneId: RightHousing_2
   acceptedPartType: 12
   acceptedModuleIndex: 2
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 1441038257}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -10828,11 +10866,12 @@ MonoBehaviour:
   zoneId: TerminalLug_1_Left
   acceptedPartType: 17
   acceptedModuleIndex: 1
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 34448543}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_1
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -11039,7 +11078,7 @@ MonoBehaviour:
   visualGuide: {fileID: 1546444307}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -11577,6 +11616,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4730152470276115253, guid: a20271fabdd4240438e8de55643a0ce1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4736008157683420451, guid: a20271fabdd4240438e8de55643a0ce1, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -12138,11 +12181,12 @@ MonoBehaviour:
   zoneId: TerminalLug_3_Right
   acceptedPartType: 17
   acceptedModuleIndex: 3
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 462386039}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_3
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -12481,7 +12525,7 @@ MonoBehaviour:
   - InterlockingNut_0_C
   - InterlockingNut_0_D
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -12784,9 +12828,10 @@ MonoBehaviour:
   acceptedModuleIndex: 3
   ignoreModuleIndex: 1
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - ContactCover_3
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -13078,9 +13123,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 1113669627}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - MountingClip_0_Right
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -13753,9 +13799,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - BottomHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -13945,7 +13992,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - TopHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -14142,11 +14189,12 @@ MonoBehaviour:
   zoneId: ContactWindow_3
   acceptedPartType: 16
   acceptedModuleIndex: 3
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 1423042922}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - ContactCover_3
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -14414,11 +14462,12 @@ MonoBehaviour:
   zoneId: TerminalLug_1_Right
   acceptedPartType: 17
   acceptedModuleIndex: 1
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 715979500}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_1
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -14628,9 +14677,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 95604898}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - BottomHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -15142,12 +15192,19 @@ MonoBehaviour:
   ignoreModuleIndex: 0
   visualGuide: {fileID: 2128476166}
   prerequisiteZoneIds:
-  - TopCover_0
-  - ContactCover_1
-  - ContactCover_2
-  - ContactCover_3
+  - BottomHousing_0
+  - LeftHousing_1
+  - LeftHousing_2
+  - LeftHousing_3
+  - RightHousing_1
+  - RightHousing_2
+  - RightHousing_3
+  - InterlockingNut_0_D
+  - InterlockingNut_0_B
+  - InterlockingNut_0_A
+  - InterlockingNut_0_C
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -15347,9 +15404,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 378721408}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - MountingClip_0_Left
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -15568,7 +15626,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -15755,9 +15813,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 701024991}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - BottomHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -15954,7 +16013,7 @@ MonoBehaviour:
   zoneId: LeftHousing_2
   acceptedPartType: 13
   acceptedModuleIndex: 2
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 714908091}
   prerequisiteZoneIds:
   - RightHousing_2
@@ -15962,7 +16021,7 @@ MonoBehaviour:
   - TerminalLug_2_Left
   - TerminalLug_2_Right
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -16300,7 +16359,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - ShaftReceiverCollar_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -16556,9 +16615,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - BottomHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -16814,9 +16874,10 @@ MonoBehaviour:
   acceptedModuleIndex: 2
   ignoreModuleIndex: 1
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - ContactCover_2
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -17773,7 +17834,7 @@ MonoBehaviour:
   visualGuide: {fileID: 0}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -17983,7 +18044,7 @@ MonoBehaviour:
   - InternalFastener_0_Right
   - InternalFastener_0_Left
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -18675,9 +18736,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 1614958185}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - BottomHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -18874,11 +18936,12 @@ MonoBehaviour:
   zoneId: TerminalLug_2_Left
   acceptedPartType: 17
   acceptedModuleIndex: 2
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 1120936689}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_2
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -19085,7 +19148,7 @@ MonoBehaviour:
   - InterlockingNut_0_C
   - InterlockingNut_0_D
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -19340,7 +19403,7 @@ MonoBehaviour:
   - LeftHousing_2
   - RightHousing_2
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -19539,9 +19602,10 @@ MonoBehaviour:
   acceptedModuleIndex: 1
   ignoreModuleIndex: 1
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - ContactCover_1
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -19833,11 +19897,11 @@ MonoBehaviour:
   zoneId: RightHousing_3
   acceptedPartType: 12
   acceptedModuleIndex: 3
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 1057148847}
   prerequisiteZoneIds: []
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -20155,7 +20219,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - ShaftReceiverCollar_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -20568,7 +20632,7 @@ MonoBehaviour:
   - TerminalLug_3_Left
   - TerminalLug_3_Right
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -20753,11 +20817,12 @@ MonoBehaviour:
   zoneId: MountingClip_3_Right
   acceptedPartType: 9
   acceptedModuleIndex: 3
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 1120533431}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - LeftHousing_3
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -20959,7 +21024,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - BottomHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -21203,13 +21268,13 @@ MonoBehaviour:
   zoneId: ContactCover_1
   acceptedPartType: 15
   acceptedModuleIndex: 1
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 924630720}
   prerequisiteZoneIds:
   - RightHousing_1
   - LeftHousing_1
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -21408,9 +21473,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 368613717}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - TopCover_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -21612,7 +21678,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - TopCover_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -22003,7 +22069,7 @@ MonoBehaviour:
   - LeftHousing_3
   - RightHousing_3
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -22228,13 +22294,13 @@ MonoBehaviour:
   zoneId: ContactCover_3
   acceptedPartType: 15
   acceptedModuleIndex: 3
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 1297308686}
   prerequisiteZoneIds:
   - LeftHousing_3
   - RightHousing_3
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -22567,9 +22633,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - TopCover_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -22755,13 +22822,13 @@ MonoBehaviour:
   zoneId: ContactCover_2
   acceptedPartType: 15
   acceptedModuleIndex: 2
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 479609068}
   prerequisiteZoneIds:
   - LeftHousing_2
   - RightHousing_2
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -23008,9 +23075,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - TopCover_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -23209,9 +23277,10 @@ MonoBehaviour:
   acceptedModuleIndex: 3
   ignoreModuleIndex: 1
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_3
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -23415,7 +23484,7 @@ MonoBehaviour:
   - RightHousing_1
   - LeftHousing_1
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -24045,7 +24114,7 @@ MonoBehaviour:
   prerequisiteZoneIds:
   - TopHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -24744,9 +24813,10 @@ MonoBehaviour:
   acceptedModuleIndex: 3
   ignoreModuleIndex: 1
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - LeftHousing_3
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -24942,11 +25012,12 @@ MonoBehaviour:
   zoneId: ContactWindow_2
   acceptedPartType: 16
   acceptedModuleIndex: 2
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 641337569}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - ContactCover_2
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -25605,9 +25676,10 @@ MonoBehaviour:
   acceptedModuleIndex: 3
   ignoreModuleIndex: 1
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - MountingClip_3_Right
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -25915,9 +25987,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - BottomHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -26225,9 +26298,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - MountingClip_0_Right
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -26572,7 +26646,7 @@ MonoBehaviour:
   - TerminalLug_2_Left
   - TerminalLug_2_Right
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -26772,12 +26846,19 @@ MonoBehaviour:
   ignoreModuleIndex: 0
   visualGuide: {fileID: 0}
   prerequisiteZoneIds:
-  - TopCover_0
-  - ContactCover_1
-  - ContactCover_2
-  - ContactCover_3
+  - BottomHousing_0
+  - InterlockingNut_0_A
+  - InterlockingNut_0_B
+  - InterlockingNut_0_C
+  - InterlockingNut_0_D
+  - RightHousing_1
+  - RightHousing_2
+  - RightHousing_3
+  - LeftHousing_1
+  - LeftHousing_2
+  - LeftHousing_3
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -26962,7 +27043,7 @@ MonoBehaviour:
   zoneId: LeftHousing_3
   acceptedPartType: 13
   acceptedModuleIndex: 3
-  ignoreModuleIndex: 1
+  ignoreModuleIndex: 0
   visualGuide: {fileID: 1818141578}
   prerequisiteZoneIds:
   - RightHousing_3
@@ -26970,7 +27051,7 @@ MonoBehaviour:
   - TerminalLug_3_Left
   - TerminalLug_3_Right
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -27181,9 +27262,10 @@ MonoBehaviour:
   acceptedModuleIndex: 3
   ignoreModuleIndex: 1
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_3
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -27491,9 +27573,10 @@ MonoBehaviour:
   acceptedModuleIndex: 1
   ignoreModuleIndex: 1
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - RightHousing_1
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0
@@ -27692,9 +27775,10 @@ MonoBehaviour:
   acceptedModuleIndex: 0
   ignoreModuleIndex: 0
   visualGuide: {fileID: 0}
-  prerequisiteZoneIds: []
+  prerequisiteZoneIds:
+  - BottomHousing_0
   orPrerequisiteZoneIds: []
-  snapSound: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: e459ed569e68f194aba21969098cc1b8, type: 3}
   isOptional: 0
   isSatisfied: 0
   isActive: 0

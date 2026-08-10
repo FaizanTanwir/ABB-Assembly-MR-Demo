@@ -99,12 +99,22 @@ extern void SwitchPart__ctor_m3B0A431586C3DBB3777FC2DFBD01FD4A1BC4DCE9 (void);
 extern void SwitchPart__cctor_m946105891C52DAB3294A2A02F7F5EB24CCC8AA92 (void);
 extern void SwitchSpawnLayout__ctor_m98306C96381767D24BE805934ADFDD760E5EA939 (void);
 extern void PartSpawnEntry__ctor_mB142CE1A1DA999985FB3F0A7C887A7829BA28406 (void);
+extern void SwitchSpawner_get_SnapZonesRoot_m373907F4A09898216CE70F6F2D8112DCF70AFEF6 (void);
 extern void SwitchSpawner_Start_mE4C71754D30B02F4A5E59C6053DE2204DD2FB717 (void);
 extern void SwitchSpawner_Update_mAF32BACA4C41FB5029A61930C4FE1D6167F111B4 (void);
+extern void SwitchSpawner_TrySpawnFromScreenPosition_mBA574DB89F1C5973810EAA41E75193D322231D84 (void);
+extern void SwitchSpawner_SpawnAtFallback_mABE8A29A19D4468C2BA9F9D258722E431C48AA6A (void);
 extern void SwitchSpawner_SpawnAllParts_m99A8685C58B8EAD589A62243220B7212BFBA2CB5 (void);
 extern void SwitchSpawner_ResetAssembly_mB532DF0AC23AFEACFFEE66A35E3E1CD60DC4F121 (void);
+extern void SwitchSpawner_RefreshHintsAfterDelay_mB47A094AA1A865D04E08AE9214B41C7121B36999 (void);
 extern void SwitchSpawner__ctor_m70483F2484191F9D3E361DC1C87012BD8181FCB9 (void);
 extern void SwitchSpawner__cctor_mCF467E3C2F48E60827B21B5703089856465F6D24 (void);
+extern void U3CRefreshHintsAfterDelayU3Ed__17__ctor_m4AA06D19BD2381F7B8B3DFCBB51326A821B85E81 (void);
+extern void U3CRefreshHintsAfterDelayU3Ed__17_System_IDisposable_Dispose_m4466E45B634AF5632880B060D99CAB53F85818C7 (void);
+extern void U3CRefreshHintsAfterDelayU3Ed__17_MoveNext_mFDDA6DA383C22706C9DDB9718EF31FE5FE69A961 (void);
+extern void U3CRefreshHintsAfterDelayU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEA7A48EF98787E081FC32397520B7CB422E5CF70 (void);
+extern void U3CRefreshHintsAfterDelayU3Ed__17_System_Collections_IEnumerator_Reset_m7640A433540BDA1385648CFBD792B6F849BF0150 (void);
+extern void U3CRefreshHintsAfterDelayU3Ed__17_System_Collections_IEnumerator_get_Current_m61DEA5E25F543B537A52E119143FC2289A7D5D48 (void);
 extern void VisualSnapGuide_Awake_m72BC38DBB670F917A255813F5788ACB6E9639EDD (void);
 extern void VisualSnapGuide_SetState_m0F933414AC1549B2809B4F60288D867DC831E8E0 (void);
 extern void VisualSnapGuide_Apply_mFDDA31B7958C0DE585D60F224FDE50E853840003 (void);
@@ -202,7 +212,7 @@ extern void U3CWaitUntilNextCardU3Ed__36_MoveNext_mEB6BA70FAED1CFCFF4A723EA3EAB8
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDB2315FB1F67F06B37604285AD8F003E282D1607 (void);
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_IEnumerator_Reset_m5E5CC9DFDC8C17DB423A7C7ECBCD4342A7754633 (void);
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_IEnumerator_get_Current_mE7D77BA338B271D9E95117683B19436CFFF37229 (void);
-static Il2CppMethodPointer s_methodPointers[195] = 
+static Il2CppMethodPointer s_methodPointers[205] = 
 {
 	ARPlaneColliderGenerator_Awake_m48543095E1B7F2AF0F4731398C54225C13EA2A1C,
 	ARPlaneColliderGenerator_OnEnable_m8203A3665B4BCB0FAF26C4BBC943D197FC45D309,
@@ -296,12 +306,22 @@ static Il2CppMethodPointer s_methodPointers[195] =
 	SwitchPart__cctor_m946105891C52DAB3294A2A02F7F5EB24CCC8AA92,
 	SwitchSpawnLayout__ctor_m98306C96381767D24BE805934ADFDD760E5EA939,
 	PartSpawnEntry__ctor_mB142CE1A1DA999985FB3F0A7C887A7829BA28406,
+	SwitchSpawner_get_SnapZonesRoot_m373907F4A09898216CE70F6F2D8112DCF70AFEF6,
 	SwitchSpawner_Start_mE4C71754D30B02F4A5E59C6053DE2204DD2FB717,
 	SwitchSpawner_Update_mAF32BACA4C41FB5029A61930C4FE1D6167F111B4,
+	SwitchSpawner_TrySpawnFromScreenPosition_mBA574DB89F1C5973810EAA41E75193D322231D84,
+	SwitchSpawner_SpawnAtFallback_mABE8A29A19D4468C2BA9F9D258722E431C48AA6A,
 	SwitchSpawner_SpawnAllParts_m99A8685C58B8EAD589A62243220B7212BFBA2CB5,
 	SwitchSpawner_ResetAssembly_mB532DF0AC23AFEACFFEE66A35E3E1CD60DC4F121,
+	SwitchSpawner_RefreshHintsAfterDelay_mB47A094AA1A865D04E08AE9214B41C7121B36999,
 	SwitchSpawner__ctor_m70483F2484191F9D3E361DC1C87012BD8181FCB9,
 	SwitchSpawner__cctor_mCF467E3C2F48E60827B21B5703089856465F6D24,
+	U3CRefreshHintsAfterDelayU3Ed__17__ctor_m4AA06D19BD2381F7B8B3DFCBB51326A821B85E81,
+	U3CRefreshHintsAfterDelayU3Ed__17_System_IDisposable_Dispose_m4466E45B634AF5632880B060D99CAB53F85818C7,
+	U3CRefreshHintsAfterDelayU3Ed__17_MoveNext_mFDDA6DA383C22706C9DDB9718EF31FE5FE69A961,
+	U3CRefreshHintsAfterDelayU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEA7A48EF98787E081FC32397520B7CB422E5CF70,
+	U3CRefreshHintsAfterDelayU3Ed__17_System_Collections_IEnumerator_Reset_m7640A433540BDA1385648CFBD792B6F849BF0150,
+	U3CRefreshHintsAfterDelayU3Ed__17_System_Collections_IEnumerator_get_Current_m61DEA5E25F543B537A52E119143FC2289A7D5D48,
 	VisualSnapGuide_Awake_m72BC38DBB670F917A255813F5788ACB6E9639EDD,
 	VisualSnapGuide_SetState_m0F933414AC1549B2809B4F60288D867DC831E8E0,
 	VisualSnapGuide_Apply_mFDDA31B7958C0DE585D60F224FDE50E853840003,
@@ -403,9 +423,9 @@ static Il2CppMethodPointer s_methodPointers[195] =
 extern void Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] = 
 {
-	{ 0x060000A8, Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_AdjustorThunk },
+	{ 0x060000B2, Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[195] = 
+static const int32_t s_InvokerIndices[205] = 
 {
 	19027,
 	19027,
@@ -499,12 +519,22 @@ static const int32_t s_InvokerIndices[195] =
 	32554,
 	19027,
 	19027,
+	18793,
 	19027,
+	19027,
+	14663,
 	19027,
 	14489,
 	19027,
+	18793,
 	19027,
 	32554,
+	14379,
+	19027,
+	18566,
+	18793,
+	19027,
+	18793,
 	19027,
 	14379,
 	14237,
@@ -607,7 +637,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	195,
+	205,
 	s_methodPointers,
 	1,
 	s_adjustorThunks,
