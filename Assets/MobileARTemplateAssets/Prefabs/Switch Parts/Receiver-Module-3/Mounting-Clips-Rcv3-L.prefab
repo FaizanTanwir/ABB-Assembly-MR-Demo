@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4934377310425433519
+--- !u!1 &6900832409639311993
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,15 +8,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 867988604490825399}
-  - component: {fileID: 6944124070356932373}
-  - component: {fileID: 4088994512916427262}
-  - component: {fileID: 4992830840609999729}
-  - component: {fileID: 460999571374798297}
-  - component: {fileID: 8714714657021331874}
-  - component: {fileID: 8218241115638199653}
-  - component: {fileID: 6306891305571647473}
-  - component: {fileID: 4321641501443154123}
+  - component: {fileID: 5070541707657178971}
+  - component: {fileID: 972609950496893532}
+  - component: {fileID: 8898899176837634596}
+  - component: {fileID: 5897950753148033243}
+  - component: {fileID: 1923684092193966197}
+  - component: {fileID: 4852777446181858256}
+  - component: {fileID: 5038146720721610327}
+  - component: {fileID: 5264104803201439095}
+  - component: {fileID: 789395200172112471}
   m_Layer: 8
   m_Name: Mounting-Clips-Rcv3-L
   m_TagString: Untagged
@@ -24,36 +24,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &867988604490825399
+--- !u!4 &5070541707657178971
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4934377310425433519}
+  m_GameObject: {fileID: 6900832409639311993}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &6944124070356932373
+--- !u!33 &972609950496893532
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4934377310425433519}
+  m_GameObject: {fileID: 6900832409639311993}
   m_Mesh: {fileID: 4553176754807909862, guid: ea782911ec95b834b970042863f9ca52, type: 3}
---- !u!23 &4088994512916427262
+--- !u!23 &8898899176837634596
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4934377310425433519}
+  m_GameObject: {fileID: 6900832409639311993}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -96,13 +96,13 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &4992830840609999729
+--- !u!54 &5897950753148033243
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4934377310425433519}
+  m_GameObject: {fileID: 6900832409639311993}
   serializedVersion: 5
   m_Mass: 0.01
   m_LinearDamping: 5
@@ -123,13 +123,13 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!114 &460999571374798297
+--- !u!114 &1923684092193966197
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4934377310425433519}
+  m_GameObject: {fileID: 6900832409639311993}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c9ed889dc5bfdd498f98c54b5fb0dc6, type: 3}
@@ -137,13 +137,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SwitchPart
   partType: 9
   moduleIndex: 3
---- !u!65 &8714714657021331874
+--- !u!65 &4852777446181858256
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4934377310425433519}
+  m_GameObject: {fileID: 6900832409639311993}
   m_Material: {fileID: 13400000, guid: fc8fdb4b7c1f43c4583a87dbe715c91b, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -158,13 +158,13 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.049, y: 0.035, z: 0.016}
   m_Center: {x: -1.125, y: 0.142, z: 0.0288}
---- !u!65 &8218241115638199653
+--- !u!65 &5038146720721610327
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4934377310425433519}
+  m_GameObject: {fileID: 6900832409639311993}
   m_Material: {fileID: 13400000, guid: fc8fdb4b7c1f43c4583a87dbe715c91b, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -179,13 +179,13 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.12, y: 0.11999998, z: 0.016}
   m_Center: {x: -1.32, y: 0.142, z: 0.009}
---- !u!65 &6306891305571647473
+--- !u!65 &5264104803201439095
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4934377310425433519}
+  m_GameObject: {fileID: 6900832409639311993}
   m_Material: {fileID: 13400000, guid: fc8fdb4b7c1f43c4583a87dbe715c91b, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -200,13 +200,13 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.04, y: 0.11999998, z: 0.016}
   m_Center: {x: -1.222, y: 0.142, z: 0.0285}
---- !u!114 &4321641501443154123
+--- !u!114 &789395200172112471
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4934377310425433519}
+  m_GameObject: {fileID: 6900832409639311993}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
@@ -214,9 +214,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable
   m_InteractionManager: {fileID: 0}
   m_Colliders:
-  - {fileID: 8714714657021331874}
-  - {fileID: 8218241115638199653}
-  - {fileID: 6306891305571647473}
+  - {fileID: 4852777446181858256}
+  - {fileID: 5038146720721610327}
+  - {fileID: 5264104803201439095}
   m_InteractionLayers:
     m_Bits: 1
   m_DistanceCalculationMode: 1

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2618449152841120730}
   - component: {fileID: 2944208153969626060}
   m_Layer: 0
-  m_Name: SpawnPreview
+  m_Name: SpawnPreview-AR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67,7 +67,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e041277e9bd1d434faca025364e299d5, type: 2}
+  - {fileID: 2100000, guid: 9c08e616356405d4fa99b94754c83945, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

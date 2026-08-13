@@ -84,7 +84,9 @@
           },
           {
             "name": "AudioClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/AR-SampleScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -104,8 +106,10 @@
           },
           {
             "name": "AudioResource",
-            "scenes": [],
-            "dependencyType": 1,
+            "scenes": [
+              "Assets/Scenes/AR-SampleScene.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -1028,6 +1032,14 @@
             "name": "PhysicsManager",
             "scenes": [],
             "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "PhysicsMaterial",
+            "scenes": [
+              "Assets/Scenes/AR-SampleScene.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
