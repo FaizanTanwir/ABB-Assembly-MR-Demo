@@ -184,6 +184,7 @@ public class SwitchSpawnerMR : MonoBehaviour
     {
         _spawned = true;
 
+        Quaternion rootRotation = tablePose.rotation;
         // Correction rotation: counteracts the 90 X rotation baked into mesh vertices.
         // Adjust the Y value if the driver module faces the wrong horizontal direction.
         Quaternion assemblyCorrection = Quaternion.Euler(-90f, 0f, 0f);
@@ -193,8 +194,8 @@ public class SwitchSpawnerMR : MonoBehaviour
         if (snapZonesRoot != null)
         {
             snapZonesRoot.transform.position = tablePose.position;
-            snapZonesRoot.transform.rotation = tablePose.rotation; // To rotate the visual guides upright
-            //snapZonesRoot.transform.rotation = assemblyCorrection; // To rotate the assembly zone (snap zones) upright
+            snapZonesRoot.transform.rotation = rootRotation; // To rotate the visual guides upright
+            //snapZonesRoot.transform.rotation = assemblyRotation; // To rotate the assembly zone (snap zones) upright
             snapZonesRoot.SetActive(true);
         }
 
@@ -204,8 +205,8 @@ public class SwitchSpawnerMR : MonoBehaviour
         if (visualGuidesRoot != null)
         {
             visualGuidesRoot.transform.position = tablePose.position;
-            visualGuidesRoot.transform.rotation = tablePose.rotation; // To rotate the visual guides upright
-            //visualGuidesRoot.transform.rotation = assemblyCorrection;  // To rotate the assembly zone (snap zones) upright
+            visualGuidesRoot.transform.rotation = rootRotation; // To rotate the visual guides upright
+            //visualGuidesRoot.transform.rotation = assemblyRotation;  // To rotate the assembly zone (snap zones) upright
             visualGuidesRoot.SetActive(true);
         }
 

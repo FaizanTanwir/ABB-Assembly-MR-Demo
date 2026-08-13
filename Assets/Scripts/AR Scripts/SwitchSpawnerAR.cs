@@ -10,7 +10,7 @@ using UnityEngine.InputSystem;
 /// Android: screen tap      → AR raycast (ARCore plane detection).
 /// Mirrors all features of SwitchSpawnerMR except controller input.
 /// </summary>
-public class SwitchSpawner : MonoBehaviour
+public class SwitchSpawnerAR : MonoBehaviour
 {
     [Header("Layout and Roots")]
     public SwitchSpawnLayout layout;
@@ -126,22 +126,29 @@ public class SwitchSpawner : MonoBehaviour
         
         // Snap zones and visual guides move to the tap position.
         // tablePose.rotation keeps both horizontal (matching the floor plane normal).
+        Quaternion rootRotation = tablePose.rotation;
+
         // To align with the vertical assembly zone instead, swap to:
         //     Quaternion.Euler(-90f, 0f, 0f)
-        // See SwitchSpawnerMR for the orientation mismatch discussion.
-        Quaternion rootRotation = tablePose.rotation;
+        // Correction rotation: counteracts the 90 X rotation baked into mesh vertices.
+        // Adjust the Y value if the driver module faces the wrong horizontal direction.
+        Quaternion assemblyCorrection = Quaternion.Euler(-90f, 0f, 0f);
+        Quaternion assemblyRotation   = tablePose.rotation * assemblyCorrection;
 
         if (snapZonesRoot != null)
         {
             snapZonesRoot.transform.position = tablePose.position;
-            snapZonesRoot.transform.rotation = rootRotation;
+            snapZonesRoot.transform.rotation = rootRotation; // To rotate the visual guides upright
+            //snapZonesRoot.transform.rotation = assemblyRotation; // To rotate the assembly zone (snap zones) upright
+            
             snapZonesRoot.SetActive(true);
         }
 
         if (visualGuidesRoot != null)
         {
             visualGuidesRoot.transform.position = tablePose.position;
-            visualGuidesRoot.transform.rotation = rootRotation;
+            visualGuidesRoot.transform.rotation = rootRotation; // To rotate the visual guides upright
+            //visualGuidesRoot.transform.rotation = assemblyRotation; // To rotate the assembly zone (snap zones) upright
             visualGuidesRoot.SetActive(true);
         }
 
@@ -173,6 +180,12 @@ public class SwitchSpawner : MonoBehaviour
 
         // Notify SpawnPreview to hide the placement ghost
         FindFirstObjectByType<SpawnPreview>()?.OnPartsSpawned();
+
+        // ── NEW: create static floor collider at the detected plane ─────────────
+        // This gives recovered parts a permanent surface to land on regardless of
+        // ARCore plane updates or camera movement.
+        FindFirstObjectByType<LostPartRecoveryAR>()?.InitFloor(tablePose.position);
+
 
         // Refresh gold highlights and counter after AssemblyManager initialises
         StartCoroutine(RefreshHintsAfterDelay());
