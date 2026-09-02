@@ -26,13 +26,18 @@ configuration, hint system, and part label system. Only the input handling and p
 specific XR session management differ between scenes. 
 
 The switch has 45 physical components organised into five groups: 
+
 • Driver Module: the primary housing containing the operating shaft, interlocking 
 nuts, internal fasteners, top cover, red and white strips, shaft collar, clamping bolt, 
 external fasteners, and mounting clips (18 parts) 
+
 • Receiver Module 1: right and left housing shells, interlocking drive ring, contact 
 cover, contact window, and two terminal lugs (7 parts) 
+
 • Receiver Module 2: identical structure to Receiver Module 1 (7 parts) 
+
 • Receiver Module 3: identical structure to Receiver Modules 1 and 2, plus external 
 fasteners and mounting clips (11 parts) 
+
 • Modular Rods: two long rods that thread through all four modules and fasten the 
 complete assembly (2 parts)
