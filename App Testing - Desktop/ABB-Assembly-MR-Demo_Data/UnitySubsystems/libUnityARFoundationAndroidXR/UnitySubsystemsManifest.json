@@ -1,9 +1,0 @@
-{
-    "name": "Android XR Plugin",
-    "version": "1.0.0",
-    "libraryName": "libUnityARFoundationAndroidXR",
-    "meshings": [
-    {
-        "id": "Android-Scene-Mesh"
-    }]
-}
